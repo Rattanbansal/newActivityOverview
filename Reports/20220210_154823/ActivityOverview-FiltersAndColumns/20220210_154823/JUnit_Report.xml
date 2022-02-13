@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ActivityOverview-FiltersAndColumns" time="154.89" tests="1" failures="0" errors="0">
+   <testsuite name="ActivityOverview-FiltersAndColumns" tests="1" failures="0" errors="0" time="154.89" skipped="0" timestamp="2022-02-10 15:48:33" hostname="intersoft-admin - intersoftadmin-desktop" id="Test Suites/ActivityOverview-FiltersAndColumns">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823"/>
+         <property name="logFiles" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/execution0.log"/>
+         <property name="attachments" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488340587.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488356488.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488366927.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488373337.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488376643.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488379978.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488383306.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488386638.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488390007.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488396340.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488399600.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488402959.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488406261.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488409572.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488429084.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488432346.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488435645.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488439043.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488442303.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488445587.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488448840.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488452083.png"/>
+         <property name="hostName" value="intersoft-admin - intersoftadmin-desktop"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="3dc903801a7cc3f460cb007c56c329b6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn" time="154.663" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn" status="PASSED">
+         <system-out><![CDATA[2022-02-10 15:48:33 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn
+
+2022-02-10 15:48:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-10 15:48:34 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-10 15:48:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-10 15:48:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-10 15:48:34 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-10 15:48:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-10 15:48:35 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-10 15:48:35 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-10 15:48:35 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-10 15:48:40 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-10 15:48:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-10 15:48:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-10 15:48:43 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-10 15:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-10 15:48:47 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-10 15:48:53 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-10 15:48:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-10 15:49:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-10 15:49:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:49:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488340587.png]]
+
+2022-02-10 15:49:00 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-10 15:49:01 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-10 15:49:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-10 15:49:01 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-10 15:49:01 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-10 15:49:15 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-10 15:49:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:49:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488356488.png]]
+
+2022-02-10 15:49:16 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-10 15:49:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-10 15:49:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-10 15:49:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:49:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488366927.png]]
+
+2022-02-10 15:49:27 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-10 15:49:27 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-10 15:49:27 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-10 15:49:27 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-10 15:49:27 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Delayed 10 second(s)
+
+2022-02-10 15:49:27 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-10 15:49:27 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-10 15:49:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ClickonEyeView")): Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
+
+2022-02-10 15:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
+
+2022-02-10 15:49:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-10 15:49:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-10 15:49:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:49:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488373337.png]]
+
+2022-02-10 15:49:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"1"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:49:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488376643.png]]
+
+2022-02-10 15:49:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"2"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:49:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488379978.png]]
+
+2022-02-10 15:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"3"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:49:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488383306.png]]
+
+2022-02-10 15:49:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"4"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:49:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488386638.png]]
+
+2022-02-10 15:49:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"5"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:49:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488390007.png]]
+
+2022-02-10 15:49:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"6"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-10 15:49:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-10 15:49:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:49:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488396340.png]]
+
+2022-02-10 15:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"7"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:49:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:49:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488399600.png]]
+
+2022-02-10 15:49:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"8"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:50:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488402959.png]]
+
+2022-02-10 15:50:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"9"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:50:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488406261.png]]
+
+2022-02-10 15:50:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"10"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:50:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488409572.png]]
+
+2022-02-10 15:50:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/SaveButton")): Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
+
+2022-02-10 15:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
+
+2022-02-10 15:50:12 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-10 15:50:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-10 15:50:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ClickonEyeView")): Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
+
+2022-02-10 15:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
+
+2022-02-10 15:50:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-10 15:50:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-10 15:50:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:50:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488429084.png]]
+
+2022-02-10 15:50:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"1"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:50:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488432346.png]]
+
+2022-02-10 15:50:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"2"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:50:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488435645.png]]
+
+2022-02-10 15:50:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"3"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:50:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488439043.png]]
+
+2022-02-10 15:50:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"7"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:50:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488442303.png]]
+
+2022-02-10 15:50:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"8"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:50:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488445587.png]]
+
+2022-02-10 15:50:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"9"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:50:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488448840.png]]
+
+2022-02-10 15:50:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"10"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+
+2022-02-10 15:50:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-10 15:50:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220210_154823/ActivityOverview-FiltersAndColumns/20220210_154823/1644488452083.png]]
+
+2022-02-10 15:50:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/OrderPerPage", ["position":"3"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/OrderPerPage' is clicked on
+
+2022-02-10 15:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/OrderPerPage' is clicked on
+
+2022-02-10 15:50:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/SaveButton")): Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
+
+2022-02-10 15:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
+
+2022-02-10 15:50:58 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-10 15:51:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-10 15:51:08 - [TEST_STEP][PASSED] - if (sizeoflisting < 2): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-10 15:48:33 - [TEST_SUITE][PASSED] - ActivityOverview-FiltersAndColumns: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Activity Overview detail Pop-up Other Section" time="199.842" tests="4" failures="0" errors="0">
+   <testsuite name="Activity Overview detail Pop-up Other Section" tests="4" failures="0" errors="0" time="199.842" skipped="0" timestamp="2022-02-11 22:18:14" hostname="intersoft-admin - DESKTOP-ANQSRIJ" id="Test Suites/Activity Overview detail Pop-up Other Section">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707"/>
+         <property name="logFiles" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\execution0.log"/>
+         <property name="attachments" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598139941.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598182039.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598207467.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598240085.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598272868.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598276252.png"/>
+         <property name="hostName" value="intersoft-admin - DESKTOP-ANQSRIJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.1.59"/>
+         <property name="sessionId" value="2f5fb71ab5b1801c360c7396d3132c54"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/StepToReUse/ActivityOverview-RedirectionLogin" time="115.698" classname="Test Cases/StepToReUse/ActivityOverview-RedirectionLogin" status="PASSED">
+         <system-out><![CDATA[2022-02-11 22:18:15 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/ActivityOverview-RedirectionLogin: Test Cases/StepToReUse/ActivityOverview-RedirectionLogin
+
+2022-02-11 22:18:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-11 22:18:16 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-11 22:18:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 22:18:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 22:18:19 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-11 22:18:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 22:18:24 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-11 22:18:24 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-11 22:18:24 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-11 22:18:31 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-11 22:18:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:18:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:18:34 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-11 22:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-11 22:18:40 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-11 22:18:50 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-11 22:18:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-11 22:18:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-11 22:18:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:19:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598139941.png]]
+
+2022-02-11 22:19:01 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-11 22:19:04 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-11 22:19:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-11 22:19:04 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:19:04 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-11 22:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-11 22:19:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:19:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598182039.png]]
+
+2022-02-11 22:19:43 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-11 22:19:46 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:20:06 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:20:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:20:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598207467.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepToReUse/SearchProducts" time="29.67" classname="Test Cases/StepToReUse/SearchProducts" status="PASSED">
+         <system-out><![CDATA[2022-02-11 22:20:11 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/SearchProducts: Test Cases/StepToReUse/SearchProducts
+
+2022-02-11 22:20:15 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-11 22:20:15 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-11 22:20:15 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-11 22:20:15 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-11 22:20:15 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Taking screenshot successfully
+
+2022-02-11 22:20:15 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-11 22:20:15 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-11 22:20:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:20:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), "164371130378817"): Text '164371130378817' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:20:26 - [MESSAGE][PASSED] - Text '164371130378817' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:20:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:20:29 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:20:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:20:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:20:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:20:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598240085.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepToReUse/GoToDetailPop-up" time="27.39" classname="Test Cases/StepToReUse/GoToDetailPop-up" status="PASSED">
+         <system-out><![CDATA[2022-02-11 22:20:40 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/GoToDetailPop-up: Test Cases/StepToReUse/GoToDetailPop-up
+
+2022-02-11 22:20:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/ClickondetailPOp-up", ["position":"1"])): Object: 'Object Repository/ListingArea/ClickondetailPOp-up' is clicked on
+
+2022-02-11 22:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/ClickondetailPOp-up' is clicked on
+
+2022-02-11 22:20:48 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:21:08 - [MESSAGE][PASSED] - Delayed 20 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepToReUse/OtherProductDetails" time="26.469" classname="Test Cases/StepToReUse/OtherProductDetails" status="PASSED">
+         <system-out><![CDATA[2022-02-11 22:21:08 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/OtherProductDetails: Test Cases/StepToReUse/OtherProductDetails
+
+2022-02-11 22:21:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity", ["position":"1"]), 15): Scroll to object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' successfully
+
+2022-02-11 22:21:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' successfully
+
+2022-02-11 22:21:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:21:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:21:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:21:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598272868.png]]
+
+2022-02-11 22:21:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity", ["position":"2"]), 15): Scroll to object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' successfully
+
+2022-02-11 22:21:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' successfully
+
+2022-02-11 22:21:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:21:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:21:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:21:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\Activity Overview detail Pop-up Other Section\\20220211_221707\\1644598276252.png]]
+
+2022-02-11 22:21:16 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity", ["position":"3"]), 15)): Object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' is not present after 15 second(s)
+
+2022-02-11 22:21:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//li[@class='order-summary white-box'])[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:21:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity'. Try using Self-healing.
+
+2022-02-11 22:21:33 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:21:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:21:34 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:21:34 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' is not present after 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-11 22:18:14 - [TEST_SUITE][PASSED] - Activity Overview detail Pop-up Other Section: Test Cases/StepToReUse/OtherProductDetails]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

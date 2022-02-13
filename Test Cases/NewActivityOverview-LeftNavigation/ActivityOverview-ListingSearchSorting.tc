@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>ActivityOverview-ListingSearchSorting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0cc5c995-a4ef-46c8-88ac-20f83c87c3ed</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>63dff7bd-ea23-4f3a-b80c-1939e28dca65</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>147ae3e0-225d-4d79-baa0-6aa02cba5ada</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>fedbb103-3075-41fe-b244-317db1ce94c9</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+</TestCaseEntity>

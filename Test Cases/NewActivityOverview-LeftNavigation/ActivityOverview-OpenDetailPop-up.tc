@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>ActivityOverview-OpenDetailPop-up</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf1e6412-f6d6-400a-a5a3-cfcab62d4b70</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>76f3c298-03f3-42bc-9469-3d243cf78146</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>48ea255d-aa6d-43dc-9429-4c5aa8616e08</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>9488624c-fe25-45fc-8a8c-a503e2701760</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bb2bc18a-24c4-4a52-a893-27b28baf182a</id>
+      <masked>false</masked>
+      <name>paginationvalue</name>
+   </variable>
+</TestCaseEntity>

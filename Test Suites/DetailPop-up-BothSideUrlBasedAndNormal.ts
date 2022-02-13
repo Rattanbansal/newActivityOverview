@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Testing of detail pop-up with all section Lying in the product detail and as well as product details for all sub products</description>
+   <name>DetailPop-up-BothSideUrlBasedAndNormal</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>51bae623-ff1f-4efd-9c4f-efa0b0d6c202</testSuiteGuid>
+   <testCaseLink>
+      <guid>48b518d6-8e7b-403b-9ae4-88cc35ceff0a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>76f3c298-03f3-42bc-9469-3d243cf78146</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>48ea255d-aa6d-43dc-9429-4c5aa8616e08</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9488624c-fe25-45fc-8a8c-a503e2701760</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bb2bc18a-24c4-4a52-a893-27b28baf182a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

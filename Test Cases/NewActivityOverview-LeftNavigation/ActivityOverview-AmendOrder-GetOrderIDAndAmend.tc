@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>ActivityOverview-AmendOrder-GetOrderIDAndAmend</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b7992b9-cfb1-4bbc-afe3-efea1b98383f</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>8682e7dc-d9d0-4f89-864b-317faf54debd</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>f962b9c3-a374-4baf-84a1-bf9b04a11533</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>0bbd1d21-a1cf-499d-8e2a-4ca9b8e59382</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a650b84b-d6c2-4884-aa6a-4a0718cc6c52</id>
+      <masked>false</masked>
+      <name>paginationvalue</name>
+   </variable>
+</TestCaseEntity>

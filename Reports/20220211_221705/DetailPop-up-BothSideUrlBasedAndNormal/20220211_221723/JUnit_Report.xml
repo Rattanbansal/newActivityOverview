@@ -1,0 +1,1983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DetailPop-up-BothSideUrlBasedAndNormal" time="764.943" tests="3" failures="2" errors="0">
+   <testsuite name="DetailPop-up-BothSideUrlBasedAndNormal" tests="3" failures="2" errors="0" time="764.943" skipped="0" timestamp="2022-02-11 22:22:32" hostname="intersoft-admin - DESKTOP-ANQSRIJ" id="Test Suites/DetailPop-up-BothSideUrlBasedAndNormal">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723"/>
+         <property name="logFiles" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\execution0.log"/>
+         <property name="attachments" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598415441.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598428907.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598446630.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598481123.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598505095.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598506117.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598530547.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598538512.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598545481.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598552885.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598559827.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598566853.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598574299.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598623087.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598636595.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598649952.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598666932.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598688520.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598695848.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598703254.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598710515.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598717791.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598787548.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598788429.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598812703.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598885568.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598894980.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598915527.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598922810.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598930423.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598937682.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598944923.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599031287.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599040838.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599062136.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599069838.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599078267.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599089958.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599100099.png"/>
+         <property name="hostName" value="intersoft-admin - DESKTOP-ANQSRIJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.1.59"/>
+         <property name="sessionId" value="27df6a242f45682bcdfae606cfd7b2ff"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up" time="638.644" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 18 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2022-02-11 22:22:33 - [TEST_CASE][FAILED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 18 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2022-02-11 22:22:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-11 22:22:37 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-11 22:22:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 22:22:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 22:22:40 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-11 22:22:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 22:22:45 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-11 22:22:46 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-11 22:22:46 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-11 22:22:52 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-11 22:22:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:22:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:22:55 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-11 22:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-11 22:23:21 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-11 22:23:28 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-11 22:23:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-11 22:23:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-11 22:23:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:23:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598415441.png]]
+
+2022-02-11 22:23:36 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-11 22:23:36 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-11 22:23:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-11 22:23:37 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:23:37 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-11 22:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-11 22:23:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:23:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598428907.png]]
+
+2022-02-11 22:23:55 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-11 22:23:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:24:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:24:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:24:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598446630.png]]
+
+2022-02-11 22:24:07 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-11 22:24:07 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-11 22:24:07 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-11 22:24:07 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-11 22:24:07 - [TEST_STEP][FAILED] - if (sizeoflisting > 2): null
+
+2022-02-11 22:24:07 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-11 22:24:07 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-11 22:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage_select")): Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-11 22:24:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-11 22:24:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:24:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:24:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage-SelectOption")): Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-11 22:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-11 22:24:21 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:24:41 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:24:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598481123.png]]
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - SizeofPagination = getText(findTestObject("Object Repository/PaginationCOunt/PaginationCount")): Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-11 22:24:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - println(SizeofPagination): null
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - paginationmaxcount = Integer.parseInt(SizeofPagination): null
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - paginationmaxcount = 2: null
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationmaxcount): Size of Pagination: 2
+
+2022-02-11 22:24:41 - [MESSAGE][INFO] - Size of Pagination: 2
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - totalrecords = 0: null
+
+2022-02-11 22:24:41 - [TEST_STEP][FAILED] - for ([l = 1, l <= paginationmaxcount, (l++)]): null
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 1
+
+2022-02-11 22:24:41 - [MESSAGE][INFO] - Size of Pagination: 1
+
+2022-02-11 22:24:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-11 22:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-11 22:24:44 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:25:04 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:25:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:25:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598505095.png]]
+
+2022-02-11 22:25:05 - [TEST_STEP][PASSED] - RecordsinListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-11 22:25:05 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $RecordsinListing): Size of Active Bookings: 100
+
+2022-02-11 22:25:05 - [MESSAGE][INFO] - Size of Active Bookings: 100
+
+2022-02-11 22:25:05 - [TEST_STEP][PASSED] - for ([refund = 1, refund < RecordsinListing, (refund++)]): Delayed 13 second(s)
+
+2022-02-11 22:25:05 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-11 22:25:05 - [TEST_STEP][PASSED] - refund = RecordsinListing: null
+
+2022-02-11 22:25:05 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-11 22:25:05 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 100
+
+2022-02-11 22:25:05 - [MESSAGE][INFO] - Size of refund booking: 100
+
+2022-02-11 22:25:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/ListingArea/ClickondetailPOp-up", ["position":refund]), 15): Scroll to object 'Object Repository/ListingArea/ClickondetailPOp-up' successfully
+
+2022-02-11 22:25:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ListingArea/ClickondetailPOp-up' successfully
+
+2022-02-11 22:25:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:25:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598506117.png]]
+
+2022-02-11 22:25:06 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-11 22:25:06 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-11 22:25:06 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164448172323101
+
+2022-02-11 22:25:06 - [MESSAGE][INFO] - Order ID: 164448172323101
+
+2022-02-11 22:25:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-11 22:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-11 22:25:10 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:25:30 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:25:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:25:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598530547.png]]
+
+2022-02-11 22:25:31 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist"), 10)): null
+
+2022-02-11 22:25:31 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist' is present
+
+2022-02-11 22:25:31 - [TEST_STEP][PASSED] - logInfo("Product Expanded Section Exist"): Product Expanded Section Exist
+
+2022-02-11 22:25:31 - [MESSAGE][INFO] - Product Expanded Section Exist
+
+2022-02-11 22:25:31 - [TEST_STEP][PASSED] - click(findTestObject("DetailPop-up/ExpanSection/ProductInformationExpandedSection -Exist- ClickOnExpandedView")): Object: 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection -Exist- ClickOnExpandedView' is clicked on
+
+2022-02-11 22:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection -Exist- ClickOnExpandedView' is clicked on
+
+2022-02-11 22:25:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:25:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:25:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:25:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598538512.png]]
+
+2022-02-11 22:25:38 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): null
+
+2022-02-11 22:25:39 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 1
+
+2022-02-11 22:25:39 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 1
+
+2022-02-11 22:25:39 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:25:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/ExpanSection/ExpandProductSection", ["position":looping])): Object: 'Object Repository/DetailPop-up/ExpanSection/ExpandProductSection' is clicked on
+
+2022-02-11 22:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/ExpanSection/ExpandProductSection' is clicked on
+
+2022-02-11 22:25:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:25:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:25:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:25:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598545481.png]]
+
+2022-02-11 22:25:45 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"1"]), 15) == true): null
+
+2022-02-11 22:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"1"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:25:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:25:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:25:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:25:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598552885.png]]
+
+2022-02-11 22:25:53 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"2"]), 15) == true): null
+
+2022-02-11 22:25:53 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:25:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"2"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:25:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:25:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:25:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:26:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598559827.png]]
+
+2022-02-11 22:26:00 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"3"]), 15) == true): null
+
+2022-02-11 22:26:00 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:26:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"3"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:26:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:26:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:26:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:26:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598566853.png]]
+
+2022-02-11 22:26:07 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"5"]), 15) == true): null
+
+2022-02-11 22:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"5"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:26:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:26:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:26:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:26:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598574299.png]]
+
+2022-02-11 22:26:14 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"4"]), 15) == true): Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:26:30 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:26:30 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView", ["position":"1"]), 15)): Web element with id: 'Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView' located by '(//div[@class='order-detail-left']//li[@class='order-list order-sub-list confirm hash-link-parent']//i[contains(text(),'expand_more')])[1]' not found
+
+2022-02-11 22:26:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@class='order-detail-left']//li[@class='order-list order-sub-list confirm hash-link-parent']//i[contains(text(),'expand_more')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:26:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView'. Try using Self-healing.
+
+2022-02-11 22:26:47 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:26:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:26:48 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:26:48 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView' located by '(//div[@class='order-detail-left']//li[@class='order-list order-sub-list confirm hash-link-parent']//i[contains(text(),'expand_more')])[1]' not found
+
+2022-02-11 22:26:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' successfully
+
+2022-02-11 22:26:48 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab: Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab
+
+2022-02-11 22:26:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon")): Object: 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clicked on
+
+2022-02-11 22:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clicked on
+
+2022-02-11 22:26:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:27:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:27:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:27:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598623087.png]]
+
+2022-02-11 22:27:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Preview/PrintVoucher")): Object: 'Object Repository/Header/Preview/PrintVoucher' is clicked on
+
+2022-02-11 22:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Preview/PrintVoucher' is clicked on
+
+2022-02-11 22:27:06 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:27:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:27:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:27:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598636595.png]]
+
+2022-02-11 22:27:19 - [TEST_STEP][PASSED] - UrlToClick = findWebElement(findTestObject("Object Repository/Header/CopyUrl/CopyUrl")).getAttribute("data-href_url"): null
+
+2022-02-11 22:27:19 - [TEST_STEP][PASSED] - println(UrlToClick): null
+
+2022-02-11 22:27:19 - [TEST_STEP][PASSED] - ActivityUrl = UrlToClick: null
+
+2022-02-11 22:27:19 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-02-11 22:27:19 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-02-11 22:27:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:27:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:27:24 - [TEST_STEP][PASSED] - navigateToUrl(ActivityUrl): Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:27:29 - [MESSAGE][PASSED] - Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:27:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:27:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598649952.png]]
+
+2022-02-11 22:27:34 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:27:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' successfully
+
+2022-02-11 22:27:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL' successfully
+
+2022-02-11 22:27:34 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL
+
+2022-02-11 22:27:35 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-02-11 22:27:35 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-02-11 22:27:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:27:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:27:40 - [TEST_STEP][PASSED] - navigateToUrl(ActivityUrl): Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:27:44 - [MESSAGE][PASSED] - Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:27:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:27:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598666932.png]]
+
+2022-02-11 22:27:47 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:27:47 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist"), 10)): Object 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist' is not present after 10 second(s)
+
+2022-02-11 22:27:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent active']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:27:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist'. Try using Self-healing.
+
+2022-02-11 22:28:00 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:28:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:28:01 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:28:01 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist' is not present after 10 second(s)
+
+2022-02-11 22:28:01 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): null
+
+2022-02-11 22:28:01 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 1
+
+2022-02-11 22:28:01 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 1
+
+2022-02-11 22:28:01 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:28:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/ExpanSection/ExpandProductSection", ["position":looping])): Object: 'Object Repository/DetailPop-up/ExpanSection/ExpandProductSection' is clicked on
+
+2022-02-11 22:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/ExpanSection/ExpandProductSection' is clicked on
+
+2022-02-11 22:28:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:28:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:28:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598688520.png]]
+
+2022-02-11 22:28:08 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"1"]), 15) == true): null
+
+2022-02-11 22:28:09 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:28:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"1"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:28:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:28:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:28:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598695848.png]]
+
+2022-02-11 22:28:16 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"2"]), 15) == true): null
+
+2022-02-11 22:28:16 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"2"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:28:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:28:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:28:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598703254.png]]
+
+2022-02-11 22:28:23 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"3"]), 15) == true): null
+
+2022-02-11 22:28:23 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:28:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"3"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:28:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:28:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:28:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598710515.png]]
+
+2022-02-11 22:28:30 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"5"]), 15) == true): null
+
+2022-02-11 22:28:31 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:28:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"5"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:28:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:28:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:28:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598717791.png]]
+
+2022-02-11 22:28:37 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"4"]), 15) == true): Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:28:53 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:28:53 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView", ["position":"1"]), 15)): null
+
+2022-02-11 22:28:53 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView' is clickable
+
+2022-02-11 22:28:53 - [TEST_STEP][PASSED] - SubProductsInBookingSize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/SubProductListLength"), 5).size(): null
+
+2022-02-11 22:28:54 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $SubProductsInBookingSize): Size of Bookings on Product detail Pop-up: 2
+
+2022-02-11 22:28:54 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 2
+
+2022-02-11 22:28:54 - [TEST_STEP][PASSED] - for ([sublooping = 80, sublooping < SubProductsInBookingSize, (sublooping++)]): null
+
+2022-02-11 22:28:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL' successfully
+
+2022-02-11 22:28:54 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2022-02-11 22:28:54 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2022-02-11 22:28:54 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-11 22:29:07 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-11 22:29:07 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-11 22:29:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-11 22:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-11 22:29:11 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-11 22:29:24 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-11 22:29:24 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-11 22:29:24 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-11 22:29:24 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-11 22:29:24 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 2
+
+2022-02-11 22:29:24 - [MESSAGE][INFO] - Size of Pagination: 2
+
+2022-02-11 22:29:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-11 22:29:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-11 22:29:27 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:29:47 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:29:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:29:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598787548.png]]
+
+2022-02-11 22:29:47 - [TEST_STEP][PASSED] - RecordsinListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-11 22:29:47 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $RecordsinListing): Size of Active Bookings: 100
+
+2022-02-11 22:29:47 - [MESSAGE][INFO] - Size of Active Bookings: 100
+
+2022-02-11 22:29:47 - [TEST_STEP][FAILED] - for ([refund = 1, refund < RecordsinListing, (refund++)]): null
+
+2022-02-11 22:29:47 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-11 22:29:47 - [TEST_STEP][PASSED] - refund = RecordsinListing: null
+
+2022-02-11 22:29:47 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-11 22:29:47 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 100
+
+2022-02-11 22:29:47 - [MESSAGE][INFO] - Size of refund booking: 100
+
+2022-02-11 22:29:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/ListingArea/ClickondetailPOp-up", ["position":refund]), 15): Scroll to object 'Object Repository/ListingArea/ClickondetailPOp-up' successfully
+
+2022-02-11 22:29:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ListingArea/ClickondetailPOp-up' successfully
+
+2022-02-11 22:29:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:29:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598788429.png]]
+
+2022-02-11 22:29:48 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-11 22:29:49 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-11 22:29:49 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164439921876565
+
+2022-02-11 22:29:49 - [MESSAGE][INFO] - Order ID: 164439921876565
+
+2022-02-11 22:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-11 22:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-11 22:29:52 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:30:12 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:30:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:30:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598812703.png]]
+
+2022-02-11 22:30:12 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist"), 10)): Object 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist' is not present after 10 second(s)
+
+2022-02-11 22:30:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent active']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:30:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist'. Try using Self-healing.
+
+2022-02-11 22:30:24 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:30:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:30:25 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:30:25 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist' is not present after 10 second(s)
+
+2022-02-11 22:30:25 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:30:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:30:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductSectionLength'. Try using Self-healing.
+
+2022-02-11 22:30:33 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:30:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:30:34 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:30:34 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 0
+
+2022-02-11 22:30:34 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 0
+
+2022-02-11 22:30:34 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): null
+
+2022-02-11 22:30:34 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView", ["position":"1"]), 15)): Web element with id: 'Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView' located by '(//div[@class='order-detail-left']//li[@class='order-list order-sub-list confirm hash-link-parent']//i[contains(text(),'expand_more')])[1]' not found
+
+2022-02-11 22:30:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@class='order-detail-left']//li[@class='order-list order-sub-list confirm hash-link-parent']//i[contains(text(),'expand_more')])[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:30:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView'. Try using Self-healing.
+
+2022-02-11 22:30:51 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:30:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:30:52 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:30:52 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView' located by '(//div[@class='order-detail-left']//li[@class='order-list order-sub-list confirm hash-link-parent']//i[contains(text(),'expand_more')])[1]' not found
+
+2022-02-11 22:30:52 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab"), [:], CONTINUE_ON_FAILURE): Unable to call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2022-02-11 22:30:52 - [TEST_CASE][FAILED] - Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab: Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2022-02-11 22:30:52 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon")): Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1644422514682.run(Script1644422514682.groovy:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1643703980676.run(Script1643703980676.groovy:226)
+	... 13 more
+)
+
+2022-02-11 22:31:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[contains(text(),'Preview')]//parent::a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:31:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Header/Preview/ClickOnPreviewIcon'. Try using Self-healing.
+
+2022-02-11 22:31:24 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:31:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:31:25 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:31:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1644422514682.run(Script1644422514682.groovy:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1643703980676.run(Script1643703980676.groovy:226)
+	... 13 more
+)
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598885568.png]]
+
+2022-02-11 22:31:25 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2022-02-11 22:31:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL' successfully
+
+2022-02-11 22:31:25 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL
+
+2022-02-11 22:31:26 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-02-11 22:31:26 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-02-11 22:31:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:31:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:31:31 - [TEST_STEP][PASSED] - navigateToUrl(ActivityUrl): Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:31:34 - [MESSAGE][PASSED] - Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:31:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:31:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598894980.png]]
+
+2022-02-11 22:31:35 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:31:35 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist"), 10)): Object 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist' is not present after 10 second(s)
+
+2022-02-11 22:31:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent active']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:31:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist'. Try using Self-healing.
+
+2022-02-11 22:31:47 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:31:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:31:48 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:31:48 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist' is not present after 10 second(s)
+
+2022-02-11 22:31:48 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): null
+
+2022-02-11 22:31:48 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 1
+
+2022-02-11 22:31:48 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 1
+
+2022-02-11 22:31:48 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/ExpanSection/ExpandProductSection", ["position":looping])): Object: 'Object Repository/DetailPop-up/ExpanSection/ExpandProductSection' is clicked on
+
+2022-02-11 22:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/ExpanSection/ExpandProductSection' is clicked on
+
+2022-02-11 22:31:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:31:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:31:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:31:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598915527.png]]
+
+2022-02-11 22:31:55 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"1"]), 15) == true): null
+
+2022-02-11 22:31:56 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"1"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:31:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:32:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:32:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598922810.png]]
+
+2022-02-11 22:32:03 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"2"]), 15) == true): null
+
+2022-02-11 22:32:03 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"2"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:32:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:32:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:32:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598930423.png]]
+
+2022-02-11 22:32:10 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"3"]), 15) == true): null
+
+2022-02-11 22:32:10 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:32:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"3"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:32:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:32:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:32:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598937682.png]]
+
+2022-02-11 22:32:17 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"5"]), 15) == true): null
+
+2022-02-11 22:32:18 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:32:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"5"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:32:21 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:32:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:32:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:32:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644598944923.png]]
+
+2022-02-11 22:32:25 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"4"]), 15) == true): Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:32:40 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:32:40 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView", ["position":"1"]), 15)): null
+
+2022-02-11 22:32:41 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView' is clickable
+
+2022-02-11 22:32:41 - [TEST_STEP][PASSED] - SubProductsInBookingSize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/SubProductListLength"), 5).size(): null
+
+2022-02-11 22:32:41 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $SubProductsInBookingSize): Size of Bookings on Product detail Pop-up: 2
+
+2022-02-11 22:32:41 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 2
+
+2022-02-11 22:32:41 - [TEST_STEP][PASSED] - for ([sublooping = 80, sublooping < SubProductsInBookingSize, (sublooping++)]): null
+
+2022-02-11 22:32:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL' successfully
+
+2022-02-11 22:32:41 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2022-02-11 22:32:41 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2022-02-11 22:32:41 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-11 22:32:54 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-11 22:32:54 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-11 22:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-11 22:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-11 22:32:58 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-11 22:33:11 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-11 22:33:11 - [TEST_STEP][PASSED] - if (sizeoflisting < 2): null]]></system-out>
+         <system-err><![CDATA[2022-02-11 22:22:33 - [TEST_CASE][FAILED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 18 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab" time="36.951" classname="Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab" status="FAILED">
+         <failure type="FAILED" message="Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-02-11 22:33:14 - [TEST_CASE][FAILED] - Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab: Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-02-11 22:33:17 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon")): Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1644422514682.run(Script1644422514682.groovy:29)
+	... 13 more
+)
+
+2022-02-11 22:33:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[contains(text(),'Preview')]//parent::a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:33:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Header/Preview/ClickOnPreviewIcon'. Try using Self-healing.
+
+2022-02-11 22:33:50 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:33:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:33:51 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:33:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1644422514682.run(Script1644422514682.groovy:29)
+	... 13 more
+)
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599031287.png]]]]></system-out>
+         <system-err><![CDATA[2022-02-11 22:33:14 - [TEST_CASE][FAILED] - Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab: Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL" time="85.702" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL" status="PASSED">
+         <system-out><![CDATA[2022-02-11 22:33:51 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up - CopiedURL
+
+2022-02-11 22:33:51 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-02-11 22:33:51 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-02-11 22:33:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:33:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:33:56 - [TEST_STEP][PASSED] - navigateToUrl(ActivityUrl): Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:34:00 - [MESSAGE][PASSED] - Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:34:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:34:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599040838.png]]
+
+2022-02-11 22:34:01 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:34:01 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist"), 10)): Object 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist' is not present after 10 second(s)
+
+2022-02-11 22:34:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent active']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:34:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist'. Try using Self-healing.
+
+2022-02-11 22:34:13 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:34:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:34:14 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:34:14 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/ExpanSection/ProductInformationExpandedSection-Exist' is not present after 10 second(s)
+
+2022-02-11 22:34:14 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): null
+
+2022-02-11 22:34:14 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 1
+
+2022-02-11 22:34:14 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 1
+
+2022-02-11 22:34:14 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/ExpanSection/ExpandProductSection", ["position":looping])): Object: 'Object Repository/DetailPop-up/ExpanSection/ExpandProductSection' is clicked on
+
+2022-02-11 22:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/ExpanSection/ExpandProductSection' is clicked on
+
+2022-02-11 22:34:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:34:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:34:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:34:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599062136.png]]
+
+2022-02-11 22:34:22 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"1"]), 15) == true): null
+
+2022-02-11 22:34:23 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:34:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"1"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:34:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:34:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:34:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:34:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599069838.png]]
+
+2022-02-11 22:34:30 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"2"]), 15) == true): null
+
+2022-02-11 22:34:30 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:34:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"2"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:34:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:34:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:34:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:34:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599078267.png]]
+
+2022-02-11 22:34:38 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"3"]), 15) == true): null
+
+2022-02-11 22:34:40 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:34:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"3"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:34:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:34:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:34:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:34:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599089958.png]]
+
+2022-02-11 22:34:51 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"5"]), 15) == true): null
+
+2022-02-11 22:34:52 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is visible
+
+2022-02-11 22:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"5"])): Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/InformationSection/Details' is clicked on
+
+2022-02-11 22:34:56 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:34:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:34:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:35:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\DetailPop-up-BothSideUrlBasedAndNormal\\20220211_221723\\1644599100099.png]]
+
+2022-02-11 22:35:00 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/InformationSection/Details", ["position":"1", "position2":"4"]), 15) == true): Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:35:16 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/InformationSection/Details' is not visible after 15 second(s)
+
+2022-02-11 22:35:16 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView", ["position":"1"]), 15)): null
+
+2022-02-11 22:35:16 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/ExpanSection/SubProductList-ClickOnExpandView' is clickable
+
+2022-02-11 22:35:16 - [TEST_STEP][PASSED] - SubProductsInBookingSize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/SubProductListLength"), 5).size(): null
+
+2022-02-11 22:35:17 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $SubProductsInBookingSize): Size of Bookings on Product detail Pop-up: 2
+
+2022-02-11 22:35:17 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 2
+
+2022-02-11 22:35:17 - [TEST_STEP][PASSED] - for ([sublooping = 80, sublooping < SubProductsInBookingSize, (sublooping++)]): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-11 22:22:32 - [TEST_SUITE][FAILED] - DetailPop-up-BothSideUrlBasedAndNormal: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 18 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-out>
+      <system-err><![CDATA[2022-02-11 22:22:32 - [TEST_SUITE][FAILED] - DetailPop-up-BothSideUrlBasedAndNormal: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-OpenDetailPop-up FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:76)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-OpenDetailPop-up.run(ActivityOverview-OpenDetailPop-up:226)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644598043886.run(TempTestSuite1644598043886.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/StepToReUse/StepTOCopyURLAndAddAnotherTab' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	... 18 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Header/Preview/ClickOnPreviewIcon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at StepTOCopyURLAndAddAnotherTab.run(StepTOCopyURLAndAddAnotherTab:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+   </testsuite>
+</testsuites>

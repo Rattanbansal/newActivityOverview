@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>ActivityOverview-Pagination</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5558c8e6-b370-4df3-aa3f-b4d863bf7c27</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>8b25450b-a5ee-4941-bebc-1592d743ce87</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>d806c7d5-a274-4624-87ff-87ad4a7fca92</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>3e4a9cd5-0977-4dd5-8b37-506aae86b994</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>321aede3-32d8-4e1b-8f60-7a37169b1f42</id>
+      <masked>false</masked>
+      <name>paginationvalue</name>
+   </variable>
+</TestCaseEntity>

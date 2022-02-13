@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>In this case we refund one booking which have not status refunded on page 1</description>
+   <name>CancelSingleBookingNotHavingStatusRefunded</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>a946d179-e7ea-48a4-9278-2deef680f709</testSuiteGuid>
+   <testCaseLink>
+      <guid>5eb38200-e065-4444-bb90-adad8d875b5c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5ee62d76-88fb-4889-912b-f8ceffb11f3a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>24db7cd8-1b8e-4522-b6ac-b06bd2fbde73</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a01317ce-a677-415b-bc16-131bc4062180</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d7e58717-8106-4ce3-a386-f834d18dd377</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

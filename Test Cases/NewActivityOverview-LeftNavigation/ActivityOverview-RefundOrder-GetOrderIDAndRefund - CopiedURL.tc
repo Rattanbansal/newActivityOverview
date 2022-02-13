@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>ActivityOverview-RefundOrder-GetOrderIDAndRefund - CopiedURL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0666043a-3aaa-4624-aec9-27d2cfb89efc</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>08e98e05-3a2e-4c38-8573-66f12bc4fcc9</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>909e4cc4-fea9-4091-809a-79721131bd21</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>71386e3f-a4d6-4b34-beea-1201b02792a1</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b696daa6-b023-4d52-8a34-62c13853d771</id>
+      <masked>false</masked>
+      <name>paginationvalue</name>
+   </variable>
+</TestCaseEntity>

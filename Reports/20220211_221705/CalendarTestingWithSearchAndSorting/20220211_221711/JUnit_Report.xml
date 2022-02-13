@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CalendarTestingWithSearchAndSorting" time="1116.126" tests="1" failures="0" errors="0">
+   <testsuite name="CalendarTestingWithSearchAndSorting" tests="1" failures="0" errors="0" time="1116.126" skipped="0" timestamp="2022-02-11 22:18:31" hostname="intersoft-admin - DESKTOP-ANQSRIJ" id="Test Suites/CalendarTestingWithSearchAndSorting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711"/>
+         <property name="logFiles" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\execution0.log"/>
+         <property name="attachments" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598189271.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598221122.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598261569.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598285935.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598395742.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598425990.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598456982.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598484838.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598508692.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598532409.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598566085.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598596922.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598626789.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598650622.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598659287.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598683565.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598692084.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598715616.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598724056.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598747577.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598801014.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598809505.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598833152.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598841751.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598865298.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598873937.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598897811.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598951025.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598959912.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598983458.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598992799.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599018608.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599028004.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599051971.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599105750.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599114548.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599138292.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599146902.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599170507.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599179081.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599203490.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599223727.png"/>
+         <property name="hostName" value="intersoft-admin - DESKTOP-ANQSRIJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.1.59"/>
+         <property name="sessionId" value="ebe6b57e813dba082bd934c6e65fd9fc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingCalendar-SearchSorting" time="1114.869" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingCalendar-SearchSorting" status="PASSED">
+         <system-out><![CDATA[2022-02-11 22:18:32 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingCalendar-SearchSorting: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingCalendar-SearchSorting
+
+2022-02-11 22:18:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-11 22:18:34 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-11 22:18:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 22:18:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 22:18:37 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-11 22:18:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 22:18:41 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-11 22:18:41 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-11 22:18:41 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-11 22:18:52 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-11 22:18:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:18:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:18:55 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-11 22:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-11 22:19:25 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-11 22:19:37 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-11 22:19:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-11 22:19:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-11 22:19:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:19:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598189271.png]]
+
+2022-02-11 22:19:50 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-11 22:19:52 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-11 22:19:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-11 22:19:52 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:19:52 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-11 22:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-11 22:20:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:20:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598221122.png]]
+
+2022-02-11 22:20:36 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-11 22:20:41 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:21:01 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:21:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:21:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598261569.png]]
+
+2022-02-11 22:21:02 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-11 22:21:02 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-11 22:21:02 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-11 22:21:02 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-11 22:21:02 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-11 22:21:02 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-11 22:21:02 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-11 22:21:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CalendarObjects/ClickCalendar")): Object: 'Object Repository/CalendarObjects/ClickCalendar' is clicked on
+
+2022-02-11 22:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CalendarObjects/ClickCalendar' is clicked on
+
+2022-02-11 22:21:05 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:21:25 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:21:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:21:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598285935.png]]
+
+2022-02-11 22:21:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CalendarObjects/CalendarOptions-Select")): Object: 'Object Repository/CalendarObjects/CalendarOptions-Select' is clicked on
+
+2022-02-11 22:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CalendarObjects/CalendarOptions-Select' is clicked on
+
+2022-02-11 22:21:29 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:21:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:21:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CalendarObjects/CalendarOptions-SelectOptions", ["types":"Custom"])): Object: 'Object Repository/CalendarObjects/CalendarOptions-SelectOptions' is clicked on
+
+2022-02-11 22:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CalendarObjects/CalendarOptions-SelectOptions' is clicked on
+
+2022-02-11 22:21:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:21:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/CalendarObjects/InputStartDate"), Keys.chord(CONTROL + "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/CalendarObjects/InputStartDate'
+
+2022-02-11 22:21:47 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/CalendarObjects/InputStartDate'
+
+2022-02-11 22:21:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CalendarObjects/InputStartDate"), start_date): Text '2021-04-15' is set on object 'Object Repository/CalendarObjects/InputStartDate'
+
+2022-02-11 22:21:53 - [MESSAGE][PASSED] - Text '2021-04-15' is set on object 'Object Repository/CalendarObjects/InputStartDate'
+
+2022-02-11 22:21:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:21:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:21:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/CalendarObjects/InputEndDate"), Keys.chord(CONTROL + "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/CalendarObjects/InputEndDate'
+
+2022-02-11 22:22:02 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/CalendarObjects/InputEndDate'
+
+2022-02-11 22:22:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CalendarObjects/InputEndDate"), end_date): Text '2021-10-31' is set on object 'Object Repository/CalendarObjects/InputEndDate'
+
+2022-02-11 22:22:08 - [MESSAGE][PASSED] - Text '2021-10-31' is set on object 'Object Repository/CalendarObjects/InputEndDate'
+
+2022-02-11 22:22:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:22:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:22:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CalendarObjects/DoneButton")): Object: 'Object Repository/CalendarObjects/DoneButton' is clicked on
+
+2022-02-11 22:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/CalendarObjects/DoneButton' is clicked on
+
+2022-02-11 22:22:17 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:22:37 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext1): Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:22:51 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:22:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:22:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:22:55 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:23:15 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:23:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:23:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598395742.png]]
+
+2022-02-11 22:23:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext2): Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:23:22 - [MESSAGE][PASSED] - Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:23:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:23:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:23:25 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:23:45 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:23:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:23:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598425990.png]]
+
+2022-02-11 22:23:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext3): Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:23:53 - [MESSAGE][PASSED] - Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:23:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:23:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:23:56 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:24:16 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:24:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:24:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598456982.png]]
+
+2022-02-11 22:24:18 - [TEST_STEP][PASSED] - searchlistingsize = findWebElements(findTestObject("Object Repository/ListingArea/Search/SearchResultList"), 5).size(): null
+
+2022-02-11 22:24:19 - [TEST_STEP][PASSED] - logInfo(Size of Search Listing: $searchlistingsize): Size of Search Listing: 3
+
+2022-02-11 22:24:19 - [MESSAGE][INFO] - Size of Search Listing: 3
+
+2022-02-11 22:24:19 - [TEST_STEP][PASSED] - for ([m = 1, m <= searchlistingsize, (m++)]): Taking screenshot successfully
+
+2022-02-11 22:24:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/SearchCancelButton", ["position":"1"])): Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-11 22:24:24 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-11 22:24:24 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:24:44 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:24:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:24:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598484838.png]]
+
+2022-02-11 22:24:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/SearchCancelButton", ["position":"1"])): Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-11 22:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-11 22:24:48 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:25:08 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:25:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:25:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598508692.png]]
+
+2022-02-11 22:25:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/SearchCancelButton", ["position":"1"])): Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-11 22:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-11 22:25:12 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:25:32 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:25:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:25:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598532409.png]]
+
+2022-02-11 22:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:25:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext1): Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:25:42 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:25:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:25:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:25:46 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:26:06 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:26:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:26:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598566085.png]]
+
+2022-02-11 22:26:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext2): Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:26:13 - [MESSAGE][PASSED] - Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:26:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:26:16 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:26:16 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:26:36 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:26:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:26:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598596922.png]]
+
+2022-02-11 22:26:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext3): Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:26:43 - [MESSAGE][PASSED] - Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:26:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:26:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:26:46 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:27:06 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:27:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:27:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598626789.png]]
+
+2022-02-11 22:27:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/ClearSearch")): Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-11 22:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-11 22:27:10 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:27:30 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:27:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:27:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598650622.png]]
+
+2022-02-11 22:27:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:27:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:27:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:27:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:27:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598659287.png]]
+
+2022-02-11 22:27:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:27:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:27:43 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:28:03 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:28:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598683565.png]]
+
+2022-02-11 22:28:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:28:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:28:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:28:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598692084.png]]
+
+2022-02-11 22:28:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:28:15 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:28:35 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:28:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598715616.png]]
+
+2022-02-11 22:28:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:28:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:28:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:28:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598724056.png]]
+
+2022-02-11 22:28:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:28:47 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:29:07 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:29:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:29:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598747577.png]]
+
+2022-02-11 22:29:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:29:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext1): Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:29:17 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:29:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:29:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:29:20 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:29:40 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:29:40 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:30:00 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:30:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:30:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598801014.png]]
+
+2022-02-11 22:30:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:30:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:30:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:30:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:30:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598809505.png]]
+
+2022-02-11 22:30:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:30:13 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:30:33 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:30:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:30:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598833152.png]]
+
+2022-02-11 22:30:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:30:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:30:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:30:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:30:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598841751.png]]
+
+2022-02-11 22:30:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:30:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:30:45 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:31:05 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:31:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:31:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598865298.png]]
+
+2022-02-11 22:31:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:31:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:31:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:31:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:31:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598873937.png]]
+
+2022-02-11 22:31:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:31:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:31:17 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:31:37 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:31:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:31:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598897811.png]]
+
+2022-02-11 22:31:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:31:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext2): Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:31:47 - [MESSAGE][PASSED] - Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:31:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:31:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:31:50 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:32:10 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:32:10 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:32:30 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:32:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598951025.png]]
+
+2022-02-11 22:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:32:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:32:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:32:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598959912.png]]
+
+2022-02-11 22:32:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:32:43 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:33:03 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:33:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:33:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598983458.png]]
+
+2022-02-11 22:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:33:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:33:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:33:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:33:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644598992799.png]]
+
+2022-02-11 22:33:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:33:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:33:18 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:33:38 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:33:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:33:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599018608.png]]
+
+2022-02-11 22:33:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:33:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:33:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:33:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:33:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599028004.png]]
+
+2022-02-11 22:33:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:33:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:33:51 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:34:11 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:34:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:34:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599051971.png]]
+
+2022-02-11 22:34:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-11 22:34:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext3): Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:34:22 - [MESSAGE][PASSED] - Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:34:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:34:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-11 22:34:25 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:34:45 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:34:45 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:35:05 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:35:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:35:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599105750.png]]
+
+2022-02-11 22:35:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:35:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:35:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:35:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:35:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:35:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599114548.png]]
+
+2022-02-11 22:35:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:35:18 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:35:38 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:35:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:35:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599138292.png]]
+
+2022-02-11 22:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:35:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:35:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:35:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:35:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599146902.png]]
+
+2022-02-11 22:35:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:35:50 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:36:10 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:36:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:36:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599170507.png]]
+
+2022-02-11 22:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-11 22:36:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:36:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:36:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:36:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599179081.png]]
+
+2022-02-11 22:36:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-11 22:36:23 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:36:43 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:36:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:36:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599203490.png]]
+
+2022-02-11 22:36:43 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:37:03 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:37:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:37:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CalendarTestingWithSearchAndSorting\\20220211_221711\\1644599223727.png]]
+
+2022-02-11 22:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/ClearSearch")): Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-11 22:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-11 22:37:07 - [TEST_STEP][PASSED] - if (sizeoflisting < 2): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-11 22:18:31 - [TEST_SUITE][PASSED] - CalendarTestingWithSearchAndSorting: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingCalendar-SearchSorting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

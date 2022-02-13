@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Development</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Logout URL</description>
+      <initValue>'https://marketplacev1.test-prio.com'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Superadmin User</description>
+      <initValue>'superadmin@tippoint.com'</initValue>
+      <name>uname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password</description>
+      <initValue>'QC721nDl9feJx19EFv1xhqS5r4+UznKV'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'America'</initValue>
+      <name>LocationName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1572'</initValue>
+      <name>searchadminid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1572 - User Permissions'</initValue>
+      <name>searchadminname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Testing Automation Product can ce removed anytime'</initValue>
+      <name>LocationAddtiionalInformation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'157800'</initValue>
+      <name>myproducts_product_id</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Victoria 1016, Santiago, Chile'</initValue>
+      <name>address</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>productids</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2021-04-15'</initValue>
+      <name>start_date</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2021-10-31'</initValue>
+      <name>end_date</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>ActivityUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Order Refunded to Test Automation Testing Under Katalon'</initValue>
+      <name>CancellationReason</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>orderId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>refundvalue</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>5</initValue>
+      <name>pagination</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3.00'</initValue>
+      <name>cartdisc</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

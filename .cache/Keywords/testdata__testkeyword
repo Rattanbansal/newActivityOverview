@@ -1,0 +1,45 @@
+{
+  "keywordFileContentHash": "4A917888E82F573D7B0B413440AA57B1",
+  "keywordClasses": [
+    {
+      "name": "testdata.TestDataGenerator",
+      "keywordMethods": [
+        {
+          "name": "getRandomEmail",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getRandomNumbers",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getName",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "createRandomCode",
+          "parameters": [
+            {
+              "name": "handleId",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

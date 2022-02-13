@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>ActivityOverview-ListingCalendar-SearchSorting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea8c3d0e-1546-4394-808d-2f7299452ba1</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>f67b7f88-2119-4b93-8765-5486e3802429</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>6af7ebfe-a48d-4aee-9826-d501cd8521fe</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>58bc25da-1e68-4d94-9ace-9838cc92ee07</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+</TestCaseEntity>

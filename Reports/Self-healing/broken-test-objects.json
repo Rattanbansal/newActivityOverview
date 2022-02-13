@@ -1,0 +1,204 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SupplierRedirections/a_My Products",
+      "brokenLocator": "//a[@onclick\u003d\"if (!window.__cfRLUnblockHandlers) return false; redirect_link(\u0027https://admin.test-prio.com/tickets/merchant_ticket_overview/13042/mytickets\u0027)\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[@id\u003d\u0027my_tickets\u0027]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SupplierRedirections/a_My Products_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SupplierRedirections/a_Analytics",
+      "brokenLocator": "//a[@onclick\u003d\"if (!window.__cfRLUnblockHandlers) return false; redirect_link(\u0027https://report.test-prio.com/analytic/analytics/13042\u0027)\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[@id\u003d\u0027analytics\u0027]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SupplierRedirections/a_Analytics_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/SupplierRedirections/a_Logout",
+      "brokenLocator": "//a[@onclick\u003d\"if (!window.__cfRLUnblockHandlers) return false; redirect_link(\u0027https://marketplacev1.test-prio.com/priohub/logout_all/\u0027)\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul[@id\u003d\u0027main-menu\u0027]/li[11]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/SupplierRedirections/a_Logout_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/a_Logout",
+      "brokenLocator": "//a[@onclick\u003d\"if (!window.__cfRLUnblockHandlers) return false; redirect_link(\u0027https://marketplacev1.test-prio.com/priohub/logout_all/\u0027)\"]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul[@id\u003d\u0027main-menu\u0027]/li[11]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login/a_Logout_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Accounts_redirections/Ajax/span_Marketplace Products",
+      "brokenLocator": "(//li[@id\u003d\u0027agent_overview\u0027]/a/span[2])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//li[@id\u003d\u0027agent_overview\u0027]/a/span[2])[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Accounts_redirections/Ajax/span_Marketplace Products_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminRedirections/a_1572 - User Permissions",
+      "brokenLocator": "//a[contains(text(),\u00271572 - User Permissions\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Search:\u0027])[1]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminRedirections/a_1572 - User Permissions_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminUserRole-Create/a_Add user",
+      "brokenLocator": "//*[@id \u003d \u0027prio-create-user\u0027 and @ref_element \u003d \u0027Object Repository/AdminUserRole-Create/iframe_cloud_download_product_allocate_capacity\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027User roles\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminUserRole-Create/a_Add user_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminUserRole-Create/span_Admin",
+      "brokenLocator": "//li[@id\u003d\u0027select-options-f5405ce7-f110-d384-b25d-32d04b7e6e341\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027No role selected\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminUserRole-Create/span_Admin_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Settings/a_Settings",
+      "brokenLocator": "//ul[@id\u003d\u0027main-menu\u0027]/li[10]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul[@id\u003d\u0027main-menu\u0027]/li[10]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Settings/a_Settings_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminUserRole-Edit/input_Last name_lname",
+      "brokenLocator": "id(\"Admin\")/div[@class\u003d\"user-roles-lists\"]/table[1]/tbody[1]/tr[@class\u003d\"edit-users-role user_role_8474\"]/td[@class\u003d\"edit-user-role\"]/form[@class\u003d\"prio-create-user-form\"]/div[@class\u003d\"flex-row mb30\"]/div[@class\u003d\"input-field s6\"]/input[@id\u003d\"last_name\"][count(. | //input[@placeholder \u003d \u0027Click to type\u0027 and @id \u003d \u0027last_name\u0027 and @type \u003d \u0027text\u0027 and @class \u003d \u0027validate\u0027 and @name \u003d \u0027lname\u0027 and @value \u003d \u0027test\u0027 and @ref_element \u003d \u0027Object Repository/AdminUserRole-Edit/iframe_cloud_download_product_allocate_capacity\u0027]) \u003d count(//input[@placeholder \u003d \u0027Click to type\u0027 and @id \u003d \u0027last_name\u0027 and @type \u003d \u0027text\u0027 and @class \u003d \u0027validate\u0027 and @name \u003d \u0027lname\u0027 and @value \u003d \u0027test\u0027 and @ref_element \u003d \u0027Object Repository/AdminUserRole-Edit/iframe_cloud_download_product_allocate_capacity\u0027])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027last_name\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminUserRole-Edit/input_Last name_lname_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminUserRole-Edit/span_Manager",
+      "brokenLocator": "//li[@id\u003d\u0027select-options-72a51e4c-f174-7c14-23f4-40d25d7ad0cf2\u0027]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027Manager\u0027 or . \u003d \u0027Manager\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminUserRole-Edit/span_Manager_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminUserRole-Edit/a_Edit",
+      "brokenLocator": "//*[(contains(text(), \u0027cypress\u0027) or contains(., \u0027cypress\u0027)) and @ref_element \u003d \u0027Object Repository/AdminUserRole-Edit/iframe_cloud_download_product_allocate_capacity\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//a[contains(text(),\u0027Edit\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminUserRole-Edit/a_Edit_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminUserRole-Edit/input_User role_select-dropdown dropdown-trigger",
+      "brokenLocator": "//input[@class\u003d\u0027select-dropdown dropdown-trigger valid\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//input[@type\u003d\u0027text\u0027])[5]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminUserRole-Edit/input_User role_select-dropdown dropdown-trigger_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminUserRole-Edit/user_type_dropdown",
+      "brokenLocator": "//input[@class\u003d\u0027select-dropdown dropdown-trigger valid\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//select[@name\u003d\u0027user_role\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminUserRole-Edit/user_type_dropdown_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Accounts_redirections/span_Admins",
+      "brokenLocator": "//ul[@id\u003d\u0027main-menu\u0027]/li/ul/li[4]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027Admins\u0027 or . \u003d \u0027Admins\u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Accounts_redirections/span_Admins_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminUserRole-Edit/span",
+      "brokenLocator": "//div[@id\u003d\u0027Admin\u0027]/div/table/tbody/tr[2]/td/form/div[10]/div[2]/div/div/label/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//label/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminUserRole-Edit/span_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminGuest-Flag-Import/span_Import Booking",
+      "brokenLocator": "//*[(text() \u003d \u0027Import Booking\u0027 or . \u003d \u0027Import Booking\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027slide-out-\u0027]/ul/li[12]/a/span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminGuest-Flag-Import/span_Import Booking_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminCatalogs/a_Catalogs",
+      "brokenLocator": "//*[(text() \u003d \u0027\n\n\n\nCatalogs\n\u0027 or . \u003d \u0027\n\n\n\nCatalogs\n\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027slide-out-\u0027]/ul/li[13]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminCatalogs/a_Catalogs_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminRest/span_Recommendations",
+      "brokenLocator": "//*[(text() \u003d \u0027Recommendations\u0027 or . \u003d \u0027Recommendations\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027slide-out-\u0027]/ul/li[14]/a/span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminRest/span_Recommendations_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/AdminRest/a_Partners",
+      "brokenLocator": "//*[(text() \u003d \u0027\n\n\n\n\n\n\n\n\n\n\nPartners\n\u0027 or . \u003d \u0027\n\n\n\n\n\n\n\n\n\n\nPartners\n\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027slide-out-\u0027]/ul/li[16]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/AdminRest/a_Partners_XPATH.png"
+    }
+  ]
+}

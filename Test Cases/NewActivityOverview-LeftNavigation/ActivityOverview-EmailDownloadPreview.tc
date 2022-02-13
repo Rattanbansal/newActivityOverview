@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>ActivityOverview-EmailDownloadPreview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>157ca3f2-8a3a-48a6-a1e4-2e86917f734c</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>55a2bcca-a784-4cc6-a867-b4c9fc1ee501</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>4a27e701-8c3a-445f-8ed8-cd283c9bf1e5</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>27878809-f020-4bf4-b069-bd8e16f1e1b8</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad675cb4-2623-4ec2-b7bb-5e3bee5d48dd</id>
+      <masked>false</masked>
+      <name>paginationvalue</name>
+   </variable>
+</TestCaseEntity>

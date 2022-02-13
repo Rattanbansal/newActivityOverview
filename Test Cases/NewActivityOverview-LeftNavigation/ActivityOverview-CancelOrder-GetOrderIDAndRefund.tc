@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>ActivityOverview-CancelOrder-GetOrderIDAndRefund</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f47b020-0538-48c6-88f7-39c3c5b351be</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>edb40ad7-f521-4190-92ca-896f985cc014</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>b2552d74-8760-4db7-a928-ebb69e6a4ee6</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>4c94f7a7-1cd6-42bc-9c19-57239febf27a</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4f9971eb-44a5-41dc-9b82-3bfbd8deb340</id>
+      <masked>false</masked>
+      <name>paginationvalue</name>
+   </variable>
+</TestCaseEntity>

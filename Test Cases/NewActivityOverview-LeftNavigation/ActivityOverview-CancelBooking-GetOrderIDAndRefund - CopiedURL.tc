@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7df6929-36a6-4906-99d8-bae7194df599</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>4d57bcfc-2f1d-4f34-9e0a-118fc7ad10f4</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>5132a933-4f32-4613-84e4-c1c33d30773b</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>044ad6e0-0e98-41bf-a7da-22fe9e2be26c</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0624d4e-f832-4765-b6fb-03cb04a53256</id>
+      <masked>false</masked>
+      <name>paginationvalue</name>
+   </variable>
+</TestCaseEntity>

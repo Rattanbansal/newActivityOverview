@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EmailDownloadPreview" time="735.721" tests="2" failures="0" errors="0">
+   <testsuite name="EmailDownloadPreview" tests="2" failures="0" errors="0" time="735.721" skipped="0" timestamp="2022-02-11 22:23:55" hostname="intersoft-admin - DESKTOP-ANQSRIJ" id="Test Suites/EmailDownloadPreview">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725"/>
+         <property name="logFiles" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\execution0.log"/>
+         <property name="attachments" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598494802.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598510953.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598527490.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598560631.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598584745.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598585289.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598609234.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598624050.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598637688.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598652809.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598666801.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598681311.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598686738.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598695443.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598722217.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598727631.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598736328.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598755300.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598761837.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598767766.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598773346.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598784453.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598800171.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598814565.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598830204.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598844234.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598859266.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598873262.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598879162.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598888580.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598915894.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598921804.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598931013.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598950327.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598957549.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598963497.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598969831.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599024849.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599025516.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599049574.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599078937.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599092163.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599152510.png"/>
+         <property name="hostName" value="intersoft-admin - DESKTOP-ANQSRIJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.1.59"/>
+         <property name="sessionId" value="2bfcde866eedcb702c66965d404d40b0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview" time="706.427" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview" status="PASSED">
+         <system-out><![CDATA[2022-02-11 22:23:55 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview
+
+2022-02-11 22:23:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-11 22:23:57 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-11 22:23:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 22:23:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 22:23:58 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-11 22:24:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 22:24:03 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-11 22:24:04 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-11 22:24:04 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-11 22:24:11 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-11 22:24:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:24:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:24:14 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-11 22:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-11 22:24:40 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-11 22:24:47 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-11 22:24:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-11 22:24:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-11 22:24:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:24:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598494802.png]]
+
+2022-02-11 22:24:55 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-11 22:24:56 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-11 22:24:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-11 22:24:56 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:24:56 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-11 22:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-11 22:25:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:25:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598510953.png]]
+
+2022-02-11 22:25:17 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-11 22:25:17 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:25:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:25:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:25:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598527490.png]]
+
+2022-02-11 22:25:27 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-11 22:25:27 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-11 22:25:27 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-11 22:25:27 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-11 22:25:27 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Delayed 13 second(s)
+
+2022-02-11 22:25:27 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-11 22:25:27 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-11 22:25:27 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-11 22:25:27 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-11 22:25:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage_select")): Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-11 22:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-11 22:25:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:25:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:25:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage-SelectOption")): Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-11 22:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-11 22:25:40 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:26:00 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:26:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:26:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598560631.png]]
+
+2022-02-11 22:26:00 - [TEST_STEP][PASSED] - SizeofPagination = getText(findTestObject("Object Repository/PaginationCOunt/PaginationCount")): Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-11 22:26:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-11 22:26:01 - [TEST_STEP][PASSED] - println(SizeofPagination): null
+
+2022-02-11 22:26:01 - [TEST_STEP][PASSED] - paginationmaxcount = Integer.parseInt(SizeofPagination): null
+
+2022-02-11 22:26:01 - [TEST_STEP][PASSED] - paginationmaxcount = 2: null
+
+2022-02-11 22:26:01 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationmaxcount): Size of Pagination: 2
+
+2022-02-11 22:26:01 - [MESSAGE][INFO] - Size of Pagination: 2
+
+2022-02-11 22:26:01 - [TEST_STEP][PASSED] - totalrecords = 0: null
+
+2022-02-11 22:26:01 - [TEST_STEP][PASSED] - for ([l = 1, l <= paginationmaxcount, (l++)]): Delayed 13 second(s)
+
+2022-02-11 22:26:01 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-11 22:26:01 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-11 22:26:01 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-11 22:26:01 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 1
+
+2022-02-11 22:26:01 - [MESSAGE][INFO] - Size of Pagination: 1
+
+2022-02-11 22:26:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-11 22:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-11 22:26:04 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:26:24 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:26:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:26:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598584745.png]]
+
+2022-02-11 22:26:24 - [TEST_STEP][PASSED] - RecordsinListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $RecordsinListing): Size of Active Bookings: 100
+
+2022-02-11 22:26:25 - [MESSAGE][INFO] - Size of Active Bookings: 100
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - for ([refund = 1, refund < RecordsinListing, (refund++)]): Call Test Case 'Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL' successfully
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - refund = RecordsinListing: null
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 100
+
+2022-02-11 22:26:25 - [MESSAGE][INFO] - Size of refund booking: 100
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/ListingArea/ClickondetailPOp-up", ["position":refund]), 15): Scroll to object 'Object Repository/ListingArea/ClickondetailPOp-up' successfully
+
+2022-02-11 22:26:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ListingArea/ClickondetailPOp-up' successfully
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:26:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598585289.png]]
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164448172323101
+
+2022-02-11 22:26:25 - [MESSAGE][INFO] - Order ID: 164448172323101
+
+2022-02-11 22:26:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-11 22:26:28 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-11 22:26:28 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:26:48 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:26:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:26:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598609234.png]]
+
+2022-02-11 22:26:49 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon"), 15) == true): null
+
+2022-02-11 22:26:50 - [MESSAGE][PASSED] - Object 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clickable
+
+2022-02-11 22:26:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon")): Object: 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clicked on
+
+2022-02-11 22:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clicked on
+
+2022-02-11 22:26:54 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:27:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:27:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:27:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598624050.png]]
+
+2022-02-11 22:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Preview/PrintVoucher")): Object: 'Object Repository/Header/Preview/PrintVoucher' is clicked on
+
+2022-02-11 22:27:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Preview/PrintVoucher' is clicked on
+
+2022-02-11 22:27:07 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:27:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:27:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:27:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598637688.png]]
+
+2022-02-11 22:27:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon")): Object: 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clicked on
+
+2022-02-11 22:27:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clicked on
+
+2022-02-11 22:27:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:27:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:27:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:27:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598652809.png]]
+
+2022-02-11 22:27:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Preview/PrintReceipt")): Object: 'Object Repository/Header/Preview/PrintReceipt' is clicked on
+
+2022-02-11 22:27:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Preview/PrintReceipt' is clicked on
+
+2022-02-11 22:27:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:27:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:27:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:27:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598666801.png]]
+
+2022-02-11 22:27:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/ClickOnSecndEmailButton")): Object: 'Object Repository/Header/Email/ClickOnSecndEmailButton' is clicked on
+
+2022-02-11 22:27:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/ClickOnSecndEmailButton' is clicked on
+
+2022-02-11 22:27:51 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:28:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:28:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598681311.png]]
+
+2022-02-11 22:28:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/EmailVoucher")): Object: 'Object Repository/Header/Email/EmailVoucher' is clicked on
+
+2022-02-11 22:28:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/EmailVoucher' is clicked on
+
+2022-02-11 22:28:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:28:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:28:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598686738.png]]
+
+2022-02-11 22:28:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Header/Email/InputEmails"), "rattan.intersoft@gmail.com"): Text 'rattan.intersoft@gmail.com' is set on object 'Object Repository/Header/Email/InputEmails'
+
+2022-02-11 22:28:13 - [MESSAGE][PASSED] - Text 'rattan.intersoft@gmail.com' is set on object 'Object Repository/Header/Email/InputEmails'
+
+2022-02-11 22:28:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:28:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:28:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598695443.png]]
+
+2022-02-11 22:28:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/SendButton")): Object: 'Object Repository/Header/Email/SendButton' is clicked on
+
+2022-02-11 22:28:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/SendButton' is clicked on
+
+2022-02-11 22:28:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:28:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:28:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/ClickOnSecndEmailButton")): Object: 'Object Repository/Header/Email/ClickOnSecndEmailButton' is clicked on
+
+2022-02-11 22:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/ClickOnSecndEmailButton' is clicked on
+
+2022-02-11 22:28:32 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:28:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:28:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598722217.png]]
+
+2022-02-11 22:28:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/EmailReceipt")): Object: 'Object Repository/Header/Email/EmailReceipt' is clicked on
+
+2022-02-11 22:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/EmailReceipt' is clicked on
+
+2022-02-11 22:28:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:28:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:28:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598727631.png]]
+
+2022-02-11 22:28:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Header/Email/InputEmails"), "rattan.intersoft@gmail.com"): Text 'rattan.intersoft@gmail.com' is set on object 'Object Repository/Header/Email/InputEmails'
+
+2022-02-11 22:28:54 - [MESSAGE][PASSED] - Text 'rattan.intersoft@gmail.com' is set on object 'Object Repository/Header/Email/InputEmails'
+
+2022-02-11 22:28:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:28:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:28:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:28:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598736328.png]]
+
+2022-02-11 22:28:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/SendButton")): Object: 'Object Repository/Header/Email/SendButton' is clicked on
+
+2022-02-11 22:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/SendButton' is clicked on
+
+2022-02-11 22:28:59 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:29:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:29:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Download/ClickOnDownloadIcon")): Object: 'Object Repository/Header/Download/ClickOnDownloadIcon' is clicked on
+
+2022-02-11 22:29:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Download/ClickOnDownloadIcon' is clicked on
+
+2022-02-11 22:29:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:29:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:29:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:29:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598755300.png]]
+
+2022-02-11 22:29:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Download/DownloadVoucher")): Object: 'Object Repository/Header/Download/DownloadVoucher' is clicked on
+
+2022-02-11 22:29:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Download/DownloadVoucher' is clicked on
+
+2022-02-11 22:29:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:29:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:29:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:29:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598761837.png]]
+
+2022-02-11 22:29:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Download/ClickOnDownloadIcon")): Object: 'Object Repository/Header/Download/ClickOnDownloadIcon' is clicked on
+
+2022-02-11 22:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Download/ClickOnDownloadIcon' is clicked on
+
+2022-02-11 22:29:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:29:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:29:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:29:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598767766.png]]
+
+2022-02-11 22:29:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Download/Downloadreceipt")): Object: 'Object Repository/Header/Download/Downloadreceipt' is clicked on
+
+2022-02-11 22:29:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Download/Downloadreceipt' is clicked on
+
+2022-02-11 22:29:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:29:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:29:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:29:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598773346.png]]
+
+2022-02-11 22:29:33 - [TEST_STEP][PASSED] - UrlToClick = findWebElement(findTestObject("Object Repository/Header/CopyUrl/CopyUrl")).getAttribute("data-href_url"): null
+
+2022-02-11 22:29:33 - [TEST_STEP][PASSED] - println(UrlToClick): null
+
+2022-02-11 22:29:33 - [TEST_STEP][PASSED] - ActivityUrl = UrlToClick: null
+
+2022-02-11 22:29:33 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-02-11 22:29:33 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-02-11 22:29:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:29:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:29:38 - [TEST_STEP][PASSED] - navigateToUrl(ActivityUrl): Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:29:43 - [MESSAGE][PASSED] - Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:29:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:29:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598784453.png]]
+
+2022-02-11 22:29:48 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:29:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL' successfully
+
+2022-02-11 22:29:49 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL
+
+2022-02-11 22:29:49 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-02-11 22:29:49 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-02-11 22:29:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:29:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:29:54 - [TEST_STEP][PASSED] - navigateToUrl(ActivityUrl): Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:29:59 - [MESSAGE][PASSED] - Navigate to 'https://activity.test-prio.com/orders/164448172323101' successfully
+
+2022-02-11 22:29:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:30:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598800171.png]]
+
+2022-02-11 22:30:00 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:30:00 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon"), 15) == true): null
+
+2022-02-11 22:30:00 - [MESSAGE][PASSED] - Object 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clickable
+
+2022-02-11 22:30:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon")): Object: 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clicked on
+
+2022-02-11 22:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clicked on
+
+2022-02-11 22:30:04 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:30:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:30:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:30:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598814565.png]]
+
+2022-02-11 22:30:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Preview/PrintVoucher")): Object: 'Object Repository/Header/Preview/PrintVoucher' is clicked on
+
+2022-02-11 22:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Preview/PrintVoucher' is clicked on
+
+2022-02-11 22:30:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:30:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:30:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:30:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598830204.png]]
+
+2022-02-11 22:30:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon")): Object: 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clicked on
+
+2022-02-11 22:30:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Preview/ClickOnPreviewIcon' is clicked on
+
+2022-02-11 22:30:33 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:30:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:30:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:30:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598844234.png]]
+
+2022-02-11 22:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Preview/PrintReceipt")): Object: 'Object Repository/Header/Preview/PrintReceipt' is clicked on
+
+2022-02-11 22:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Preview/PrintReceipt' is clicked on
+
+2022-02-11 22:30:47 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:30:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:30:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:30:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598859266.png]]
+
+2022-02-11 22:30:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/ClickOnSecndEmailButton")): Object: 'Object Repository/Header/Email/ClickOnSecndEmailButton' is clicked on
+
+2022-02-11 22:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/ClickOnSecndEmailButton' is clicked on
+
+2022-02-11 22:31:02 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:31:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:31:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:31:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598873262.png]]
+
+2022-02-11 22:31:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/EmailVoucher")): Object: 'Object Repository/Header/Email/EmailVoucher' is clicked on
+
+2022-02-11 22:31:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/EmailVoucher' is clicked on
+
+2022-02-11 22:31:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:31:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:31:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:31:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598879162.png]]
+
+2022-02-11 22:31:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Header/Email/InputEmails"), "rattan.intersoft@gmail.com"): Text 'rattan.intersoft@gmail.com' is set on object 'Object Repository/Header/Email/InputEmails'
+
+2022-02-11 22:31:26 - [MESSAGE][PASSED] - Text 'rattan.intersoft@gmail.com' is set on object 'Object Repository/Header/Email/InputEmails'
+
+2022-02-11 22:31:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:31:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:31:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:31:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598888580.png]]
+
+2022-02-11 22:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/SendButton")): Object: 'Object Repository/Header/Email/SendButton' is clicked on
+
+2022-02-11 22:31:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/SendButton' is clicked on
+
+2022-02-11 22:31:32 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:31:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:31:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/ClickOnSecndEmailButton")): Object: 'Object Repository/Header/Email/ClickOnSecndEmailButton' is clicked on
+
+2022-02-11 22:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/ClickOnSecndEmailButton' is clicked on
+
+2022-02-11 22:31:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:31:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:31:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:31:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598915894.png]]
+
+2022-02-11 22:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/EmailReceipt")): Object: 'Object Repository/Header/Email/EmailReceipt' is clicked on
+
+2022-02-11 22:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/EmailReceipt' is clicked on
+
+2022-02-11 22:31:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:32:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:32:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598921804.png]]
+
+2022-02-11 22:32:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Header/Email/InputEmails"), "rattan.intersoft@gmail.com"): Text 'rattan.intersoft@gmail.com' is set on object 'Object Repository/Header/Email/InputEmails'
+
+2022-02-11 22:32:08 - [MESSAGE][PASSED] - Text 'rattan.intersoft@gmail.com' is set on object 'Object Repository/Header/Email/InputEmails'
+
+2022-02-11 22:32:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:32:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:32:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598931013.png]]
+
+2022-02-11 22:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Email/SendButton")): Object: 'Object Repository/Header/Email/SendButton' is clicked on
+
+2022-02-11 22:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Email/SendButton' is clicked on
+
+2022-02-11 22:32:14 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-11 22:32:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-11 22:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Download/ClickOnDownloadIcon")): Object: 'Object Repository/Header/Download/ClickOnDownloadIcon' is clicked on
+
+2022-02-11 22:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Download/ClickOnDownloadIcon' is clicked on
+
+2022-02-11 22:32:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:32:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:32:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598950327.png]]
+
+2022-02-11 22:32:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Download/DownloadVoucher")): Object: 'Object Repository/Header/Download/DownloadVoucher' is clicked on
+
+2022-02-11 22:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Download/DownloadVoucher' is clicked on
+
+2022-02-11 22:32:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:32:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:32:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598957549.png]]
+
+2022-02-11 22:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Download/ClickOnDownloadIcon")): Object: 'Object Repository/Header/Download/ClickOnDownloadIcon' is clicked on
+
+2022-02-11 22:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Download/ClickOnDownloadIcon' is clicked on
+
+2022-02-11 22:32:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:32:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:32:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598963497.png]]
+
+2022-02-11 22:32:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Header/Download/Downloadreceipt")): Object: 'Object Repository/Header/Download/Downloadreceipt' is clicked on
+
+2022-02-11 22:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/Download/Downloadreceipt' is clicked on
+
+2022-02-11 22:32:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-02-11 22:32:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-02-11 22:32:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:32:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644598969831.png]]
+
+2022-02-11 22:32:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL' successfully
+
+2022-02-11 22:32:50 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2022-02-11 22:32:50 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2022-02-11 22:32:50 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-11 22:33:03 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-11 22:33:03 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-11 22:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-11 22:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-11 22:33:08 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-11 22:33:21 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-11 22:33:21 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-11 22:33:21 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-11 22:33:21 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-11 22:33:21 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 2
+
+2022-02-11 22:33:21 - [MESSAGE][INFO] - Size of Pagination: 2
+
+2022-02-11 22:33:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-11 22:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-11 22:33:24 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:33:44 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:33:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:33:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599024849.png]]
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - RecordsinListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $RecordsinListing): Size of Active Bookings: 100
+
+2022-02-11 22:33:45 - [MESSAGE][INFO] - Size of Active Bookings: 100
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - for ([refund = 1, refund < RecordsinListing, (refund++)]): Call Test Case 'Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL' successfully
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - refund = RecordsinListing: null
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 100
+
+2022-02-11 22:33:45 - [MESSAGE][INFO] - Size of refund booking: 100
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/ListingArea/ClickondetailPOp-up", ["position":refund]), 15): Scroll to object 'Object Repository/ListingArea/ClickondetailPOp-up' successfully
+
+2022-02-11 22:33:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/ListingArea/ClickondetailPOp-up' successfully
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:33:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599025516.png]]
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164439921876565
+
+2022-02-11 22:33:45 - [MESSAGE][INFO] - Order ID: 164439921876565
+
+2022-02-11 22:33:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-11 22:33:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-11 22:33:49 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:34:09 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:34:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:34:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599049574.png]]
+
+2022-02-11 22:34:09 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon"), 15) == true): Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+
+2022-02-11 22:34:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[contains(text(),'Preview')]//parent::a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:34:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Header/Preview/ClickOnPreviewIcon'. Try using Self-healing.
+
+2022-02-11 22:34:26 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:34:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:34:27 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:34:27 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+
+2022-02-11 22:34:27 - [TEST_STEP][PASSED] - UrlToClick = findWebElement(findTestObject("Object Repository/Header/CopyUrl/CopyUrl")).getAttribute("data-href_url"): null
+
+2022-02-11 22:34:28 - [TEST_STEP][PASSED] - println(UrlToClick): null
+
+2022-02-11 22:34:28 - [TEST_STEP][PASSED] - ActivityUrl = UrlToClick: null
+
+2022-02-11 22:34:28 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-02-11 22:34:28 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-02-11 22:34:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:34:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:34:33 - [TEST_STEP][PASSED] - navigateToUrl(ActivityUrl): Navigate to 'https://activity.test-prio.com/orders/164439921876565' successfully
+
+2022-02-11 22:34:38 - [MESSAGE][PASSED] - Navigate to 'https://activity.test-prio.com/orders/164439921876565' successfully
+
+2022-02-11 22:34:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:34:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599078937.png]]
+
+2022-02-11 22:34:39 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:34:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL' successfully
+
+2022-02-11 22:34:39 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL
+
+2022-02-11 22:34:39 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-02-11 22:34:39 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-02-11 22:34:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:34:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:34:44 - [TEST_STEP][PASSED] - navigateToUrl(ActivityUrl): Navigate to 'https://activity.test-prio.com/orders/164439921876565' successfully
+
+2022-02-11 22:34:50 - [MESSAGE][PASSED] - Navigate to 'https://activity.test-prio.com/orders/164439921876565' successfully
+
+2022-02-11 22:34:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:34:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599092163.png]]
+
+2022-02-11 22:34:52 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:34:52 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon"), 15) == true): Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+
+2022-02-11 22:35:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[contains(text(),'Preview')]//parent::a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:35:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Header/Preview/ClickOnPreviewIcon'. Try using Self-healing.
+
+2022-02-11 22:35:10 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:35:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:35:11 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:35:11 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+
+2022-02-11 22:35:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL' successfully
+
+2022-02-11 22:35:11 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2022-02-11 22:35:12 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2022-02-11 22:35:12 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-11 22:35:25 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-11 22:35:25 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-11 22:35:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-11 22:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-11 22:35:29 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-11 22:35:42 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-11 22:35:42 - [TEST_STEP][PASSED] - if (sizeoflisting < 2): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL" time="28.76" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL" status="PASSED">
+         <system-out><![CDATA[2022-02-11 22:35:42 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL
+
+2022-02-11 22:35:42 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2022-02-11 22:35:42 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-02-11 22:35:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-11 22:35:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-11 22:35:47 - [TEST_STEP][PASSED] - navigateToUrl(ActivityUrl): Navigate to 'https://activity.test-prio.com/orders/164439921876565' successfully
+
+2022-02-11 22:35:51 - [MESSAGE][PASSED] - Navigate to 'https://activity.test-prio.com/orders/164439921876565' successfully
+
+2022-02-11 22:35:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:35:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\EmailDownloadPreview\\20220211_221725\\1644599152510.png]]
+
+2022-02-11 22:35:52 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:35:52 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/Header/Preview/ClickOnPreviewIcon"), 15) == true): Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found
+
+2022-02-11 22:36:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[contains(text(),'Preview')]//parent::a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:36:08 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Header/Preview/ClickOnPreviewIcon'. Try using Self-healing.
+
+2022-02-11 22:36:09 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-11 22:36:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-11 22:36:10 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-11 22:36:10 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Header/Preview/ClickOnPreviewIcon' located by '//span[contains(text(),'Preview')]//parent::a' not found]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-11 22:23:55 - [TEST_SUITE][PASSED] - EmailDownloadPreview: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-EmailDownloadPreview-CopiedURL]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

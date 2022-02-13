@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>SearchProducts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ab5aaf7-1da8-42b8-bba8-edac8e190b41</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>72a6ed9e-3f28-4fa2-b2c1-ce6c9cc342fe</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>098851d6-44aa-4c12-84ed-87fdd9f54833</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>27bbbdba-118f-4237-bc88-7151c71716fe</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a3b5e1e-2a39-4cee-8cd0-f9d0ff2c198e</id>
+      <masked>false</masked>
+      <name>paginationvalue</name>
+   </variable>
+</TestCaseEntity>

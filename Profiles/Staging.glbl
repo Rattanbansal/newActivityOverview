@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Staging</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Logout URL</description>
+      <initValue>'https://stagingmarketplace.prioticket.com'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Superadmin User</description>
+      <initValue>'sanjay.intersoft@gmail.com'</initValue>
+      <name>uname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password</description>
+      <initValue>'mnDDJ28Q4DSt54Kh7ixq7z4GcAvuMur1'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'America'</initValue>
+      <name>LocationName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test'</initValue>
+      <name>searchadminid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1361 - Test'</initValue>
+      <name>searchadminname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Testing Automation Product can ce removed anytime'</initValue>
+      <name>LocationAddtiionalInformation</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

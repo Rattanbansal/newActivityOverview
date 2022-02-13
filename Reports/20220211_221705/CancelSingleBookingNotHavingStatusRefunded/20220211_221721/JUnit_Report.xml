@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CancelSingleBookingNotHavingStatusRefunded" time="211.02" tests="1" failures="0" errors="0">
+   <testsuite name="CancelSingleBookingNotHavingStatusRefunded" tests="1" failures="0" errors="0" time="211.02" skipped="0" timestamp="2022-02-11 22:19:20" hostname="intersoft-admin - DESKTOP-ANQSRIJ" id="Test Suites/CancelSingleBookingNotHavingStatusRefunded">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721"/>
+         <property name="logFiles" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\execution0.log"/>
+         <property name="attachments" value="D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598251757.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598271897.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598302871.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598304758.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598310407.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598325934.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598333803.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598344122.png, D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598363119.png"/>
+         <property name="hostName" value="intersoft-admin - DESKTOP-ANQSRIJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.82"/>
+         <property name="hostAddress" value="192.168.1.59"/>
+         <property name="sessionId" value="6aefae8e2027c3162242a8826ca246ae"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking" time="208.017" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking" status="PASSED">
+         <system-out><![CDATA[2022-02-11 22:19:23 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking
+
+2022-02-11 22:19:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-11 22:19:27 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-11 22:19:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-11 22:19:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-11 22:19:29 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-11 22:19:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-11 22:19:51 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-11 22:19:52 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-11 22:19:52 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-11 22:19:59 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-11 22:19:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:20:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:20:02 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-11 22:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-11 22:20:33 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-11 22:20:43 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-11 22:20:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-11 22:20:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-11 22:20:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:20:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598251757.png]]
+
+2022-02-11 22:20:54 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-11 22:20:56 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-11 22:20:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-11 22:20:56 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-11 22:20:57 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-11 22:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-11 22:21:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:21:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598271897.png]]
+
+2022-02-11 22:21:22 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-11 22:21:22 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-11 22:21:42 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-11 22:21:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:21:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598302871.png]]
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-11 22:21:43 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): null
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-11 22:21:43 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 9
+
+2022-02-11 22:21:43 - [MESSAGE][INFO] - Size of Active Bookings: 9
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 9
+
+2022-02-11 22:21:43 - [MESSAGE][INFO] - Size of refund booking: 9
+
+2022-02-11 22:21:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-11 22:21:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-11 22:21:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:21:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598304758.png]]
+
+2022-02-11 22:21:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund])): Object: 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' is clicked on
+
+2022-02-11 22:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' is clicked on
+
+2022-02-11 22:21:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:21:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598310407.png]]
+
+2022-02-11 22:21:59 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelBookingButton"), 15) == true): null
+
+2022-02-11 22:21:59 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelBookingButton' is clickable
+
+2022-02-11 22:21:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelBookingButton")): Object: 'Object Repository/CancelAndRefund/CancelBookingButton' is clicked on
+
+2022-02-11 22:22:02 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelBookingButton' is clicked on
+
+2022-02-11 22:22:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:22:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:22:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:22:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598325934.png]]
+
+2022-02-11 22:22:07 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up"), 15) == true): null
+
+2022-02-11 22:22:07 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clickable
+
+2022-02-11 22:22:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up")): Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-11 22:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-11 22:22:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:22:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:22:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:22:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598333803.png]]
+
+2022-02-11 22:22:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelBookingButton")): Object: 'Object Repository/CancelAndRefund/CancelBookingButton' is clicked on
+
+2022-02-11 22:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelBookingButton' is clicked on
+
+2022-02-11 22:22:17 - [TEST_STEP][PASSED] - if (refund < 4): null
+
+2022-02-11 22:22:17 - [TEST_STEP][PASSED] - if (refund <= 6 && refund >= 4): null
+
+2022-02-11 22:22:17 - [TEST_STEP][PASSED] - if (refund > 6): null
+
+2022-02-11 22:22:17 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/RefundOptionRadio"), 15) == true): null
+
+2022-02-11 22:22:17 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is clickable
+
+2022-02-11 22:22:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/RefundOptionRadio")): Object: 'Object Repository/CancelAndRefund/RefundOptionRadio' is clicked on
+
+2022-02-11 22:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/RefundOptionRadio' is clicked on
+
+2022-02-11 22:22:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:22:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:22:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:22:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598344122.png]]
+
+2022-02-11 22:22:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CancelAndRefund/ReasonForCancellation"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-11 22:22:33 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-11 22:22:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/ConfirmCancellationButton")): Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-11 22:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-11 22:22:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-11 22:22:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-11 22:22:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-11 22:22:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\xampp\\htdocs\\training\\Training\\Rattan\\Final_testing\\New_ActivityOverview\\Reports\\20220211_221705\\CancelSingleBookingNotHavingStatusRefunded\\20220211_221721\\1644598363119.png]]
+
+2022-02-11 22:22:48 - [TEST_STEP][PASSED] - if (sizeoflisting < 2): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-11 22:19:20 - [TEST_SUITE][PASSED] - CancelSingleBookingNotHavingStatusRefunded: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

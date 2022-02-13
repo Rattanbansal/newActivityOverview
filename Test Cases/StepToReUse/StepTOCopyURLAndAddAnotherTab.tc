@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>StepTOCopyURLAndAddAnotherTab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44b66d1f-e432-45bb-8082-e4252074192b</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>d11d0a75-af6e-414d-9fa3-f0deba5abe75</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>6b5292a2-f9f1-439a-98d2-0d027272c157</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>f0d9b564-50f7-4bb4-baf1-59d32cd0c622</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0549cf7f-645c-489c-bccc-96de2d93a152</id>
+      <masked>false</masked>
+      <name>paginationvalue</name>
+   </variable>
+</TestCaseEntity>

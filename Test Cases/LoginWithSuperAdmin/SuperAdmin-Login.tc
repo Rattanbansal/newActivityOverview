@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirections to Supplier all Left Navigations</description>
+   <name>SuperAdmin-Login</name>
+   <tag>Redirections</tag>
+   <comment></comment>
+   <testCaseGuid>fad4918a-0ce8-4e34-8793-c8b4586050f3</testCaseGuid>
+</TestCaseEntity>

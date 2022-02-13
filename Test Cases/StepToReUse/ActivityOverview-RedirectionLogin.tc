@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Redirect to New Activity Overview</description>
+   <name>ActivityOverview-RedirectionLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>88349e09-42b9-4f0e-8d0b-5120f86a4c10</testCaseGuid>
+   <variable>
+      <defaultValue>'test'</defaultValue>
+      <description></description>
+      <id>28493d03-4f52-450a-b063-66d139f3c61d</id>
+      <masked>false</masked>
+      <name>searchtext1</name>
+   </variable>
+   <variable>
+      <defaultValue>'rattan'</defaultValue>
+      <description></description>
+      <id>4b202b25-c9b3-4100-9977-52fbc1db7e61</id>
+      <masked>false</masked>
+      <name>searchtext2</name>
+   </variable>
+   <variable>
+      <defaultValue>'453354r'</defaultValue>
+      <description></description>
+      <id>c9fe8645-57d6-47c0-9d7d-6e06d9187e6d</id>
+      <masked>false</masked>
+      <name>searchtext3</name>
+   </variable>
+</TestCaseEntity>
