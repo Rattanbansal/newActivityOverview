@@ -41,26 +41,13 @@ jobs:
       - run:
           name: Run Katalon Test
           command: |
-            set -x
             set -o nounset
-            
             curl -v -m 10 $SERVER_URL/info
             mkdir /agent
             cd /agent
             wget -O agent "${AGENT_DOWNLOAD_LINK}"
-            echo "${JOB_INFO}" >> job.json
             set +x
             echo "<< pipeline.parameters.agent-config >>" >> agentconfig
-            set -x
-            
-            cat agentconfig
-            chmod 777 *
-            ls -al
-            
-            xvfb-run -s "-screen 0 $DISPLAY_CONFIGURATION" ./agent start-agent --ci
-            ret_code=$?
-            
-            exit $ret_code
 workflows:
   version: 2.1
   build_and_test:
