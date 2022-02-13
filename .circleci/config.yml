@@ -45,8 +45,6 @@ jobs:
             mkdir /agent
             cd /agent
             wget -O agent "${AGENT_DOWNLOAD_LINK}"
-            set +x
-            echo "<< pipeline.parameters.agent-config >>" >> agentconfig
 workflows:
   version: 2.1
   build_and_test:
