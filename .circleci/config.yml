@@ -42,7 +42,7 @@ jobs:
       - run: ls -a
       - run: ls -l
       - run: docker --version
-      - run: apt install docker.io
+      - run: apt-get install docker.io
       - run: bash run_chrome.sh
 workflows:
   version: 2.1
