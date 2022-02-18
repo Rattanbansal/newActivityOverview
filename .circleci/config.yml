@@ -52,6 +52,7 @@ jobs:
       - checkout
       - run: ls -a
       - run: ls -l
+      - run: docker-compose --version
       - run: bash run_chrome.sh
 workflows:
   version: 2.1
