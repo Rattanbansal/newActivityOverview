@@ -42,7 +42,7 @@ jobs:
           name: Run Katalon Test
           command: |
             pwd
-            git status
+            ls -a
             docker images
 workflows:
   version: 2.1
