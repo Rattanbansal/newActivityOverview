@@ -37,7 +37,7 @@ jobs:
         auth:
           username: mydockerhub-user
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
-    working_directory: /go/src/github.com/circleci/cci-demo-docker
+    #working_directory: /go/src/github.com/circleci/cci-demo-docker
     environment:
       AGENT_DOWNLOAD_LINK: << pipeline.parameters.agent-download-link >>
       JOB_INFO: << pipeline.parameters.job-info >>
