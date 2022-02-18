@@ -39,13 +39,9 @@ jobs:
       SERVER_URL: << pipeline.parameters.server-url >>
     steps:
       - checkout
-      - run:
-          name: Run Katalon Test
-          command: |
-            pwd
-            ls -a
-            ls -l
-            echo 'Checkout Completed'
+      - run: ls -a
+      - run: ls -l
+      - run: bash run_chrome.sh
 workflows:
   version: 2.1
   build_and_test:
