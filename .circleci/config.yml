@@ -38,9 +38,6 @@ jobs:
         environment:
           POSTGRES_USER: ubuntu
           POSTGRES_DB: contacts
-    
-      - image: cimg/go:2020.01
-      - image: circleci/node:14.17.3-buster-browsers
         auth:
           username: mydockerhub-user
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
