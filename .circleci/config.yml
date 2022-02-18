@@ -30,7 +30,7 @@ parameters:
     default: ""
 
 jobs:
-  katalon-test:
+  katalon-circleci:
     docker:
       - image: katalonstudio/katalon:<< pipeline.parameters.kre-image-tag >>
     environment:
@@ -45,8 +45,9 @@ jobs:
             pwd
             ls -a
             ls -l
+            echo 'Checkout Completed'
 workflows:
   version: 2.1
   build_and_test:
     jobs:
-      - katalon-test
+      - katalon-circleci
