@@ -58,6 +58,7 @@ jobs:
       - run: docker pull katalonstudio/katalon
       - run: docker images
       - checkout
+      - run: pwd
       - run: ls -a
       - run: ls -l
       - run: bash run_chrome.sh
