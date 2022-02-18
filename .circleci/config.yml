@@ -33,19 +33,45 @@ jobs:
   katalon-circleci:
     docker:
       - image: katalonstudio/katalon:<< pipeline.parameters.kre-image-tag >>
+      - image: circleci/cci-demo-docker-primary:0.0.2
+      - image: postgres:9.4.1
+        environment:
+          POSTGRES_USER: ubuntu
+          POSTGRES_DB: contacts
+    
       - image: cimg/go:2020.01
       - image: circleci/node:14.17.3-buster-browsers
         auth:
           username: mydockerhub-user
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
+    working_directory: /go/src/github.com/circleci/cci-demo-docker
     environment:
       AGENT_DOWNLOAD_LINK: << pipeline.parameters.agent-download-link >>
       JOB_INFO: << pipeline.parameters.job-info >>
       SERVER_URL: << pipeline.parameters.server-url >>
+      TEST_RESULTS: /tmp/test-results
     steps:
       - setup_remote_docker:
           docker_layer_caching: true
-      - run: docker build .
+      - run:
+          name: Install Docker client
+          command: |
+            set -x
+            VER="17.03.0-ce"
+            curl -L -o /tmp/docker-$VER.tgz https://get.docker.com/builds/Linux/x86_64/docker-$VER.tgz
+            tar -xz -C /tmp -f /tmp/docker-$VER.tgz
+            mv /tmp/docker/* /usr/bin
+      - run:
+          name: Build service
+          command: make
+
+      - run:
+          name: Build and push Docker image
+          command: |
+            TAG="0.1.${CIRCLE_BUILD_NUM}"
+            docker build -t circleci/cci-demo-docker:$TAG .
+            docker login -u $DOCKER_LOGIN -p $DOCKER_PASSWORD
+            docker push circleci/cci-demo-docker:$TAG
       - checkout
       - run: ls -a
       - run: ls -l
