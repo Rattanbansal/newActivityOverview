@@ -43,8 +43,7 @@ jobs:
           command: |
             pwd
             ls -a
-            git clone git@github.com:Rattanbansal/newActivityOverview.git
-            yes
+            ls -l
 workflows:
   version: 2.1
   build_and_test:
