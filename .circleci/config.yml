@@ -60,6 +60,7 @@ jobs:
       - checkout
       - run: ls -a
       - run: ls -l
+      - run: bash run_chrome.sh
 workflows:
   version: 2.1
   build_and_test:
