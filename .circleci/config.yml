@@ -43,7 +43,7 @@ jobs:
           command: |
             pwd
             ls -a
-            docker images
+    
 workflows:
   version: 2.1
   build_and_test:
