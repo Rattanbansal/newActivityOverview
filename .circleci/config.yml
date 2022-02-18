@@ -33,6 +33,7 @@ jobs:
   katalon-circleci:
     docker:
       - image: katalonstudio/katalon:<< pipeline.parameters.kre-image-tag >>
+      - image: cimg/go:2020.01
       - image: circleci/node:14.17.3-buster-browsers
         auth:
           username: mydockerhub-user
