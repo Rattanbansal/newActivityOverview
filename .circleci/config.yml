@@ -38,17 +38,13 @@ jobs:
       JOB_INFO: << pipeline.parameters.job-info >>
       SERVER_URL: << pipeline.parameters.server-url >>
     steps:
-
       - setup_remote_docker:
-          version: 19.03.13
+          version: 19.03.1;
+          docker_layer_caching: true
       - run:
-          name: Install Docker Compose
-          environment:
-            COMPOSE_VERSION: '1.29.2'
+          name: Docker Image Build
           command: |
-            curl -L "https://github.com/docker/compose/releases/download/${COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o ~/docker-compose
-            chmod +x ~/docker-compose
-            mv ~/docker-compose /usr/local/bin/docker-compose
+            docker build -t   ci-image:latest .
       - checkout
       - run: ls -a
       - run: ls -l
