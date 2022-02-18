@@ -41,10 +41,7 @@ jobs:
       - run:
           name: Run Katalon Test
           command: |
-            set -o nounset
-            mkdir /agent
-            cd /agent
-            wget -O agent "${AGENT_DOWNLOAD_LINK}"
+            pwd
 workflows:
   version: 2.1
   build_and_test:
