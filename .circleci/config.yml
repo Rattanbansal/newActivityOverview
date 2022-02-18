@@ -33,6 +33,7 @@ jobs:
   katalon-circleci:
     docker:
       - image: katalonstudio/katalon:<< pipeline.parameters.kre-image-tag >>
+      - image: cimg/go:1.13
     environment:
       AGENT_DOWNLOAD_LINK: << pipeline.parameters.agent-download-link >>
       JOB_INFO: << pipeline.parameters.job-info >>
