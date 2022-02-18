@@ -41,6 +41,7 @@ jobs:
       - checkout
       - run: ls -a
       - run: ls -l
+      - run: docker --version
       - run: apt install docker.io
       - run: bash run_chrome.sh
 workflows:
