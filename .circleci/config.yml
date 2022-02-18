@@ -33,7 +33,11 @@ jobs:
   katalon-circleci:
     docker:
       - image: katalonstudio/katalon:<< pipeline.parameters.kre-image-tag >>
-      - image: cimg/go:1.13
+      - image: cimg/go:2020.01
+      - image: circleci/node:14.17.3-buster-browsers
+        auth:
+          username: mydockerhub-user
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     environment:
       AGENT_DOWNLOAD_LINK: << pipeline.parameters.agent-download-link >>
       JOB_INFO: << pipeline.parameters.job-info >>
@@ -41,15 +45,10 @@ jobs:
     steps:
       - setup_remote_docker:
           docker_layer_caching: true
-      - run:
-          name: Docker Image Build
-          command: |
-            docker build -t   ci-image:latest .
+      - run: docker build .
       - checkout
       - run: ls -a
       - run: ls -l
-      - run: docker-compose --version
-      - run: docker run -t --rm -v /home/intersoft-admin/Rattan/Katalon/newActivityOverview:/katalon/katalon/source katalonstudio/katalon katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/ActivityOverview-FiltersAndColumns" -apiKey="22937998-3f24-4da4-aedb-4d9bae4a896d" -executionProfile="Development"
 workflows:
   version: 2.1
   build_and_test:
