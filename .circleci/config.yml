@@ -52,7 +52,7 @@ jobs:
       #- run: docker --version
       #- run: docker pull katalonstudio/katalon
       #- run: docker images
-      #- checkout
+      - checkout
       - run: git clone git@github.com:Rattanbansal/newActivityOverview.git
       - run: pwd
       - run: ls -a
