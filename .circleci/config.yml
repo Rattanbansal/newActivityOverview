@@ -57,7 +57,8 @@ jobs:
       - run: pwd
       - run: ls -a
       - run: ls -l
-      - run: git clone git@github.com:Rattanbansal/newActivityOverview.git
+      - run: cd newActivityOverview
+      - run: ls -l
       #- run: docker run -t --rm -v /tmp/katalon_execute/project:/katalon/katalon/source katalonstudio/katalon katalon-execute.sh -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/ActivityOverview-FiltersAndColumns" -apiKey="22937998-3f24-4da4-aedb-4d9bae4a896d" -executionProfile="Development" #bash run_chrome.sh
 
 workflows:
