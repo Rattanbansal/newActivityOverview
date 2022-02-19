@@ -1,315 +1,315 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="ActivityOverview-FiltersAndColumns" time="158.925" tests="1" failures="0" errors="0">
-   <testsuite name="ActivityOverview-FiltersAndColumns" tests="1" failures="0" errors="0" time="158.925" skipped="0" timestamp="2022-02-18 07:10:13" hostname="root - b2139f7c80dc" id="Test Suites/ActivityOverview-FiltersAndColumns">
+<testsuites name="ActivityOverview-FiltersAndColumns" time="155.741" tests="1" failures="0" errors="0">
+   <testsuite name="ActivityOverview-FiltersAndColumns" tests="1" failures="0" errors="0" time="155.741" skipped="0" timestamp="2022-02-19 04:49:27" hostname="root - 5630067c0434" id="Test Suites/ActivityOverview-FiltersAndColumns">
       <properties>
          <property name="deviceName" value=""/>
          <property name="devicePlatform" value=""/>
-         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003"/>
-         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/execution0.log"/>
-         <property name="attachments" value="/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168240289.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168258615.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168269178.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168275790.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168279188.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168282563.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168285970.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168289372.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168292812.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168299217.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168302574.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168305974.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168309358.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168312770.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168332285.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168335648.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168339022.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168342423.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168345802.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168349148.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168352536.png, /tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168355909.png"/>
-         <property name="hostName" value="root - b2139f7c80dc"/>
+         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917"/>
+         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/execution0.log"/>
+         <property name="attachments" value="/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246194546.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246209322.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246219920.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246226465.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246229870.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246233277.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246236688.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246240099.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246243522.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246249930.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246253286.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246256683.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246260068.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246263439.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246282997.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246286379.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246289765.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246293156.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246296547.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246299920.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246303304.png, /tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246306678.png"/>
+         <property name="hostName" value="root - 5630067c0434"/>
          <property name="os" value="Linux 64bit"/>
          <property name="katalonVersion" value="8.2.5.208"/>
          <property name="browser" value="Chrome 97.0.4692.99"/>
          <property name="hostAddress" value="172.17.0.2"/>
-         <property name="sessionId" value="db93fad2f7f36044c7b28a70daf3175e"/>
+         <property name="sessionId" value="5cf7aa2bf1edc8b0602360b26854d722"/>
          <property name="seleniumVersion" value="3.141.59"/>
          <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
          <property name="platform" value="Linux"/>
       </properties>
-      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn" time="158.681" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn" status="PASSED">
-         <system-out><![CDATA[2022-02-18 07:10:13 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn" time="155.523" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn" status="PASSED">
+         <system-out><![CDATA[2022-02-19 04:49:27 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn
 
-2022-02-18 07:10:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+2022-02-19 04:49:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
 
-2022-02-18 07:10:14 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+2022-02-19 04:49:28 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
 
-2022-02-18 07:10:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+2022-02-19 04:49:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
 
-2022-02-18 07:10:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+2022-02-19 04:49:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
 
-2022-02-18 07:10:14 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+2022-02-19 04:49:28 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
 
-2022-02-18 07:10:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+2022-02-19 04:49:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
 
-2022-02-18 07:10:15 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+2022-02-19 04:49:29 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
 
-2022-02-18 07:10:15 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+2022-02-19 04:49:29 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
 
-2022-02-18 07:10:15 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+2022-02-19 04:49:29 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
 
-2022-02-18 07:10:20 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+2022-02-19 04:49:34 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
 
-2022-02-18 07:10:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+2022-02-19 04:49:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
 
-2022-02-18 07:10:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+2022-02-19 04:49:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
 
-2022-02-18 07:10:23 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+2022-02-19 04:49:37 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
 
-2022-02-18 07:10:27 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+2022-02-19 04:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
 
-2022-02-18 07:10:27 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+2022-02-19 04:49:41 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
 
-2022-02-18 07:10:33 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+2022-02-19 04:49:47 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
 
-2022-02-18 07:10:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+2022-02-19 04:49:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
 
-2022-02-18 07:10:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+2022-02-19 04:49:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
 
-2022-02-18 07:10:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:49:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:10:40 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168240289.png]]
+2022-02-19 04:49:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246194546.png]]
 
-2022-02-18 07:10:40 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+2022-02-19 04:49:54 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
 
-2022-02-18 07:10:40 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+2022-02-19 04:49:55 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
 
-2022-02-18 07:10:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+2022-02-19 04:49:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
 
-2022-02-18 07:10:40 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+2022-02-19 04:49:55 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
 
-2022-02-18 07:10:40 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+2022-02-19 04:49:55 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
 
-2022-02-18 07:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+2022-02-19 04:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
 
-2022-02-18 07:10:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:50:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:10:58 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168258615.png]]
+2022-02-19 04:50:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246209322.png]]
 
-2022-02-18 07:10:58 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+2022-02-19 04:50:09 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
 
-2022-02-18 07:10:59 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+2022-02-19 04:50:09 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
 
-2022-02-18 07:11:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+2022-02-19 04:50:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
 
-2022-02-18 07:11:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:50:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:09 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168269178.png]]
+2022-02-19 04:50:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246219920.png]]
 
-2022-02-18 07:11:09 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+2022-02-19 04:50:20 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
 
-2022-02-18 07:11:09 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+2022-02-19 04:50:20 - [TEST_STEP][PASSED] - println(sizeoflisting): null
 
-2022-02-18 07:11:09 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+2022-02-19 04:50:20 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
 
-2022-02-18 07:11:09 - [MESSAGE][INFO] - Size of Order Listing: 11
+2022-02-19 04:50:20 - [MESSAGE][INFO] - Size of Order Listing: 11
 
-2022-02-18 07:11:09 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Delayed 10 second(s)
+2022-02-19 04:50:20 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Delayed 10 second(s)
 
-2022-02-18 07:11:09 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+2022-02-19 04:50:20 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
 
-2022-02-18 07:11:09 - [MESSAGE][INFO] - Orders Exist in Listing
+2022-02-19 04:50:20 - [MESSAGE][INFO] - Orders Exist in Listing
 
-2022-02-18 07:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ClickonEyeView")): Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
+2022-02-19 04:50:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ClickonEyeView")): Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
 
-2022-02-18 07:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
+2022-02-19 04:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
 
-2022-02-18 07:11:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+2022-02-19 04:50:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
 
-2022-02-18 07:11:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+2022-02-19 04:50:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
 
-2022-02-18 07:11:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:50:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:16 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168275790.png]]
+2022-02-19 04:50:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246226465.png]]
 
-2022-02-18 07:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"1"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"1"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:50:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:19 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168279188.png]]
+2022-02-19 04:50:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246229870.png]]
 
-2022-02-18 07:11:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"2"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"2"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:50:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:22 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168282563.png]]
+2022-02-19 04:50:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246233277.png]]
 
-2022-02-18 07:11:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"3"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"3"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:50:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:26 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168285970.png]]
+2022-02-19 04:50:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246236688.png]]
 
-2022-02-18 07:11:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"4"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"4"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:50:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:29 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168289372.png]]
+2022-02-19 04:50:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246240099.png]]
 
-2022-02-18 07:11:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"5"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"5"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:50:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:33 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168292812.png]]
+2022-02-19 04:50:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246243522.png]]
 
-2022-02-18 07:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"6"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"6"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+2022-02-19 04:50:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
 
-2022-02-18 07:11:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+2022-02-19 04:50:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
 
-2022-02-18 07:11:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:50:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:39 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168299217.png]]
+2022-02-19 04:50:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246249930.png]]
 
-2022-02-18 07:11:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"7"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"7"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:50:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:42 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168302574.png]]
+2022-02-19 04:50:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246253286.png]]
 
-2022-02-18 07:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"8"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"8"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:50:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:46 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168305974.png]]
+2022-02-19 04:50:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246256683.png]]
 
-2022-02-18 07:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"9"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:50:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"9"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:51:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:49 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168309358.png]]
+2022-02-19 04:51:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246260068.png]]
 
-2022-02-18 07:11:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"10"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"10"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:11:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:51:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:11:52 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168312770.png]]
+2022-02-19 04:51:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246263439.png]]
 
-2022-02-18 07:11:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/SaveButton")): Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
+2022-02-19 04:51:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/SaveButton")): Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
 
-2022-02-18 07:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
+2022-02-19 04:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
 
-2022-02-18 07:11:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+2022-02-19 04:51:06 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
 
-2022-02-18 07:12:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+2022-02-19 04:51:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
 
-2022-02-18 07:12:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ClickonEyeView")): Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
+2022-02-19 04:51:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ClickonEyeView")): Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
 
-2022-02-18 07:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
+2022-02-19 04:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ClickonEyeView' is clicked on
 
-2022-02-18 07:12:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+2022-02-19 04:51:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
 
-2022-02-18 07:12:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+2022-02-19 04:51:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
 
-2022-02-18 07:12:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:51:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:12:12 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168332285.png]]
+2022-02-19 04:51:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246282997.png]]
 
-2022-02-18 07:12:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"1"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"1"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:51:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:12:15 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168335648.png]]
+2022-02-19 04:51:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246286379.png]]
 
-2022-02-18 07:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"2"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"2"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:51:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:12:19 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168339022.png]]
+2022-02-19 04:51:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246289765.png]]
 
-2022-02-18 07:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"3"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"3"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:51:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:12:22 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168342423.png]]
+2022-02-19 04:51:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246293156.png]]
 
-2022-02-18 07:12:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"7"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"7"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:51:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:12:26 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168345802.png]]
+2022-02-19 04:51:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246296547.png]]
 
-2022-02-18 07:12:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"8"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"8"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:51:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:12:29 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168349148.png]]
+2022-02-19 04:51:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246299920.png]]
 
-2022-02-18 07:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"9"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"9"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:51:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:12:32 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168352536.png]]
+2022-02-19 04:51:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246303304.png]]
 
-2022-02-18 07:12:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"10"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns", ["position":"10"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
+2022-02-19 04:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/AddExtraColumns' is clicked on
 
-2022-02-18 07:12:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+2022-02-19 04:51:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
 
-2022-02-18 07:12:36 - [MESSAGE][PASSED] - Taking screenshot successfully
-[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220218_071001/ActivityOverview-FiltersAndColumns/20220218_071003/1645168355909.png]]
+2022-02-19 04:51:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220219_044916/ActivityOverview-FiltersAndColumns/20220219_044917/1645246306678.png]]
 
-2022-02-18 07:12:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/OrderPerPage", ["position":"3"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/OrderPerPage' is clicked on
+2022-02-19 04:51:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/OrderPerPage", ["position":"3"])): Object: 'Object Repository/ListViewIcon/ExtraColumns/OrderPerPage' is clicked on
 
-2022-02-18 07:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/OrderPerPage' is clicked on
+2022-02-19 04:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/OrderPerPage' is clicked on
 
-2022-02-18 07:12:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/SaveButton")): Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
+2022-02-19 04:51:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListViewIcon/ExtraColumns/SaveButton")): Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
 
-2022-02-18 07:12:42 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
+2022-02-19 04:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ListViewIcon/ExtraColumns/SaveButton' is clicked on
 
-2022-02-18 07:12:42 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+2022-02-19 04:51:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
 
-2022-02-18 07:12:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+2022-02-19 04:52:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
 
-2022-02-18 07:12:52 - [TEST_STEP][PASSED] - if (sizeoflisting < 2): null]]></system-out>
+2022-02-19 04:52:03 - [TEST_STEP][PASSED] - if (sizeoflisting < 2): null]]></system-out>
          <system-err><![CDATA[]]></system-err>
       </testcase>
-      <system-out><![CDATA[2022-02-18 07:10:13 - [TEST_SUITE][PASSED] - ActivityOverview-FiltersAndColumns: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn]]></system-out>
+      <system-out><![CDATA[2022-02-19 04:49:27 - [TEST_SUITE][PASSED] - ActivityOverview-FiltersAndColumns: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ViewFilterAndColumn]]></system-out>
       <system-err><![CDATA[]]></system-err>
    </testsuite>
 </testsuites>
