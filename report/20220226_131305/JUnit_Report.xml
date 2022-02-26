@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SearchAndSorting" time="902.537" tests="1" failures="0" errors="0">
+   <testsuite name="SearchAndSorting" tests="1" failures="0" errors="0" time="902.537" skipped="0" timestamp="2022-02-26 14:13:07" hostname="root - 6cfc5c2788e7" id="Test Suites/SearchAndSorting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305"/>
+         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/execution0.log"/>
+         <property name="attachments" value="/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884814139.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884830591.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884831144.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884883829.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884913277.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884942735.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884966209.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884989594.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885012950.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885045532.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885074967.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885104416.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885127816.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885136176.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885159547.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885167901.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885191276.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885199638.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885223026.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885275609.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885283971.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885307356.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885315722.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885339104.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885347466.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885370852.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885423439.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885431795.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885455188.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885463568.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885486942.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885495310.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885518696.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885571283.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885579638.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885603019.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885611389.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885634775.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885643126.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885666497.png, /tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885686747.png"/>
+         <property name="hostName" value="root - 6cfc5c2788e7"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="sessionId" value="ffc725ec87cbcc4cc36d849e2e788a30"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingSearchSorting" time="902.339" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingSearchSorting" status="PASSED">
+         <system-out><![CDATA[2022-02-26 14:13:07 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingSearchSorting: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingSearchSorting
+
+2022-02-26 14:13:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 14:13:08 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-26 14:13:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-26 14:13:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-26 14:13:08 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-26 14:13:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-26 14:13:09 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 14:13:09 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 14:13:09 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 14:13:14 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 14:13:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 14:13:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 14:13:17 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 14:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 14:13:20 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 14:13:27 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 14:13:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 14:13:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 14:13:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:13:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884814139.png]]
+
+2022-02-26 14:13:34 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 14:13:34 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 14:13:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 14:13:34 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-26 14:13:34 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 14:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 14:13:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:13:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884830591.png]]
+
+2022-02-26 14:13:50 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-26 14:13:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:13:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884831144.png]]
+
+2022-02-26 14:13:51 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:14:11 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:14:11 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-26 14:14:11 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-26 14:14:11 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-26 14:14:11 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-26 14:14:11 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-26 14:14:11 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-26 14:14:11 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-26 14:14:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:14:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext1): Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:14:20 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:14:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:14:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:14:23 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:14:43 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:14:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:14:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884883829.png]]
+
+2022-02-26 14:14:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext2): Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:14:50 - [MESSAGE][PASSED] - Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:14:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:14:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:14:53 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:15:13 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:15:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:15:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884913277.png]]
+
+2022-02-26 14:15:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext3): Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:15:19 - [MESSAGE][PASSED] - Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:15:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:15:22 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:15:22 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:15:42 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:15:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:15:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884942735.png]]
+
+2022-02-26 14:15:42 - [TEST_STEP][PASSED] - searchlistingsize = findWebElements(findTestObject("Object Repository/ListingArea/Search/SearchResultList"), 5).size(): null
+
+2022-02-26 14:15:43 - [TEST_STEP][PASSED] - logInfo(Size of Search Listing: $searchlistingsize): Size of Search Listing: 3
+
+2022-02-26 14:15:43 - [MESSAGE][INFO] - Size of Search Listing: 3
+
+2022-02-26 14:15:43 - [TEST_STEP][PASSED] - for ([m = 1, m <= searchlistingsize, (m++)]): Taking screenshot successfully
+
+2022-02-26 14:15:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/SearchCancelButton", ["position":"1"])): Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-26 14:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-26 14:15:46 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:16:06 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:16:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:16:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884966209.png]]
+
+2022-02-26 14:16:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/SearchCancelButton", ["position":"1"])): Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-26 14:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-26 14:16:09 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:16:29 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:16:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:16:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645884989594.png]]
+
+2022-02-26 14:16:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/SearchCancelButton", ["position":"1"])): Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-26 14:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-26 14:16:32 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:16:52 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:16:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:16:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885012950.png]]
+
+2022-02-26 14:16:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:16:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext1): Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:17:02 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:17:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:17:05 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:17:05 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:17:25 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:17:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:17:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885045532.png]]
+
+2022-02-26 14:17:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext2): Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:17:31 - [MESSAGE][PASSED] - Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:17:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:17:34 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:17:34 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:17:54 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:17:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:17:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885074967.png]]
+
+2022-02-26 14:17:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext3): Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:18:01 - [MESSAGE][PASSED] - Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:18:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:18:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:18:04 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:18:24 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:18:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:18:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885104416.png]]
+
+2022-02-26 14:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/ClearSearch")): Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-26 14:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-26 14:18:27 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:18:47 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:18:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:18:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885127816.png]]
+
+2022-02-26 14:18:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:18:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:18:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:18:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:18:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885136176.png]]
+
+2022-02-26 14:18:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:18:59 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:19:19 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:19:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:19:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885159547.png]]
+
+2022-02-26 14:19:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:19:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:19:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:19:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:19:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885167901.png]]
+
+2022-02-26 14:19:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:19:31 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:19:51 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:19:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:19:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885191276.png]]
+
+2022-02-26 14:19:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:19:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:19:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:19:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:19:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885199638.png]]
+
+2022-02-26 14:19:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:20:03 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:20:23 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:20:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:20:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885223026.png]]
+
+2022-02-26 14:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:20:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext1): Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:20:32 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:20:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:20:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:20:35 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:20:55 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:20:55 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:21:15 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:21:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:21:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885275609.png]]
+
+2022-02-26 14:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:21:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:21:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:21:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:21:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885283971.png]]
+
+2022-02-26 14:21:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:21:27 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:21:47 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:21:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:21:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885307356.png]]
+
+2022-02-26 14:21:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:21:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:21:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:21:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:21:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885315722.png]]
+
+2022-02-26 14:21:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:21:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:21:59 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:22:19 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:22:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:22:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885339104.png]]
+
+2022-02-26 14:22:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:22:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:22:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:22:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:22:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885347466.png]]
+
+2022-02-26 14:22:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:22:30 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:22:50 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:22:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:22:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885370852.png]]
+
+2022-02-26 14:22:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:22:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext2): Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:23:00 - [MESSAGE][PASSED] - Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:23:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:23:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:23:03 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:23:23 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:23:23 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:23:43 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:23:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:23:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885423439.png]]
+
+2022-02-26 14:23:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:23:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:23:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:23:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:23:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885431795.png]]
+
+2022-02-26 14:23:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:23:55 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:24:15 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:24:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:24:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885455188.png]]
+
+2022-02-26 14:24:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:24:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:24:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:24:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:24:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885463568.png]]
+
+2022-02-26 14:24:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:24:26 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:24:46 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:24:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:24:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885486942.png]]
+
+2022-02-26 14:24:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:24:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:24:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:24:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:24:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885495310.png]]
+
+2022-02-26 14:24:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:24:58 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:25:18 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:25:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:25:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885518696.png]]
+
+2022-02-26 14:25:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:25:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext3): Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:25:28 - [MESSAGE][PASSED] - Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:25:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:25:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:25:31 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:25:51 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:25:51 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:26:11 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:26:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:26:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885571283.png]]
+
+2022-02-26 14:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:26:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:26:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:26:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:26:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885579638.png]]
+
+2022-02-26 14:26:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:26:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:26:22 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:26:43 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:26:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:26:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885603019.png]]
+
+2022-02-26 14:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:26:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:26:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:26:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:26:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885611389.png]]
+
+2022-02-26 14:26:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:26:54 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:27:14 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:27:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:27:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885634775.png]]
+
+2022-02-26 14:27:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:27:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-26 14:27:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:27:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:27:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:27:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885643126.png]]
+
+2022-02-26 14:27:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-26 14:27:26 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:27:46 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:27:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:27:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885666497.png]]
+
+2022-02-26 14:27:46 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:28:06 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:28:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:28:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/SearchAndSorting/20220226_131305/1645885686747.png]]
+
+2022-02-26 14:28:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/ClearSearch")): Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-26 14:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-26 14:28:10 - [TEST_STEP][PASSED] - if (sizeoflisting < 2): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-26 14:13:07 - [TEST_SUITE][PASSED] - SearchAndSorting: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingSearchSorting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

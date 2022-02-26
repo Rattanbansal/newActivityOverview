@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pagination" time="770.325" tests="1" failures="1" errors="0">
+   <testsuite name="Pagination" tests="1" failures="1" errors="0" time="770.325" skipped="0" timestamp="2022-02-26 14:31:19" hostname="root - 6cfc5c2788e7" id="Test Suites/Pagination">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309"/>
+         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/execution0.log"/>
+         <property name="attachments" value="/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645885906051.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645885923072.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645885943626.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645885975232.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645885998687.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886022145.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886045601.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886069038.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886092484.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886115928.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886139362.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886162799.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886186236.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886209682.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886233116.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886256558.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886280006.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886303451.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886326869.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886350312.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886373763.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886397203.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886420658.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886444123.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886467576.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886491019.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886514473.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886537922.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886561374.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886584819.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886608276.png, /tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886649601.png"/>
+         <property name="hostName" value="root - 6cfc5c2788e7"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="sessionId" value="68835b5137c08312d6022a4834998a4a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-Pagination" time="770.136" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-Pagination" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-Pagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-Pagination.run(ActivityOverview-Pagination:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881189075.run(TempTestSuite1645881189075.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaginationCOunt/ClickOnPagination' located by '(//div[@class='orderOverviewPaginateBottom']//following-sibling::span)[1]//a[4]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-02-26 14:31:19 - [TEST_CASE][FAILED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-Pagination: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-Pagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-Pagination.run(ActivityOverview-Pagination:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881189075.run(TempTestSuite1645881189075.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaginationCOunt/ClickOnPagination' located by '(//div[@class='orderOverviewPaginateBottom']//following-sibling::span)[1]//a[4]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-02-26 14:31:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 14:31:20 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-26 14:31:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-26 14:31:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-26 14:31:20 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-26 14:31:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-26 14:31:21 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 14:31:21 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 14:31:21 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 14:31:26 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 14:31:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 14:31:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 14:31:29 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 14:31:32 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 14:31:32 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 14:31:39 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 14:31:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 14:31:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 14:31:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:31:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645885906051.png]]
+
+2022-02-26 14:31:46 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 14:31:46 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 14:31:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 14:31:46 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-26 14:31:46 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 14:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 14:32:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:32:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645885923072.png]]
+
+2022-02-26 14:32:03 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-26 14:32:03 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:32:23 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:32:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:32:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645885943626.png]]
+
+2022-02-26 14:32:23 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-26 14:32:23 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-26 14:32:23 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-26 14:32:23 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-26 14:32:23 - [TEST_STEP][FAILED] - if (sizeoflisting > 2): Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-Pagination.run(ActivityOverview-Pagination:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881189075.run(TempTestSuite1645881189075.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaginationCOunt/ClickOnPagination' located by '(//div[@class='orderOverviewPaginateBottom']//following-sibling::span)[1]//a[4]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1643628703989.run(Script1643628703989.groovy:86)
+	... 13 more
+)
+
+2022-02-26 14:32:23 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-26 14:32:23 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-26 14:32:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage_select")): Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-26 14:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-26 14:32:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:32:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:32:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage-SelectOption")): Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-26 14:32:35 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-26 14:32:35 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:32:55 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:32:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:32:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645885975232.png]]
+
+2022-02-26 14:32:55 - [TEST_STEP][PASSED] - SizeofPagination = getText(findTestObject("Object Repository/PaginationCOunt/PaginationCount")): Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-26 14:32:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-26 14:32:55 - [TEST_STEP][PASSED] - println(SizeofPagination): null
+
+2022-02-26 14:32:55 - [TEST_STEP][PASSED] - paginationmaxcount = Integer.parseInt(SizeofPagination): null
+
+2022-02-26 14:32:55 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationmaxcount): Size of Pagination: 100
+
+2022-02-26 14:32:55 - [MESSAGE][INFO] - Size of Pagination: 100
+
+2022-02-26 14:32:55 - [TEST_STEP][PASSED] - totalrecords = 0: null
+
+2022-02-26 14:32:55 - [TEST_STEP][FAILED] - for ([l = 1, l <= paginationmaxcount, (l++)]): Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-Pagination.run(ActivityOverview-Pagination:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881189075.run(TempTestSuite1645881189075.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaginationCOunt/ClickOnPagination' located by '(//div[@class='orderOverviewPaginateBottom']//following-sibling::span)[1]//a[4]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1643628703989.run(Script1643628703989.groovy:86)
+	... 13 more
+)
+
+2022-02-26 14:32:55 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:32:55 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:32:55 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:32:55 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 1
+
+2022-02-26 14:32:55 - [MESSAGE][INFO] - Size of Pagination: 1
+
+2022-02-26 14:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:32:58 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:32:58 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:33:18 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:33:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:33:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645885998687.png]]
+
+2022-02-26 14:33:18 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:33:18 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:33:18 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 100
+
+2022-02-26 14:33:18 - [MESSAGE][INFO] - Total Records: 100
+
+2022-02-26 14:33:18 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:33:18 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:33:18 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:33:18 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 2
+
+2022-02-26 14:33:18 - [MESSAGE][INFO] - Size of Pagination: 2
+
+2022-02-26 14:33:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:33:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:33:22 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:33:42 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:33:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:33:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886022145.png]]
+
+2022-02-26 14:33:42 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:33:42 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:33:42 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 200
+
+2022-02-26 14:33:42 - [MESSAGE][INFO] - Total Records: 200
+
+2022-02-26 14:33:42 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:33:42 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:33:42 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:33:42 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 3
+
+2022-02-26 14:33:42 - [MESSAGE][INFO] - Size of Pagination: 3
+
+2022-02-26 14:33:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:33:45 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:33:45 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:34:05 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:34:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:34:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886045601.png]]
+
+2022-02-26 14:34:05 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:34:05 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:34:05 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 300
+
+2022-02-26 14:34:05 - [MESSAGE][INFO] - Total Records: 300
+
+2022-02-26 14:34:05 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:34:05 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:34:05 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:34:05 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:34:05 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:34:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:34:09 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:34:29 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:34:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:34:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886069038.png]]
+
+2022-02-26 14:34:29 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:34:29 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:34:29 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 400
+
+2022-02-26 14:34:29 - [MESSAGE][INFO] - Total Records: 400
+
+2022-02-26 14:34:29 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:34:29 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:34:29 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:34:29 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 5
+
+2022-02-26 14:34:29 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-26 14:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:34:32 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:34:52 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:34:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:34:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886092484.png]]
+
+2022-02-26 14:34:52 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:34:52 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:34:52 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 500
+
+2022-02-26 14:34:52 - [MESSAGE][INFO] - Total Records: 500
+
+2022-02-26 14:34:52 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:34:52 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:34:52 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:34:52 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:34:52 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:34:55 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:35:15 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:35:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:35:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886115928.png]]
+
+2022-02-26 14:35:16 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:35:16 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:35:16 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 600
+
+2022-02-26 14:35:16 - [MESSAGE][INFO] - Total Records: 600
+
+2022-02-26 14:35:16 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:35:16 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:35:16 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:35:16 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:35:16 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:35:19 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:35:39 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:35:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:35:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886139362.png]]
+
+2022-02-26 14:35:39 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:35:39 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:35:39 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 700
+
+2022-02-26 14:35:39 - [MESSAGE][INFO] - Total Records: 700
+
+2022-02-26 14:35:39 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:35:39 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:35:39 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:35:39 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:35:39 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:35:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:35:42 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:36:02 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:36:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:36:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886162799.png]]
+
+2022-02-26 14:36:03 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:36:03 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:36:03 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 800
+
+2022-02-26 14:36:03 - [MESSAGE][INFO] - Total Records: 800
+
+2022-02-26 14:36:03 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:36:03 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:36:03 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:36:03 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:36:03 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:36:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:36:06 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:36:26 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:36:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:36:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886186236.png]]
+
+2022-02-26 14:36:26 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:36:26 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:36:26 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 900
+
+2022-02-26 14:36:26 - [MESSAGE][INFO] - Total Records: 900
+
+2022-02-26 14:36:26 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:36:26 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:36:26 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:36:26 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:36:26 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:36:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:36:29 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:36:49 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:36:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:36:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886209682.png]]
+
+2022-02-26 14:36:49 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:36:49 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:36:49 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 1000
+
+2022-02-26 14:36:49 - [MESSAGE][INFO] - Total Records: 1000
+
+2022-02-26 14:36:49 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:36:49 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:36:49 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:36:49 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:36:49 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:36:53 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:37:13 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:37:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:37:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886233116.png]]
+
+2022-02-26 14:37:13 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:37:13 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:37:13 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 1100
+
+2022-02-26 14:37:13 - [MESSAGE][INFO] - Total Records: 1100
+
+2022-02-26 14:37:13 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:37:13 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:37:13 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:37:13 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:37:13 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:37:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:37:16 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:37:36 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:37:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:37:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886256558.png]]
+
+2022-02-26 14:37:36 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:37:36 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:37:36 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 1200
+
+2022-02-26 14:37:36 - [MESSAGE][INFO] - Total Records: 1200
+
+2022-02-26 14:37:36 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:37:36 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:37:36 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:37:36 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:37:36 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:37:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:37:39 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:37:59 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:37:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:38:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886280006.png]]
+
+2022-02-26 14:38:00 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:38:00 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:38:00 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 1300
+
+2022-02-26 14:38:00 - [MESSAGE][INFO] - Total Records: 1300
+
+2022-02-26 14:38:00 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:38:00 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:38:00 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:38:00 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:38:00 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:38:03 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:38:23 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:38:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:38:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886303451.png]]
+
+2022-02-26 14:38:23 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:38:23 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:38:23 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 1400
+
+2022-02-26 14:38:23 - [MESSAGE][INFO] - Total Records: 1400
+
+2022-02-26 14:38:23 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:38:23 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:38:23 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:38:23 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:38:23 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:38:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:38:26 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:38:46 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:38:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:38:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886326869.png]]
+
+2022-02-26 14:38:47 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:38:47 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:38:47 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 1500
+
+2022-02-26 14:38:47 - [MESSAGE][INFO] - Total Records: 1500
+
+2022-02-26 14:38:47 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:38:47 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:38:47 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:38:47 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:38:47 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:38:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:38:50 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:39:10 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:39:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:39:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886350312.png]]
+
+2022-02-26 14:39:10 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:39:10 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:39:10 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 1600
+
+2022-02-26 14:39:10 - [MESSAGE][INFO] - Total Records: 1600
+
+2022-02-26 14:39:10 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:39:10 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:39:10 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:39:10 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:39:10 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:39:13 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:39:33 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:39:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:39:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886373763.png]]
+
+2022-02-26 14:39:33 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:39:34 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:39:34 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 1700
+
+2022-02-26 14:39:34 - [MESSAGE][INFO] - Total Records: 1700
+
+2022-02-26 14:39:34 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:39:34 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:39:34 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:39:34 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:39:34 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:39:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:39:37 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:39:57 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:39:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:39:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886397203.png]]
+
+2022-02-26 14:39:57 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:39:57 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:39:57 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 1800
+
+2022-02-26 14:39:57 - [MESSAGE][INFO] - Total Records: 1800
+
+2022-02-26 14:39:57 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:39:57 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:39:57 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:39:57 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:39:57 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:39:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:40:00 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:40:20 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:40:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:40:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886420658.png]]
+
+2022-02-26 14:40:20 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:40:20 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:40:20 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 1900
+
+2022-02-26 14:40:20 - [MESSAGE][INFO] - Total Records: 1900
+
+2022-02-26 14:40:20 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:40:20 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:40:20 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:40:20 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:40:20 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:40:24 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:40:44 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:40:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:40:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886444123.png]]
+
+2022-02-26 14:40:44 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:40:44 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:40:44 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 2000
+
+2022-02-26 14:40:44 - [MESSAGE][INFO] - Total Records: 2000
+
+2022-02-26 14:40:44 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:40:44 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:40:44 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:40:44 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:40:44 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:40:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:40:47 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:41:07 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:41:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:41:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886467576.png]]
+
+2022-02-26 14:41:07 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:41:07 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:41:07 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 2100
+
+2022-02-26 14:41:07 - [MESSAGE][INFO] - Total Records: 2100
+
+2022-02-26 14:41:07 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:41:07 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:41:07 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:41:07 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:41:07 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:41:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:41:10 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:41:30 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:41:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:41:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886491019.png]]
+
+2022-02-26 14:41:31 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:41:31 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:41:31 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 2200
+
+2022-02-26 14:41:31 - [MESSAGE][INFO] - Total Records: 2200
+
+2022-02-26 14:41:31 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:41:31 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:41:31 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:41:31 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:41:31 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:41:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:41:34 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:41:54 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:41:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:41:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886514473.png]]
+
+2022-02-26 14:41:54 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:41:54 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:41:54 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 2300
+
+2022-02-26 14:41:54 - [MESSAGE][INFO] - Total Records: 2300
+
+2022-02-26 14:41:54 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:41:54 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:41:54 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:41:54 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:41:54 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:41:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:41:57 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:42:17 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:42:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:42:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886537922.png]]
+
+2022-02-26 14:42:18 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:42:18 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:42:18 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 2400
+
+2022-02-26 14:42:18 - [MESSAGE][INFO] - Total Records: 2400
+
+2022-02-26 14:42:18 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:42:18 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:42:18 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:42:18 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:42:18 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:42:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:42:21 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:42:41 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:42:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:42:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886561374.png]]
+
+2022-02-26 14:42:41 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:42:41 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:42:41 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 2500
+
+2022-02-26 14:42:41 - [MESSAGE][INFO] - Total Records: 2500
+
+2022-02-26 14:42:41 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:42:41 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:42:41 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:42:41 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:42:41 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:42:44 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:43:04 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:43:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:43:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886584819.png]]
+
+2022-02-26 14:43:05 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): null
+
+2022-02-26 14:43:05 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:43:05 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 2600
+
+2022-02-26 14:43:05 - [MESSAGE][INFO] - Total Records: 2600
+
+2022-02-26 14:43:05 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:43:05 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:43:05 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:43:05 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:43:05 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:43:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:43:08 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:43:28 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:43:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:43:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886608276.png]]
+
+2022-02-26 14:43:28 - [TEST_STEP][PASSED] - orderListing = findWebElements(findTestObject("Object Repository/ListingArea/RecordsInListing"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 14:43:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='main-table']//tbody//tr//tr[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 14:43:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/ListingArea/RecordsInListing'. Try using Self-healing.
+
+2022-02-26 14:43:35 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 14:43:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 14:43:36 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 14:43:36 - [TEST_STEP][PASSED] - totalrecords = totalrecords + orderListing: null
+
+2022-02-26 14:43:36 - [TEST_STEP][PASSED] - logInfo(Total Records: $totalrecords): Total Records: 2600
+
+2022-02-26 14:43:36 - [MESSAGE][INFO] - Total Records: 2600
+
+2022-02-26 14:43:36 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:43:36 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:43:36 - [TEST_STEP][PASSED] - paginationvalue = "4": null
+
+2022-02-26 14:43:36 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:43:36 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:43:36 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-Pagination.run(ActivityOverview-Pagination:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881189075.run(TempTestSuite1645881189075.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaginationCOunt/ClickOnPagination' located by '(//div[@class='orderOverviewPaginateBottom']//following-sibling::span)[1]//a[4]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1643628703989.run(Script1643628703989.groovy:86)
+	... 13 more
+)
+
+2022-02-26 14:44:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//div[@class='orderOverviewPaginateBottom']//following-sibling::span)[1]//a[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 14:44:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/PaginationCOunt/ClickOnPagination'. Try using Self-healing.
+
+2022-02-26 14:44:08 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 14:44:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 14:44:09 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 14:44:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-Pagination.run(ActivityOverview-Pagination:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881189075.run(TempTestSuite1645881189075.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaginationCOunt/ClickOnPagination' located by '(//div[@class='orderOverviewPaginateBottom']//following-sibling::span)[1]//a[4]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1643628703989.run(Script1643628703989.groovy:86)
+	... 13 more
+)
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Pagination/20220226_131309/1645886649601.png]]]]></system-out>
+         <system-err><![CDATA[2022-02-26 14:31:19 - [TEST_CASE][FAILED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-Pagination: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-Pagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-Pagination.run(ActivityOverview-Pagination:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881189075.run(TempTestSuite1645881189075.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaginationCOunt/ClickOnPagination' located by '(//div[@class='orderOverviewPaginateBottom']//following-sibling::span)[1]//a[4]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-26 14:31:19 - [TEST_SUITE][FAILED] - Pagination: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-Pagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-Pagination.run(ActivityOverview-Pagination:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881189075.run(TempTestSuite1645881189075.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaginationCOunt/ClickOnPagination' located by '(//div[@class='orderOverviewPaginateBottom']//following-sibling::span)[1]//a[4]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-02-26 14:31:19 - [TEST_SUITE][FAILED] - Pagination: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-Pagination FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/PaginationCOunt/ClickOnPagination'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-Pagination.run(ActivityOverview-Pagination:86)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881189075.run(TempTestSuite1645881189075.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PaginationCOunt/ClickOnPagination' located by '(//div[@class='orderOverviewPaginateBottom']//following-sibling::span)[1]//a[4]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

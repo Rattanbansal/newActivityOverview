@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AmendOrder-Main" time="814.795" tests="1" failures="1" errors="0">
+   <testsuite name="AmendOrder-Main" tests="1" failures="1" errors="0" time="814.795" skipped="0" timestamp="2022-02-26 15:08:24" hostname="root - 6cfc5c2788e7" id="Test Suites/AmendOrder-Main">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317"/>
+         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/execution0.log"/>
+         <property name="attachments" value="/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888130608.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888145183.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888155731.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888187300.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888210775.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888211164.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888234623.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888270279.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888306685.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888307039.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888330496.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888334980.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888339434.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888343836.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888348246.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888352626.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888375092.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888397550.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888423044.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888430438.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888450023.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888467582.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888503993.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888504440.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888527875.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888532300.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888536719.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888541118.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888545550.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888549947.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888572400.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888594873.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888620366.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888627764.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888647354.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888664906.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888701334.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888701675.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888725125.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888760749.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888797187.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888797539.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888820991.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888825447.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888829912.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888834366.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888838807.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888843207.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888865685.png, /tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888918585.png"/>
+         <property name="hostName" value="root - 6cfc5c2788e7"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="sessionId" value="ff79ac3e2c5da5ab7cba4625760bcdfd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend" time="814.603" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881197433.run(TempTestSuite1645881197433.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;select-dropdown dropdown-trigger&quot; type=&quot;text&quot; readonly=&quot;true&quot; data-target=&quot;select-options-6878a6cb-6122-d394-a49c-8097ca14cd79&quot;> is not clickable at point (850, 414). Other element would receive the click: &lt;span>...&lt;/span>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '6cfc5c2788e7', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.eGuLKR}, goog:chromeOptions: {debuggerAddress: localhost:39999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79ac3e2c5da5ab7cba4625760bcdfd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-02-26 15:08:24 - [TEST_CASE][FAILED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881197433.run(TempTestSuite1645881197433.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-6878a6cb-6122-d394-a49c-8097ca14cd79"> is not clickable at point (850, 414). Other element would receive the click: <span>...</span>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '6cfc5c2788e7', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.eGuLKR}, goog:chromeOptions: {debuggerAddress: localhost:39999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79ac3e2c5da5ab7cba4625760bcdfd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-02-26 15:08:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 15:08:24 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-26 15:08:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-26 15:08:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-26 15:08:24 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-26 15:08:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-26 15:08:25 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 15:08:25 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 15:08:25 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 15:08:30 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 15:08:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:08:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:08:33 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 15:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 15:08:37 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 15:08:43 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 15:08:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 15:08:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 15:08:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:08:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888130608.png]]
+
+2022-02-26 15:08:50 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 15:08:51 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 15:08:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 15:08:51 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-26 15:08:51 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 15:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 15:09:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:09:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888145183.png]]
+
+2022-02-26 15:09:05 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-26 15:09:05 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-26 15:09:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-26 15:09:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:09:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888155731.png]]
+
+2022-02-26 15:09:15 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-26 15:09:15 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-26 15:09:15 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-26 15:09:15 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-26 15:09:15 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): null
+
+2022-02-26 15:09:15 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-26 15:09:15 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-26 15:09:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage_select")): Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-26 15:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-26 15:09:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 15:09:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 15:09:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage-SelectOption")): Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-26 15:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-26 15:09:27 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:09:47 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:09:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888187300.png]]
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - SizeofPagination = getText(findTestObject("Object Repository/PaginationCOunt/PaginationCount")): Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-26 15:09:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - println(SizeofPagination): null
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - paginationmaxcount = Integer.parseInt(SizeofPagination): null
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - paginationmaxcount = pagination: null
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationmaxcount): Size of Pagination: 5
+
+2022-02-26 15:09:47 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - totalrecords = 0: null
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - for ([l = 1, l <= paginationmaxcount, (l++)]): null
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 1
+
+2022-02-26 15:09:47 - [MESSAGE][INFO] - Size of Pagination: 1
+
+2022-02-26 15:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:09:50 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:10:10 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:10:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:10:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888210775.png]]
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 78
+
+2022-02-26 15:10:11 - [MESSAGE][INFO] - Size of Active Bookings: 78
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): Web element with id: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' located by '//div[@class='custom-selectbox ml8 more-actions ']//input[@class='select-dropdown dropdown-trigger']' not found
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 78
+
+2022-02-26 15:10:11 - [MESSAGE][INFO] - Size of refund booking: 78
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:10:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:10:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888211164.png]]
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164579478691311
+
+2022-02-26 15:10:11 - [MESSAGE][INFO] - Order ID: 164579478691311
+
+2022-02-26 15:10:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:10:14 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:10:34 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:10:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:10:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888234623.png]]
+
+2022-02-26 15:10:34 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): Web element with id: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' located by '//div[@class='custom-selectbox ml8 more-actions ']//input[@class='select-dropdown dropdown-trigger']' not found
+
+2022-02-26 15:10:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='custom-selectbox ml8 more-actions ']//input[@class='select-dropdown dropdown-trigger']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:10:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect'. Try using Self-healing.
+
+2022-02-26 15:10:51 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 15:10:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:10:52 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 15:10:52 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' located by '//div[@class='custom-selectbox ml8 more-actions ']//input[@class='select-dropdown dropdown-trigger']' not found
+
+2022-02-26 15:10:52 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:11:05 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:11:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:11:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:11:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:11:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888270279.png]]
+
+2022-02-26 15:11:10 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:11:23 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:11:23 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 15:11:23 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 15:11:23 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 15:11:23 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 2
+
+2022-02-26 15:11:23 - [MESSAGE][INFO] - Size of Pagination: 2
+
+2022-02-26 15:11:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:11:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:11:26 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:11:46 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:11:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:11:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888306685.png]]
+
+2022-02-26 15:11:46 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 15:11:46 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 85
+
+2022-02-26 15:11:46 - [MESSAGE][INFO] - Size of Active Bookings: 85
+
+2022-02-26 15:11:46 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 15:11:46 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 15:11:46 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 15:11:46 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 15:11:46 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 85
+
+2022-02-26 15:11:46 - [MESSAGE][INFO] - Size of refund booking: 85
+
+2022-02-26 15:11:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:11:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:11:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:11:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888307039.png]]
+
+2022-02-26 15:11:47 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 15:11:47 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 15:11:47 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164569869946934
+
+2022-02-26 15:11:47 - [MESSAGE][INFO] - Order ID: 164569869946934
+
+2022-02-26 15:11:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:11:50 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:12:10 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:12:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:12:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888330496.png]]
+
+2022-02-26 15:12:10 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): null
+
+2022-02-26 15:12:10 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is visible
+
+2022-02-26 15:12:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect")): Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 15:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 15:12:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:12:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:12:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:12:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888334980.png]]
+
+2022-02-26 15:12:15 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"]), 15) == true): null
+
+2022-02-26 15:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clickable
+
+2022-02-26 15:12:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"])): Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 15:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 15:12:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:12:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:12:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:12:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888339434.png]]
+
+2022-02-26 15:12:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect")): Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-26 15:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-26 15:12:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:12:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:12:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:12:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888343836.png]]
+
+2022-02-26 15:12:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect-Options")): Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-26 15:12:27 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-26 15:12:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:12:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:12:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:12:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888348246.png]]
+
+2022-02-26 15:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"1"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:12:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:12:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:12:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:12:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888352626.png]]
+
+2022-02-26 15:12:32 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"1"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:12:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:12:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-26 15:12:49 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 15:12:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:12:50 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 15:12:50 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:12:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"2"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:12:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:12:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:12:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:12:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888375092.png]]
+
+2022-02-26 15:12:55 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"2"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:13:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:13:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-26 15:13:12 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 15:13:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:13:13 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 15:13:13 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"3"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:13:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:13:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:13:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:13:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888397550.png]]
+
+2022-02-26 15:13:17 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"3"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:13:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:13:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-26 15:13:34 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 15:13:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:13:35 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 15:13:35 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:13:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmendOrder/TextArea"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/AmendOrder/TextArea'
+
+2022-02-26 15:13:42 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/AmendOrder/TextArea'
+
+2022-02-26 15:13:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:13:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:13:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:13:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888423044.png]]
+
+2022-02-26 15:13:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmendOrder/CartDiscount"), cartdisc): Text '3.00' is set on object 'Object Repository/AmendOrder/CartDiscount'
+
+2022-02-26 15:13:49 - [MESSAGE][PASSED] - Text '3.00' is set on object 'Object Repository/AmendOrder/CartDiscount'
+
+2022-02-26 15:13:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:13:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:13:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:13:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888430438.png]]
+
+2022-02-26 15:13:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/ConfirmAmendment")): Object: 'Object Repository/AmendOrder/ConfirmAmendment' is clicked on
+
+2022-02-26 15:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/ConfirmAmendment' is clicked on
+
+2022-02-26 15:13:53 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2022-02-26 15:14:05 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2022-02-26 15:14:05 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/AmendOrder/CancelButton"), 15) == true): null
+
+2022-02-26 15:14:05 - [MESSAGE][PASSED] - Object 'Object Repository/AmendOrder/CancelButton' is visible
+
+2022-02-26 15:14:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/CancelButton")): Object: 'Object Repository/AmendOrder/CancelButton' is clicked on
+
+2022-02-26 15:14:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/CancelButton' is clicked on
+
+2022-02-26 15:14:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:14:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:14:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:14:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888450023.png]]
+
+2022-02-26 15:14:10 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:14:23 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:14:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:14:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:14:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:14:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888467582.png]]
+
+2022-02-26 15:14:27 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:14:40 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:14:40 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 15:14:40 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 15:14:40 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 15:14:40 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 3
+
+2022-02-26 15:14:40 - [MESSAGE][INFO] - Size of Pagination: 3
+
+2022-02-26 15:14:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:14:43 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:15:03 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:15:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:15:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888503993.png]]
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 93
+
+2022-02-26 15:15:04 - [MESSAGE][INFO] - Size of Active Bookings: 93
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 93
+
+2022-02-26 15:15:04 - [MESSAGE][INFO] - Size of refund booking: 93
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:15:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:15:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888504440.png]]
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164561570705837
+
+2022-02-26 15:15:04 - [MESSAGE][INFO] - Order ID: 164561570705837
+
+2022-02-26 15:15:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:15:07 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:15:27 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:15:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:15:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888527875.png]]
+
+2022-02-26 15:15:28 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): null
+
+2022-02-26 15:15:28 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is visible
+
+2022-02-26 15:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect")): Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 15:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 15:15:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:15:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:15:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:15:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888532300.png]]
+
+2022-02-26 15:15:32 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"]), 15) == true): null
+
+2022-02-26 15:15:32 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clickable
+
+2022-02-26 15:15:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"])): Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 15:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 15:15:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:15:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:15:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:15:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888536719.png]]
+
+2022-02-26 15:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect")): Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-26 15:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-26 15:15:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:15:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:15:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:15:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888541118.png]]
+
+2022-02-26 15:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect-Options")): Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-26 15:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-26 15:15:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:15:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:15:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:15:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888545550.png]]
+
+2022-02-26 15:15:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"1"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:15:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:15:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:15:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:15:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888549947.png]]
+
+2022-02-26 15:15:50 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"1"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:16:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:16:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-26 15:16:07 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 15:16:08 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:16:08 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 15:16:08 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:16:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"2"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:16:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:16:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:16:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:16:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888572400.png]]
+
+2022-02-26 15:16:12 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"2"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:16:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:16:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-26 15:16:29 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 15:16:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:16:30 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 15:16:30 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"3"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:16:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:16:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:16:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:16:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888594873.png]]
+
+2022-02-26 15:16:35 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"3"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:16:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:16:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-26 15:16:52 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 15:16:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:16:53 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 15:16:53 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:16:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmendOrder/TextArea"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/AmendOrder/TextArea'
+
+2022-02-26 15:16:59 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/AmendOrder/TextArea'
+
+2022-02-26 15:16:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:17:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:17:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:17:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888620366.png]]
+
+2022-02-26 15:17:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmendOrder/CartDiscount"), cartdisc): Text '3.00' is set on object 'Object Repository/AmendOrder/CartDiscount'
+
+2022-02-26 15:17:06 - [MESSAGE][PASSED] - Text '3.00' is set on object 'Object Repository/AmendOrder/CartDiscount'
+
+2022-02-26 15:17:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:17:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:17:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:17:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888627764.png]]
+
+2022-02-26 15:17:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/ConfirmAmendment")): Object: 'Object Repository/AmendOrder/ConfirmAmendment' is clicked on
+
+2022-02-26 15:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/ConfirmAmendment' is clicked on
+
+2022-02-26 15:17:11 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2022-02-26 15:17:23 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2022-02-26 15:17:23 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/AmendOrder/CancelButton"), 15) == true): null
+
+2022-02-26 15:17:23 - [MESSAGE][PASSED] - Object 'Object Repository/AmendOrder/CancelButton' is visible
+
+2022-02-26 15:17:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/CancelButton")): Object: 'Object Repository/AmendOrder/CancelButton' is clicked on
+
+2022-02-26 15:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/CancelButton' is clicked on
+
+2022-02-26 15:17:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:17:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:17:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:17:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888647354.png]]
+
+2022-02-26 15:17:27 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:17:40 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:17:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:17:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:17:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:17:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:17:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888664906.png]]
+
+2022-02-26 15:17:45 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:17:58 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:17:58 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 15:17:58 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 15:17:58 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 15:17:58 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 15:17:58 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 15:17:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:18:01 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:18:21 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:18:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888701334.png]]
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 98
+
+2022-02-26 15:18:21 - [MESSAGE][INFO] - Size of Active Bookings: 98
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): Web element with id: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' located by '//div[@class='custom-selectbox ml8 more-actions ']//input[@class='select-dropdown dropdown-trigger']' not found
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 98
+
+2022-02-26 15:18:21 - [MESSAGE][INFO] - Size of refund booking: 98
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:18:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:18:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888701675.png]]
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164552663933283
+
+2022-02-26 15:18:21 - [MESSAGE][INFO] - Order ID: 164552663933283
+
+2022-02-26 15:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:18:25 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:18:45 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:18:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:18:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888725125.png]]
+
+2022-02-26 15:18:45 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): Web element with id: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' located by '//div[@class='custom-selectbox ml8 more-actions ']//input[@class='select-dropdown dropdown-trigger']' not found
+
+2022-02-26 15:19:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='custom-selectbox ml8 more-actions ']//input[@class='select-dropdown dropdown-trigger']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:19:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect'. Try using Self-healing.
+
+2022-02-26 15:19:02 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 15:19:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:19:03 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 15:19:03 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' located by '//div[@class='custom-selectbox ml8 more-actions ']//input[@class='select-dropdown dropdown-trigger']' not found
+
+2022-02-26 15:19:03 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:19:16 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:19:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:19:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:19:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:19:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:19:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888760749.png]]
+
+2022-02-26 15:19:21 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:19:34 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:19:34 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 15:19:34 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 15:19:34 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 15:19:34 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 5
+
+2022-02-26 15:19:34 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-26 15:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:19:37 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:19:57 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:19:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888797187.png]]
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 86
+
+2022-02-26 15:19:57 - [MESSAGE][INFO] - Size of Active Bookings: 86
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 86
+
+2022-02-26 15:19:57 - [MESSAGE][INFO] - Size of refund booking: 86
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:19:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:19:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888797539.png]]
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164544683164895
+
+2022-02-26 15:19:57 - [MESSAGE][INFO] - Order ID: 164544683164895
+
+2022-02-26 15:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:20:00 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:20:20 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:20:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:20:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888820991.png]]
+
+2022-02-26 15:20:21 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): null
+
+2022-02-26 15:20:21 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is visible
+
+2022-02-26 15:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect")): Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 15:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 15:20:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:20:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:20:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:20:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888825447.png]]
+
+2022-02-26 15:20:25 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"]), 15) == true): null
+
+2022-02-26 15:20:25 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clickable
+
+2022-02-26 15:20:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"])): Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 15:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 15:20:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:20:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:20:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:20:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888829912.png]]
+
+2022-02-26 15:20:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect")): Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-26 15:20:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-26 15:20:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:20:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:20:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:20:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888834366.png]]
+
+2022-02-26 15:20:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect-Options")): Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-26 15:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-26 15:20:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:20:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:20:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:20:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888838807.png]]
+
+2022-02-26 15:20:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"1"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:20:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:20:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:20:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:20:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888843207.png]]
+
+2022-02-26 15:20:43 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"1"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:20:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:20:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-26 15:21:00 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 15:21:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:21:01 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 15:21:01 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:21:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"2"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:21:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-26 15:21:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 15:21:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 15:21:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:21:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888865685.png]]
+
+2022-02-26 15:21:05 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"2"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:21:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:21:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-26 15:21:22 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 15:21:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 15:21:23 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 15:21:23 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-26 15:21:23 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"3"])): Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881197433.run(TempTestSuite1645881197433.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-6878a6cb-6122-d394-a49c-8097ca14cd79"> is not clickable at point (850, 414). Other element would receive the click: <span>...</span>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '6cfc5c2788e7', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.eGuLKR}, goog:chromeOptions: {debuggerAddress: localhost:39999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79ac3e2c5da5ab7cba4625760bcdfd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1644683205666.run(Script1644683205666.groovy:197)
+	... 13 more
+)
+
+2022-02-26 15:21:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881197433.run(TempTestSuite1645881197433.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-6878a6cb-6122-d394-a49c-8097ca14cd79"> is not clickable at point (850, 414). Other element would receive the click: <span>...</span>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '6cfc5c2788e7', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.eGuLKR}, goog:chromeOptions: {debuggerAddress: localhost:39999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79ac3e2c5da5ab7cba4625760bcdfd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1644683205666.run(Script1644683205666.groovy:197)
+	... 13 more
+)
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/AmendOrder-Main/20220226_131317/1645888918585.png]]]]></system-out>
+         <system-err><![CDATA[2022-02-26 15:08:24 - [TEST_CASE][FAILED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881197433.run(TempTestSuite1645881197433.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-6878a6cb-6122-d394-a49c-8097ca14cd79"> is not clickable at point (850, 414). Other element would receive the click: <span>...</span>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '6cfc5c2788e7', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.eGuLKR}, goog:chromeOptions: {debuggerAddress: localhost:39999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79ac3e2c5da5ab7cba4625760bcdfd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-26 15:08:24 - [TEST_SUITE][FAILED] - AmendOrder-Main: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881197433.run(TempTestSuite1645881197433.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-6878a6cb-6122-d394-a49c-8097ca14cd79"> is not clickable at point (850, 414). Other element would receive the click: <span>...</span>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '6cfc5c2788e7', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.eGuLKR}, goog:chromeOptions: {debuggerAddress: localhost:39999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79ac3e2c5da5ab7cba4625760bcdfd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-02-26 15:08:24 - [TEST_SUITE][FAILED] - AmendOrder-Main: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645881197433.run(TempTestSuite1645881197433.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-6878a6cb-6122-d394-a49c-8097ca14cd79"> is not clickable at point (850, 414). Other element would receive the click: <span>...</span>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: '6cfc5c2788e7', ip: '172.17.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.eGuLKR}, goog:chromeOptions: {debuggerAddress: localhost:39999}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff79ac3e2c5da5ab7cba4625760bcdfd
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

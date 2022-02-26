@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Refund-Order-Main" time="717.377" tests="1" failures="0" errors="0">
+   <testsuite name="Refund-Order-Main" tests="1" failures="0" errors="0" time="717.377" skipped="0" timestamp="2022-02-26 14:00:37" hostname="root - 6cfc5c2788e7" id="Test Suites/Refund-Order-Main">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303"/>
+         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/execution0.log"/>
+         <property name="attachments" value="/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884064269.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884082230.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884092783.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884124385.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884147869.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884148259.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884171721.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884176248.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884180708.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884188172.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884192573.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884237646.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884274073.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884274456.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884297916.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884302372.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884306861.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884314322.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884318737.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884363426.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884399857.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884400221.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884423668.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884428166.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884432656.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884440106.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884444493.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884489691.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884526119.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884526476.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884549935.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884554365.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884558877.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884566343.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884570719.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884615935.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884652382.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884652735.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884676184.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884680756.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884685175.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884692638.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884697019.png, /tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884741707.png"/>
+         <property name="hostName" value="root - 6cfc5c2788e7"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="sessionId" value="ba52645ba856fa7b34fd6087cba6ca8e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-RefundOrder-GetOrderIDAndRefund" time="717.186" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-RefundOrder-GetOrderIDAndRefund" status="PASSED">
+         <system-out><![CDATA[2022-02-26 14:00:37 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-RefundOrder-GetOrderIDAndRefund: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-RefundOrder-GetOrderIDAndRefund
+
+2022-02-26 14:00:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 14:00:38 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-26 14:00:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-26 14:00:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-26 14:00:38 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-26 14:00:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-26 14:00:39 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 14:00:39 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 14:00:39 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 14:00:44 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 14:00:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 14:00:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 14:00:47 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 14:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 14:00:51 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 14:00:57 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 14:00:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 14:01:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 14:01:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:01:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884064269.png]]
+
+2022-02-26 14:01:04 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 14:01:04 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 14:01:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 14:01:04 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-26 14:01:04 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 14:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 14:01:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:01:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884082230.png]]
+
+2022-02-26 14:01:22 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-26 14:01:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-26 14:01:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-26 14:01:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:01:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884092783.png]]
+
+2022-02-26 14:01:33 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-26 14:01:33 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-26 14:01:33 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-26 14:01:33 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-26 14:01:33 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Delayed 13 second(s)
+
+2022-02-26 14:01:33 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-26 14:01:33 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-26 14:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage_select")): Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-26 14:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-26 14:01:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:01:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:01:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage-SelectOption")): Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-26 14:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-26 14:01:44 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:02:04 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:02:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884124385.png]]
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - SizeofPagination = getText(findTestObject("Object Repository/PaginationCOunt/PaginationCount")): Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-26 14:02:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - println(SizeofPagination): null
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - paginationmaxcount = Integer.parseInt(SizeofPagination): null
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - paginationmaxcount = pagination: null
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationmaxcount): Size of Pagination: 5
+
+2022-02-26 14:02:04 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - totalrecords = 0: null
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - for ([l = 1, l <= paginationmaxcount, (l++)]): Delayed 13 second(s)
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 1
+
+2022-02-26 14:02:04 - [MESSAGE][INFO] - Size of Pagination: 1
+
+2022-02-26 14:02:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:02:07 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:02:27 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:02:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:02:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884147869.png]]
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 79
+
+2022-02-26 14:02:28 - [MESSAGE][INFO] - Size of Active Bookings: 79
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 79
+
+2022-02-26 14:02:28 - [MESSAGE][INFO] - Size of refund booking: 79
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:02:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:02:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884148259.png]]
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164579466134960
+
+2022-02-26 14:02:28 - [MESSAGE][INFO] - Order ID: 164579466134960
+
+2022-02-26 14:02:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:02:31 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:02:31 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:02:51 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:02:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:02:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884171721.png]]
+
+2022-02-26 14:02:51 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): null
+
+2022-02-26 14:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is visible
+
+2022-02-26 14:02:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect")): Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 14:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 14:02:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:02:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:02:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:02:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884176248.png]]
+
+2022-02-26 14:02:56 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Refund"]), 15) == true): null
+
+2022-02-26 14:02:56 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is visible
+
+2022-02-26 14:02:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Refund"])): Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 14:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 14:02:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:03:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:03:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:03:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884180708.png]]
+
+2022-02-26 14:03:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DetailPop-up/MoreActions/RefundReason"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/DetailPop-up/MoreActions/RefundReason'
+
+2022-02-26 14:03:07 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/DetailPop-up/MoreActions/RefundReason'
+
+2022-02-26 14:03:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:03:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:03:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:03:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884188172.png]]
+
+2022-02-26 14:03:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/confirmRefundOrder")): Object: 'Object Repository/DetailPop-up/MoreActions/confirmRefundOrder' is clicked on
+
+2022-02-26 14:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/confirmRefundOrder' is clicked on
+
+2022-02-26 14:03:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:03:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:03:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:03:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884192573.png]]
+
+2022-02-26 14:03:12 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2022-02-26 14:03:24 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2022-02-26 14:03:24 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/CancelRefundButton"), 15) == true): Object 'Object Repository/DetailPop-up/MoreActions/CancelRefundButton' is not visible after 15 second(s)
+
+2022-02-26 14:03:40 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/MoreActions/CancelRefundButton' is not visible after 15 second(s)
+
+2022-02-26 14:03:40 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:03:53 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 14:03:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:03:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:03:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:03:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:03:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884237646.png]]
+
+2022-02-26 14:03:57 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:04:10 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 14:04:10 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:04:10 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:04:10 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:04:10 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 2
+
+2022-02-26 14:04:10 - [MESSAGE][INFO] - Size of Pagination: 2
+
+2022-02-26 14:04:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:04:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:04:14 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:04:34 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:04:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884274073.png]]
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 88
+
+2022-02-26 14:04:34 - [MESSAGE][INFO] - Size of Active Bookings: 88
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 88
+
+2022-02-26 14:04:34 - [MESSAGE][INFO] - Size of refund booking: 88
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:04:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:04:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884274456.png]]
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164569849819227
+
+2022-02-26 14:04:34 - [MESSAGE][INFO] - Order ID: 164569849819227
+
+2022-02-26 14:04:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:04:37 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:04:57 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:04:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:04:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884297916.png]]
+
+2022-02-26 14:04:58 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): null
+
+2022-02-26 14:04:58 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is visible
+
+2022-02-26 14:04:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect")): Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 14:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 14:05:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:05:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:05:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:05:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884302372.png]]
+
+2022-02-26 14:05:02 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Refund"]), 15) == true): null
+
+2022-02-26 14:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is visible
+
+2022-02-26 14:05:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Refund"])): Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 14:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 14:05:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:05:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:05:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:05:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884306861.png]]
+
+2022-02-26 14:05:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DetailPop-up/MoreActions/RefundReason"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/DetailPop-up/MoreActions/RefundReason'
+
+2022-02-26 14:05:13 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/DetailPop-up/MoreActions/RefundReason'
+
+2022-02-26 14:05:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:05:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:05:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:05:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884314322.png]]
+
+2022-02-26 14:05:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/confirmRefundOrder")): Object: 'Object Repository/DetailPop-up/MoreActions/confirmRefundOrder' is clicked on
+
+2022-02-26 14:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/confirmRefundOrder' is clicked on
+
+2022-02-26 14:05:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:05:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:05:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:05:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884318737.png]]
+
+2022-02-26 14:05:18 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2022-02-26 14:05:30 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2022-02-26 14:05:30 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/CancelRefundButton"), 15) == true): Object 'Object Repository/DetailPop-up/MoreActions/CancelRefundButton' is not visible after 15 second(s)
+
+2022-02-26 14:05:46 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/MoreActions/CancelRefundButton' is not visible after 15 second(s)
+
+2022-02-26 14:05:46 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:05:59 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 14:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:06:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:06:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:06:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:06:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884363426.png]]
+
+2022-02-26 14:06:03 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:06:16 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 14:06:16 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:06:16 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:06:16 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:06:16 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 3
+
+2022-02-26 14:06:16 - [MESSAGE][INFO] - Size of Pagination: 3
+
+2022-02-26 14:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:06:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:06:19 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:06:39 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:06:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:06:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884399857.png]]
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 95
+
+2022-02-26 14:06:40 - [MESSAGE][INFO] - Size of Active Bookings: 95
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 95
+
+2022-02-26 14:06:40 - [MESSAGE][INFO] - Size of refund booking: 95
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:06:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:06:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884400221.png]]
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164561547519761
+
+2022-02-26 14:06:40 - [MESSAGE][INFO] - Order ID: 164561547519761
+
+2022-02-26 14:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:06:43 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:07:03 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:07:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:07:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884423668.png]]
+
+2022-02-26 14:07:03 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): null
+
+2022-02-26 14:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is visible
+
+2022-02-26 14:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect")): Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 14:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 14:07:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:07:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:07:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:07:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884428166.png]]
+
+2022-02-26 14:07:08 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Refund"]), 15) == true): null
+
+2022-02-26 14:07:08 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is visible
+
+2022-02-26 14:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Refund"])): Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 14:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 14:07:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:07:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:07:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:07:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884432656.png]]
+
+2022-02-26 14:07:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DetailPop-up/MoreActions/RefundReason"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/DetailPop-up/MoreActions/RefundReason'
+
+2022-02-26 14:07:19 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/DetailPop-up/MoreActions/RefundReason'
+
+2022-02-26 14:07:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:07:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:07:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:07:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884440106.png]]
+
+2022-02-26 14:07:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/confirmRefundOrder")): Object: 'Object Repository/DetailPop-up/MoreActions/confirmRefundOrder' is clicked on
+
+2022-02-26 14:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/confirmRefundOrder' is clicked on
+
+2022-02-26 14:07:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:07:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:07:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:07:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884444493.png]]
+
+2022-02-26 14:07:24 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2022-02-26 14:07:36 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2022-02-26 14:07:36 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/CancelRefundButton"), 15) == true): Object 'Object Repository/DetailPop-up/MoreActions/CancelRefundButton' is not visible after 15 second(s)
+
+2022-02-26 14:07:52 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/MoreActions/CancelRefundButton' is not visible after 15 second(s)
+
+2022-02-26 14:07:52 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:08:05 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 14:08:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:08:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:08:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:08:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:08:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884489691.png]]
+
+2022-02-26 14:08:09 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:08:22 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 14:08:22 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:08:22 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:08:22 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:08:22 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 14:08:22 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 14:08:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:08:26 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:08:46 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:08:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884526119.png]]
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 99
+
+2022-02-26 14:08:46 - [MESSAGE][INFO] - Size of Active Bookings: 99
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 99
+
+2022-02-26 14:08:46 - [MESSAGE][INFO] - Size of refund booking: 99
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:08:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:08:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884526476.png]]
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164552580001366
+
+2022-02-26 14:08:46 - [MESSAGE][INFO] - Order ID: 164552580001366
+
+2022-02-26 14:08:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:08:49 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:09:09 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:09:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:09:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884549935.png]]
+
+2022-02-26 14:09:10 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): null
+
+2022-02-26 14:09:10 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is visible
+
+2022-02-26 14:09:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect")): Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 14:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 14:09:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:09:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:09:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:09:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884554365.png]]
+
+2022-02-26 14:09:14 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Refund"]), 15) == true): null
+
+2022-02-26 14:09:14 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is visible
+
+2022-02-26 14:09:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Refund"])): Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 14:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 14:09:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:09:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:09:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:09:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884558877.png]]
+
+2022-02-26 14:09:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DetailPop-up/MoreActions/RefundReason"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/DetailPop-up/MoreActions/RefundReason'
+
+2022-02-26 14:09:25 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/DetailPop-up/MoreActions/RefundReason'
+
+2022-02-26 14:09:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:09:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:09:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:09:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884566343.png]]
+
+2022-02-26 14:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/confirmRefundOrder")): Object: 'Object Repository/DetailPop-up/MoreActions/confirmRefundOrder' is clicked on
+
+2022-02-26 14:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/confirmRefundOrder' is clicked on
+
+2022-02-26 14:09:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:09:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:09:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:09:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884570719.png]]
+
+2022-02-26 14:09:30 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2022-02-26 14:09:42 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2022-02-26 14:09:42 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/CancelRefundButton"), 15) == true): Object 'Object Repository/DetailPop-up/MoreActions/CancelRefundButton' is not visible after 15 second(s)
+
+2022-02-26 14:09:58 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/MoreActions/CancelRefundButton' is not visible after 15 second(s)
+
+2022-02-26 14:09:58 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:10:11 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 14:10:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:10:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:10:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:10:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:10:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884615935.png]]
+
+2022-02-26 14:10:16 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:10:29 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 14:10:29 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:10:29 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:10:29 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:10:29 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 5
+
+2022-02-26 14:10:29 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-26 14:10:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:10:32 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:10:52 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:10:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:10:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884652382.png]]
+
+2022-02-26 14:10:52 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 14:10:52 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 88
+
+2022-02-26 14:10:52 - [MESSAGE][INFO] - Size of Active Bookings: 88
+
+2022-02-26 14:10:52 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 14:10:52 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 14:10:52 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 14:10:52 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 14:10:52 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 88
+
+2022-02-26 14:10:52 - [MESSAGE][INFO] - Size of refund booking: 88
+
+2022-02-26 14:10:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:10:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:10:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:10:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884652735.png]]
+
+2022-02-26 14:10:52 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 14:10:53 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 14:10:53 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164544594239811
+
+2022-02-26 14:10:53 - [MESSAGE][INFO] - Order ID: 164544594239811
+
+2022-02-26 14:10:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:10:56 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:10:56 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:11:16 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:11:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:11:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884676184.png]]
+
+2022-02-26 14:11:16 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): null
+
+2022-02-26 14:11:16 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is visible
+
+2022-02-26 14:11:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect")): Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 14:11:19 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-26 14:11:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:11:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:11:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:11:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884680756.png]]
+
+2022-02-26 14:11:20 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Refund"]), 15) == true): null
+
+2022-02-26 14:11:21 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is visible
+
+2022-02-26 14:11:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Refund"])): Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 14:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-26 14:11:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:11:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:11:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:11:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884685175.png]]
+
+2022-02-26 14:11:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DetailPop-up/MoreActions/RefundReason"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/DetailPop-up/MoreActions/RefundReason'
+
+2022-02-26 14:11:31 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/DetailPop-up/MoreActions/RefundReason'
+
+2022-02-26 14:11:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:11:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:11:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:11:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884692638.png]]
+
+2022-02-26 14:11:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/confirmRefundOrder")): Object: 'Object Repository/DetailPop-up/MoreActions/confirmRefundOrder' is clicked on
+
+2022-02-26 14:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/confirmRefundOrder' is clicked on
+
+2022-02-26 14:11:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:11:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:11:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:11:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884697019.png]]
+
+2022-02-26 14:11:37 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2022-02-26 14:11:49 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2022-02-26 14:11:49 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/CancelRefundButton"), 15) == true): Object 'Object Repository/DetailPop-up/MoreActions/CancelRefundButton' is not visible after 15 second(s)
+
+2022-02-26 14:12:04 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/MoreActions/CancelRefundButton' is not visible after 15 second(s)
+
+2022-02-26 14:12:04 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:12:17 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 14:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:12:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-26 14:12:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-26 14:12:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:12:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Refund-Order-Main/20220226_131303/1645884741707.png]]
+
+2022-02-26 14:12:21 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:12:34 - [MESSAGE][PASSED] - Delayed 13 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-26 14:00:37 - [TEST_SUITE][PASSED] - Refund-Order-Main: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-RefundOrder-GetOrderIDAndRefund]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

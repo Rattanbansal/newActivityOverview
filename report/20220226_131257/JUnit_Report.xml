@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CancelAndRefundMultipleBookings" time="507.935" tests="1" failures="0" errors="0">
+   <testsuite name="CancelAndRefundMultipleBookings" tests="1" failures="0" errors="0" time="507.935" skipped="0" timestamp="2022-02-26 13:30:32" hostname="root - 6cfc5c2788e7" id="Test Suites/CancelAndRefundMultipleBookings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257"/>
+         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/execution0.log"/>
+         <property name="attachments" value="/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882258727.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882274499.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882285051.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882316635.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882340099.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882340494.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882363974.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882424827.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882425179.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882448622.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882509428.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882509792.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882533260.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882594038.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882594401.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882617819.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882678609.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882678973.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882702407.png"/>
+         <property name="hostName" value="root - 6cfc5c2788e7"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="sessionId" value="fc1eb77d8c1e946407fd1f36945591db"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund" time="507.735" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund" status="PASSED">
+         <system-out><![CDATA[2022-02-26 13:30:32 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund
+
+2022-02-26 13:30:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 13:30:32 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-26 13:30:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-26 13:30:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-26 13:30:32 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-26 13:30:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-26 13:30:33 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 13:30:33 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 13:30:33 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 13:30:39 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 13:30:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 13:30:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 13:30:42 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 13:30:45 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 13:30:45 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 13:30:52 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 13:30:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 13:30:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 13:30:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:30:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882258727.png]]
+
+2022-02-26 13:30:58 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 13:30:59 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 13:30:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 13:30:59 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-26 13:30:59 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 13:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 13:31:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:31:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882274499.png]]
+
+2022-02-26 13:31:14 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-26 13:31:15 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-26 13:31:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-26 13:31:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:31:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882285051.png]]
+
+2022-02-26 13:31:25 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-26 13:31:25 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-26 13:31:25 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-26 13:31:25 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-26 13:31:25 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Delayed 13 second(s)
+
+2022-02-26 13:31:25 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-26 13:31:25 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-26 13:31:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage_select")): Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-26 13:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-26 13:31:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 13:31:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 13:31:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage-SelectOption")): Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-26 13:31:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-26 13:31:36 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 13:31:56 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:31:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882316635.png]]
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - SizeofPagination = getText(findTestObject("Object Repository/PaginationCOunt/PaginationCount")): Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-26 13:31:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - println(SizeofPagination): null
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - paginationmaxcount = Integer.parseInt(SizeofPagination): null
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - paginationmaxcount = pagination: null
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationmaxcount): Size of Pagination: 5
+
+2022-02-26 13:31:56 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - totalrecords = 0: null
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - for ([l = 1, l <= paginationmaxcount, (l++)]): Delayed 13 second(s)
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 1
+
+2022-02-26 13:31:56 - [MESSAGE][INFO] - Size of Pagination: 1
+
+2022-02-26 13:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 13:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 13:32:00 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 13:32:20 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:32:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882340099.png]]
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 80
+
+2022-02-26 13:32:20 - [MESSAGE][INFO] - Size of Active Bookings: 80
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 80
+
+2022-02-26 13:32:20 - [MESSAGE][INFO] - Size of refund booking: 80
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 13:32:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:32:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882340494.png]]
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164579446890597
+
+2022-02-26 13:32:20 - [MESSAGE][INFO] - Order ID: 164579446890597
+
+2022-02-26 13:32:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 13:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 13:32:23 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 13:32:43 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 13:32:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:32:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882363974.png]]
+
+2022-02-26 13:32:44 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 13:32:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 13:32:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductSectionLength'. Try using Self-healing.
+
+2022-02-26 13:32:51 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 13:32:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 13:32:52 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 13:32:52 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 0
+
+2022-02-26 13:32:52 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 0
+
+2022-02-26 13:32:52 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): null
+
+2022-02-26 13:32:52 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 13:33:05 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 13:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 13:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 13:33:08 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 13:33:21 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 13:33:21 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 13:33:21 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 13:33:21 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 13:33:21 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 2
+
+2022-02-26 13:33:21 - [MESSAGE][INFO] - Size of Pagination: 2
+
+2022-02-26 13:33:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 13:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 13:33:24 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 13:33:44 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 13:33:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:33:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882424827.png]]
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 88
+
+2022-02-26 13:33:45 - [MESSAGE][INFO] - Size of Active Bookings: 88
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 88
+
+2022-02-26 13:33:45 - [MESSAGE][INFO] - Size of refund booking: 88
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 13:33:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:33:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882425179.png]]
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164569849819227
+
+2022-02-26 13:33:45 - [MESSAGE][INFO] - Order ID: 164569849819227
+
+2022-02-26 13:33:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 13:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 13:33:48 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 13:34:08 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 13:34:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:34:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882448622.png]]
+
+2022-02-26 13:34:08 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 13:34:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 13:34:14 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductSectionLength'. Try using Self-healing.
+
+2022-02-26 13:34:15 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 13:34:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 13:34:16 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 13:34:16 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 0
+
+2022-02-26 13:34:16 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 0
+
+2022-02-26 13:34:16 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): null
+
+2022-02-26 13:34:16 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 13:34:29 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 13:34:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 13:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 13:34:33 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 13:34:46 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 13:34:46 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 13:34:46 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 13:34:46 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 13:34:46 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 3
+
+2022-02-26 13:34:46 - [MESSAGE][INFO] - Size of Pagination: 3
+
+2022-02-26 13:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 13:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 13:34:49 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 13:35:09 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 13:35:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:35:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882509428.png]]
+
+2022-02-26 13:35:09 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 13:35:09 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 95
+
+2022-02-26 13:35:09 - [MESSAGE][INFO] - Size of Active Bookings: 95
+
+2022-02-26 13:35:09 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 13:35:09 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 13:35:09 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 13:35:09 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 13:35:09 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 95
+
+2022-02-26 13:35:09 - [MESSAGE][INFO] - Size of refund booking: 95
+
+2022-02-26 13:35:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 13:35:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 13:35:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:35:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882509792.png]]
+
+2022-02-26 13:35:10 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 13:35:10 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 13:35:10 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164561547519761
+
+2022-02-26 13:35:10 - [MESSAGE][INFO] - Order ID: 164561547519761
+
+2022-02-26 13:35:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 13:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 13:35:13 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 13:35:33 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 13:35:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:35:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882533260.png]]
+
+2022-02-26 13:35:33 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 13:35:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 13:35:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductSectionLength'. Try using Self-healing.
+
+2022-02-26 13:35:40 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 13:35:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 13:35:41 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 13:35:41 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 0
+
+2022-02-26 13:35:41 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 0
+
+2022-02-26 13:35:41 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): null
+
+2022-02-26 13:35:41 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 13:35:54 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 13:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 13:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 13:35:57 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 13:36:10 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 13:36:10 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 13:36:10 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 13:36:10 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 13:36:10 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 13:36:10 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 13:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 13:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 13:36:14 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 13:36:34 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:36:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882594038.png]]
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 99
+
+2022-02-26 13:36:34 - [MESSAGE][INFO] - Size of Active Bookings: 99
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 99
+
+2022-02-26 13:36:34 - [MESSAGE][INFO] - Size of refund booking: 99
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 13:36:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:36:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882594401.png]]
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164552580001366
+
+2022-02-26 13:36:34 - [MESSAGE][INFO] - Order ID: 164552580001366
+
+2022-02-26 13:36:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 13:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 13:36:37 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 13:36:57 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 13:36:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:36:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882617819.png]]
+
+2022-02-26 13:36:58 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 13:37:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 13:37:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductSectionLength'. Try using Self-healing.
+
+2022-02-26 13:37:05 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 13:37:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 13:37:06 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 13:37:06 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 0
+
+2022-02-26 13:37:06 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 0
+
+2022-02-26 13:37:06 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): null
+
+2022-02-26 13:37:06 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 13:37:19 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 13:37:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 13:37:22 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 13:37:22 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 13:37:35 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 13:37:35 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 13:37:35 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 13:37:35 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 13:37:35 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 5
+
+2022-02-26 13:37:35 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-26 13:37:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 13:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 13:37:38 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 13:37:58 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 13:37:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:37:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882678609.png]]
+
+2022-02-26 13:37:58 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 13:37:58 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 88
+
+2022-02-26 13:37:58 - [MESSAGE][INFO] - Size of Active Bookings: 88
+
+2022-02-26 13:37:58 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-26 13:37:58 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 13:37:58 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 13:37:58 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 13:37:58 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 88
+
+2022-02-26 13:37:58 - [MESSAGE][INFO] - Size of refund booking: 88
+
+2022-02-26 13:37:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 13:37:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 13:37:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:37:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882678973.png]]
+
+2022-02-26 13:37:59 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 13:37:59 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 13:37:59 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164544594239811
+
+2022-02-26 13:37:59 - [MESSAGE][INFO] - Order ID: 164544594239811
+
+2022-02-26 13:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 13:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 13:38:02 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 13:38:22 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 13:38:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 13:38:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelAndRefundMultipleBookings/20220226_131257/1645882702407.png]]
+
+2022-02-26 13:38:22 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 13:38:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 13:38:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductSectionLength'. Try using Self-healing.
+
+2022-02-26 13:38:29 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 13:38:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 13:38:30 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 13:38:30 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 0
+
+2022-02-26 13:38:30 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 0
+
+2022-02-26 13:38:30 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): null
+
+2022-02-26 13:38:30 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 13:38:43 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 13:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 13:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 13:38:47 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 13:39:00 - [MESSAGE][PASSED] - Delayed 13 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-26 13:30:32 - [TEST_SUITE][PASSED] - CancelAndRefundMultipleBookings: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

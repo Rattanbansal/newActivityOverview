@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CancelOrder-OnIframeView" time="686.176" tests="1" failures="0" errors="0">
+   <testsuite name="CancelOrder-OnIframeView" tests="1" failures="0" errors="0" time="686.176" skipped="0" timestamp="2022-02-26 14:56:28" hostname="root - 6cfc5c2788e7" id="Test Suites/CancelOrder-OnIframeView">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315"/>
+         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/execution0.log"/>
+         <property name="attachments" value="/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887414992.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887428488.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887439160.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887470770.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887494230.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887494628.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887518118.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887524821.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887531240.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887562332.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887615070.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887615427.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887638888.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887645452.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887651866.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887682641.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887735379.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887735723.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887759162.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887765701.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887772104.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887803414.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887856150.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887856507.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887879940.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887886591.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887892998.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887923765.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887976508.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887976870.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645888000292.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645888006871.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645888013293.png, /tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645888044616.png"/>
+         <property name="hostName" value="root - 6cfc5c2788e7"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="sessionId" value="25cba0de0de4be5541ac82f892d647d1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelOrder-GetOrderIDAndRefund" time="685.981" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelOrder-GetOrderIDAndRefund" status="PASSED">
+         <system-out><![CDATA[2022-02-26 14:56:28 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelOrder-GetOrderIDAndRefund: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelOrder-GetOrderIDAndRefund
+
+2022-02-26 14:56:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 14:56:28 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-26 14:56:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-26 14:56:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-26 14:56:28 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-26 14:56:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-26 14:56:29 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 14:56:29 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 14:56:29 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 14:56:35 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 14:56:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 14:56:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 14:56:38 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 14:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 14:56:41 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 14:56:48 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 14:56:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 14:56:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 14:56:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:56:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887414992.png]]
+
+2022-02-26 14:56:55 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 14:56:55 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 14:56:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 14:56:55 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-26 14:56:55 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 14:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 14:57:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:57:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887428488.png]]
+
+2022-02-26 14:57:08 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-26 14:57:09 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-26 14:57:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-26 14:57:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:57:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887439160.png]]
+
+2022-02-26 14:57:19 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-26 14:57:19 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-26 14:57:19 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-26 14:57:19 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-26 14:57:19 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Delayed 13 second(s)
+
+2022-02-26 14:57:19 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-26 14:57:19 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-26 14:57:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage_select")): Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-26 14:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-26 14:57:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-26 14:57:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-26 14:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage-SelectOption")): Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-26 14:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-26 14:57:30 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:57:50 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:57:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:57:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887470770.png]]
+
+2022-02-26 14:57:50 - [TEST_STEP][PASSED] - SizeofPagination = getText(findTestObject("Object Repository/PaginationCOunt/PaginationCount")): Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-26 14:57:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-26 14:57:51 - [TEST_STEP][PASSED] - println(SizeofPagination): null
+
+2022-02-26 14:57:51 - [TEST_STEP][PASSED] - paginationmaxcount = Integer.parseInt(SizeofPagination): null
+
+2022-02-26 14:57:51 - [TEST_STEP][PASSED] - paginationmaxcount = pagination: null
+
+2022-02-26 14:57:51 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationmaxcount): Size of Pagination: 5
+
+2022-02-26 14:57:51 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-26 14:57:51 - [TEST_STEP][PASSED] - totalrecords = 0: null
+
+2022-02-26 14:57:51 - [TEST_STEP][PASSED] - for ([l = 1, l <= paginationmaxcount, (l++)]): Delayed 13 second(s)
+
+2022-02-26 14:57:51 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:57:51 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:57:51 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:57:51 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 1
+
+2022-02-26 14:57:51 - [MESSAGE][INFO] - Size of Pagination: 1
+
+2022-02-26 14:57:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:57:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:57:54 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:58:14 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:58:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887494230.png]]
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 78
+
+2022-02-26 14:58:14 - [MESSAGE][INFO] - Size of Active Bookings: 78
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 78
+
+2022-02-26 14:58:14 - [MESSAGE][INFO] - Size of refund booking: 78
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:58:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:58:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887494628.png]]
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164579478691311
+
+2022-02-26 14:58:14 - [MESSAGE][INFO] - Order ID: 164579478691311
+
+2022-02-26 14:58:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 14:58:18 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:58:38 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:58:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:58:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887518118.png]]
+
+2022-02-26 14:58:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StepToReUse/ActivityOverview-CancelOrder"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 14:58:38 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/ActivityOverview-CancelOrder: Test Cases/StepToReUse/ActivityOverview-CancelOrder
+
+2022-02-26 14:58:38 - [TEST_STEP][PASSED] - logInfo(Refund Value: $GlobalVariable.refundvalue): Refund Value: 78
+
+2022-02-26 14:58:38 - [MESSAGE][INFO] - Refund Value: 78
+
+2022-02-26 14:58:38 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton"), 15) == true): null
+
+2022-02-26 14:58:38 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelOrderButton' is clickable
+
+2022-02-26 14:58:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton"), 15): Scroll to object 'Object Repository/CancelAndRefund/CancelOrderButton' successfully
+
+2022-02-26 14:58:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/CancelOrderButton' successfully
+
+2022-02-26 14:58:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton")): Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 14:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 14:58:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 14:58:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 14:58:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:58:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887524821.png]]
+
+2022-02-26 14:58:45 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up"), 15) == true): null
+
+2022-02-26 14:58:45 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clickable
+
+2022-02-26 14:58:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up")): Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-26 14:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-26 14:58:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 14:58:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 14:58:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:58:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887531240.png]]
+
+2022-02-26 14:58:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton")): Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 14:58:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 14:58:54 - [TEST_STEP][PASSED] - if (refundvalue < 4): null
+
+2022-02-26 14:58:54 - [TEST_STEP][PASSED] - if (refundvalue <= 6 && refundvalue >= 4): null
+
+2022-02-26 14:58:54 - [TEST_STEP][PASSED] - if (refundvalue > 6): Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 14:58:54 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/CancelAndRefund/RefundOptionRadio"), 15) == true): Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 14:59:09 - [MESSAGE][WARNING] - Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 14:59:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CancelAndRefund/ReasonForCancellation"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-26 14:59:16 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-26 14:59:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/ConfirmCancellationButton")): Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-26 14:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-26 14:59:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 14:59:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 14:59:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:59:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887562332.png]]
+
+2022-02-26 14:59:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 14:59:22 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:59:35 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 14:59:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 14:59:38 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 14:59:51 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 14:59:51 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 14:59:51 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 14:59:51 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 14:59:51 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 2
+
+2022-02-26 14:59:51 - [MESSAGE][INFO] - Size of Pagination: 2
+
+2022-02-26 14:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 14:59:55 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:00:15 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:00:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887615070.png]]
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 85
+
+2022-02-26 15:00:15 - [MESSAGE][INFO] - Size of Active Bookings: 85
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 85
+
+2022-02-26 15:00:15 - [MESSAGE][INFO] - Size of refund booking: 85
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:00:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:00:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887615427.png]]
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164569869946934
+
+2022-02-26 15:00:15 - [MESSAGE][INFO] - Order ID: 164569869946934
+
+2022-02-26 15:00:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:00:18 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:00:38 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:00:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:00:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887638888.png]]
+
+2022-02-26 15:00:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StepToReUse/ActivityOverview-CancelOrder"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:00:39 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/ActivityOverview-CancelOrder: Test Cases/StepToReUse/ActivityOverview-CancelOrder
+
+2022-02-26 15:00:39 - [TEST_STEP][PASSED] - logInfo(Refund Value: $GlobalVariable.refundvalue): Refund Value: 85
+
+2022-02-26 15:00:39 - [MESSAGE][INFO] - Refund Value: 85
+
+2022-02-26 15:00:39 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton"), 15) == true): null
+
+2022-02-26 15:00:39 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelOrderButton' is clickable
+
+2022-02-26 15:00:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton"), 15): Scroll to object 'Object Repository/CancelAndRefund/CancelOrderButton' successfully
+
+2022-02-26 15:00:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/CancelOrderButton' successfully
+
+2022-02-26 15:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton")): Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:00:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:00:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:00:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:00:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887645452.png]]
+
+2022-02-26 15:00:45 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up"), 15) == true): null
+
+2022-02-26 15:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clickable
+
+2022-02-26 15:00:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up")): Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-26 15:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-26 15:00:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:00:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:00:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:00:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887651866.png]]
+
+2022-02-26 15:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton")): Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:00:55 - [TEST_STEP][PASSED] - if (refundvalue < 4): null
+
+2022-02-26 15:00:55 - [TEST_STEP][PASSED] - if (refundvalue <= 6 && refundvalue >= 4): null
+
+2022-02-26 15:00:55 - [TEST_STEP][PASSED] - if (refundvalue > 6): Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:00:55 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/CancelAndRefund/RefundOptionRadio"), 15) == true): Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:01:10 - [MESSAGE][WARNING] - Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:01:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CancelAndRefund/ReasonForCancellation"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-26 15:01:16 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-26 15:01:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/ConfirmCancellationButton")): Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-26 15:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-26 15:01:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:01:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:01:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:01:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887682641.png]]
+
+2022-02-26 15:01:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:01:22 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:01:35 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:01:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:01:39 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:01:52 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:01:52 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 15:01:52 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 15:01:52 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 15:01:52 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 3
+
+2022-02-26 15:01:52 - [MESSAGE][INFO] - Size of Pagination: 3
+
+2022-02-26 15:01:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:01:55 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:02:15 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:02:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887735379.png]]
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 93
+
+2022-02-26 15:02:15 - [MESSAGE][INFO] - Size of Active Bookings: 93
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 93
+
+2022-02-26 15:02:15 - [MESSAGE][INFO] - Size of refund booking: 93
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:02:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:02:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887735723.png]]
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164561570705837
+
+2022-02-26 15:02:15 - [MESSAGE][INFO] - Order ID: 164561570705837
+
+2022-02-26 15:02:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:02:19 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:02:39 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:02:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:02:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887759162.png]]
+
+2022-02-26 15:02:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StepToReUse/ActivityOverview-CancelOrder"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:02:39 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/ActivityOverview-CancelOrder: Test Cases/StepToReUse/ActivityOverview-CancelOrder
+
+2022-02-26 15:02:39 - [TEST_STEP][PASSED] - logInfo(Refund Value: $GlobalVariable.refundvalue): Refund Value: 93
+
+2022-02-26 15:02:39 - [MESSAGE][INFO] - Refund Value: 93
+
+2022-02-26 15:02:39 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton"), 15) == true): null
+
+2022-02-26 15:02:39 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelOrderButton' is clickable
+
+2022-02-26 15:02:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton"), 15): Scroll to object 'Object Repository/CancelAndRefund/CancelOrderButton' successfully
+
+2022-02-26 15:02:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/CancelOrderButton' successfully
+
+2022-02-26 15:02:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton")): Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:02:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:02:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:02:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:02:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887765701.png]]
+
+2022-02-26 15:02:45 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up"), 15) == true): null
+
+2022-02-26 15:02:45 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clickable
+
+2022-02-26 15:02:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up")): Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-26 15:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-26 15:02:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:02:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:02:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:02:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887772104.png]]
+
+2022-02-26 15:02:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton")): Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:02:55 - [TEST_STEP][PASSED] - if (refundvalue < 4): null
+
+2022-02-26 15:02:55 - [TEST_STEP][PASSED] - if (refundvalue <= 6 && refundvalue >= 4): null
+
+2022-02-26 15:02:55 - [TEST_STEP][PASSED] - if (refundvalue > 6): Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:02:55 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/CancelAndRefund/RefundOptionRadio"), 15) == true): Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:03:11 - [MESSAGE][WARNING] - Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:03:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CancelAndRefund/ReasonForCancellation"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-26 15:03:17 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-26 15:03:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/ConfirmCancellationButton")): Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-26 15:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-26 15:03:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:03:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:03:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:03:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887803414.png]]
+
+2022-02-26 15:03:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:03:23 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:03:36 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:03:39 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:03:52 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:03:52 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 15:03:52 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 15:03:52 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 15:03:52 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-26 15:03:52 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-26 15:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:03:56 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:04:16 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:04:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887856150.png]]
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 98
+
+2022-02-26 15:04:16 - [MESSAGE][INFO] - Size of Active Bookings: 98
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 98
+
+2022-02-26 15:04:16 - [MESSAGE][INFO] - Size of refund booking: 98
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:04:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:04:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887856507.png]]
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164552663933283
+
+2022-02-26 15:04:16 - [MESSAGE][INFO] - Order ID: 164552663933283
+
+2022-02-26 15:04:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:04:19 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:04:39 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:04:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:04:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887879940.png]]
+
+2022-02-26 15:04:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StepToReUse/ActivityOverview-CancelOrder"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:04:40 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/ActivityOverview-CancelOrder: Test Cases/StepToReUse/ActivityOverview-CancelOrder
+
+2022-02-26 15:04:40 - [TEST_STEP][PASSED] - logInfo(Refund Value: $GlobalVariable.refundvalue): Refund Value: 98
+
+2022-02-26 15:04:40 - [MESSAGE][INFO] - Refund Value: 98
+
+2022-02-26 15:04:40 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton"), 15) == true): null
+
+2022-02-26 15:04:40 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelOrderButton' is clickable
+
+2022-02-26 15:04:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton"), 15): Scroll to object 'Object Repository/CancelAndRefund/CancelOrderButton' successfully
+
+2022-02-26 15:04:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/CancelOrderButton' successfully
+
+2022-02-26 15:04:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton")): Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:04:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:04:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:04:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:04:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887886591.png]]
+
+2022-02-26 15:04:46 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up"), 15) == true): null
+
+2022-02-26 15:04:46 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clickable
+
+2022-02-26 15:04:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up")): Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-26 15:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-26 15:04:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:04:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:04:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:04:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887892998.png]]
+
+2022-02-26 15:04:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton")): Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:04:56 - [TEST_STEP][PASSED] - if (refundvalue < 4): null
+
+2022-02-26 15:04:56 - [TEST_STEP][PASSED] - if (refundvalue <= 6 && refundvalue >= 4): null
+
+2022-02-26 15:04:56 - [TEST_STEP][PASSED] - if (refundvalue > 6): Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:04:56 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/CancelAndRefund/RefundOptionRadio"), 15) == true): Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:05:11 - [MESSAGE][WARNING] - Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:05:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CancelAndRefund/ReasonForCancellation"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-26 15:05:17 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-26 15:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/ConfirmCancellationButton")): Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-26 15:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-26 15:05:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:05:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:05:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:05:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887923765.png]]
+
+2022-02-26 15:05:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:05:23 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:05:36 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:05:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:05:40 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:05:53 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:05:53 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-26 15:05:53 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-26 15:05:53 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-26 15:05:53 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 5
+
+2022-02-26 15:05:53 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-26 15:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-26 15:05:56 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:06:16 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:06:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:06:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887976508.png]]
+
+2022-02-26 15:06:16 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-26 15:06:16 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 86
+
+2022-02-26 15:06:16 - [MESSAGE][INFO] - Size of Active Bookings: 86
+
+2022-02-26 15:06:16 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:06:16 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-26 15:06:16 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-26 15:06:16 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-26 15:06:16 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 86
+
+2022-02-26 15:06:16 - [MESSAGE][INFO] - Size of refund booking: 86
+
+2022-02-26 15:06:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:06:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-26 15:06:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:06:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645887976870.png]]
+
+2022-02-26 15:06:17 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-26 15:06:17 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-26 15:06:17 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164544683164895
+
+2022-02-26 15:06:17 - [MESSAGE][INFO] - Order ID: 164544683164895
+
+2022-02-26 15:06:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-26 15:06:20 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 15:06:40 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 15:06:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:06:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645888000292.png]]
+
+2022-02-26 15:06:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/StepToReUse/ActivityOverview-CancelOrder"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:06:40 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/ActivityOverview-CancelOrder: Test Cases/StepToReUse/ActivityOverview-CancelOrder
+
+2022-02-26 15:06:40 - [TEST_STEP][PASSED] - logInfo(Refund Value: $GlobalVariable.refundvalue): Refund Value: 86
+
+2022-02-26 15:06:40 - [MESSAGE][INFO] - Refund Value: 86
+
+2022-02-26 15:06:40 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton"), 15) == true): null
+
+2022-02-26 15:06:40 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelOrderButton' is clickable
+
+2022-02-26 15:06:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton"), 15): Scroll to object 'Object Repository/CancelAndRefund/CancelOrderButton' successfully
+
+2022-02-26 15:06:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/CancelOrderButton' successfully
+
+2022-02-26 15:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton")): Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:06:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:06:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:06:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:06:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645888006871.png]]
+
+2022-02-26 15:06:47 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up"), 15) == true): null
+
+2022-02-26 15:06:47 - [MESSAGE][PASSED] - Object 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clickable
+
+2022-02-26 15:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up")): Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-26 15:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelButton - OnRefundPop-up' is clicked on
+
+2022-02-26 15:06:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:06:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:06:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:06:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645888013293.png]]
+
+2022-02-26 15:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/CancelOrderButton")): Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/CancelOrderButton' is clicked on
+
+2022-02-26 15:06:56 - [TEST_STEP][PASSED] - if (refundvalue < 4): null
+
+2022-02-26 15:06:56 - [TEST_STEP][PASSED] - if (refundvalue <= 6 && refundvalue >= 4): null
+
+2022-02-26 15:06:56 - [TEST_STEP][PASSED] - if (refundvalue > 6): Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:06:56 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/CancelAndRefund/RefundOptionRadio"), 15) == true): Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:07:12 - [MESSAGE][WARNING] - Object 'Object Repository/CancelAndRefund/RefundOptionRadio' is not visible after 15 second(s)
+
+2022-02-26 15:07:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CancelAndRefund/ReasonForCancellation"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-26 15:07:18 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/CancelAndRefund/ReasonForCancellation'
+
+2022-02-26 15:07:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CancelAndRefund/ConfirmCancellationButton")): Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-26 15:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CancelAndRefund/ConfirmCancellationButton' is clicked on
+
+2022-02-26 15:07:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 15:07:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 15:07:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 15:07:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/CancelOrder-OnIframeView/20220226_131315/1645888044616.png]]
+
+2022-02-26 15:07:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/StepToReUse/ActivityOverview-CancelOrder' successfully
+
+2022-02-26 15:07:24 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:07:37 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-26 15:07:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:07:41 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-26 15:07:41 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-26 15:07:54 - [MESSAGE][PASSED] - Delayed 13 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-26 14:56:28 - [TEST_SUITE][PASSED] - CancelOrder-OnIframeView: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelOrder-GetOrderIDAndRefund]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

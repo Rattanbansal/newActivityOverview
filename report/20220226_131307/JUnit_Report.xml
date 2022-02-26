@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Activity Overview detail Pop-up Other Section" time="133.97" tests="4" failures="0" errors="0">
+   <testsuite name="Activity Overview detail Pop-up Other Section" tests="4" failures="0" errors="0" time="133.97" skipped="0" timestamp="2022-02-26 14:28:41" hostname="root - 6cfc5c2788e7" id="Test Suites/Activity Overview detail Pop-up Other Section">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307"/>
+         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/execution0.log"/>
+         <property name="attachments" value="/tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885747836.png, /tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885763678.png, /tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885784227.png, /tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885807021.png, /tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885833778.png, /tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885837073.png"/>
+         <property name="hostName" value="root - 6cfc5c2788e7"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="sessionId" value="b595849d658f4635fb2a3c3a8a3c63ff"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/StepToReUse/ActivityOverview-RedirectionLogin" time="62.882" classname="Test Cases/StepToReUse/ActivityOverview-RedirectionLogin" status="PASSED">
+         <system-out><![CDATA[2022-02-26 14:28:41 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/ActivityOverview-RedirectionLogin: Test Cases/StepToReUse/ActivityOverview-RedirectionLogin
+
+2022-02-26 14:28:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 14:28:41 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-26 14:28:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-26 14:28:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-26 14:28:42 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-26 14:28:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-26 14:28:42 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 14:28:42 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 14:28:42 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 14:28:48 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 14:28:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 14:28:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 14:28:51 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 14:28:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 14:28:54 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 14:29:01 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 14:29:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 14:29:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 14:29:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:29:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885747836.png]]
+
+2022-02-26 14:29:08 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 14:29:08 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 14:29:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 14:29:08 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-26 14:29:08 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 14:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-26 14:29:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:29:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885763678.png]]
+
+2022-02-26 14:29:23 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-26 14:29:24 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:29:44 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-26 14:29:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:29:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885784227.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepToReUse/SearchProducts" time="22.781" classname="Test Cases/StepToReUse/SearchProducts" status="PASSED">
+         <system-out><![CDATA[2022-02-26 14:29:44 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/SearchProducts: Test Cases/StepToReUse/SearchProducts
+
+2022-02-26 14:29:44 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-26 14:29:44 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-26 14:29:44 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-26 14:29:44 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-26 14:29:44 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Taking screenshot successfully
+
+2022-02-26 14:29:44 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-26 14:29:44 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-26 14:29:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-26 14:29:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), "164371130378817"): Text '164371130378817' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:29:53 - [MESSAGE][PASSED] - Text '164371130378817' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:29:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:29:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-26 14:29:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-26 14:30:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-26 14:30:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:30:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885807021.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepToReUse/GoToDetailPop-up" time="23.303" classname="Test Cases/StepToReUse/GoToDetailPop-up" status="PASSED">
+         <system-out><![CDATA[2022-02-26 14:30:07 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/GoToDetailPop-up: Test Cases/StepToReUse/GoToDetailPop-up
+
+2022-02-26 14:30:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/ClickondetailPOp-up", ["position":"1"])): Object: 'Object Repository/ListingArea/ClickondetailPOp-up' is clicked on
+
+2022-02-26 14:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/ClickondetailPOp-up' is clicked on
+
+2022-02-26 14:30:10 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-26 14:30:30 - [MESSAGE][PASSED] - Delayed 20 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/StepToReUse/OtherProductDetails" time="24.793" classname="Test Cases/StepToReUse/OtherProductDetails" status="PASSED">
+         <system-out><![CDATA[2022-02-26 14:30:30 - [TEST_CASE][PASSED] - Test Cases/StepToReUse/OtherProductDetails: Test Cases/StepToReUse/OtherProductDetails
+
+2022-02-26 14:30:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity", ["position":"1"]), 15): Scroll to object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' successfully
+
+2022-02-26 14:30:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' successfully
+
+2022-02-26 14:30:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 14:30:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 14:30:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:30:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885833778.png]]
+
+2022-02-26 14:30:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity", ["position":"2"]), 15): Scroll to object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' successfully
+
+2022-02-26 14:30:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' successfully
+
+2022-02-26 14:30:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 14:30:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 14:30:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 14:30:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_131254/Activity Overview detail Pop-up Other Section/20220226_131307/1645885837073.png]]
+
+2022-02-26 14:30:37 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity", ["position":"3"]), 15)): Object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' is not present after 15 second(s)
+
+2022-02-26 14:30:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//li[@class='order-summary white-box'])[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 14:30:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity'. Try using Self-healing.
+
+2022-02-26 14:30:54 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 14:30:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 14:30:55 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 14:30:55 - [MESSAGE][WARNING] - Object 'Object Repository/DetailPop-up/OrderPaymentInformation-OrderSummary-Activity/OrderSummaryPaymentActivity' is not present after 15 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-26 14:28:41 - [TEST_SUITE][PASSED] - Activity Overview detail Pop-up Other Section: Test Cases/StepToReUse/OtherProductDetails]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
