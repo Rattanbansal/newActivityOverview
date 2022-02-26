@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CancelAndRefundMultipleBookings" time="505.381" tests="1" failures="0" errors="0">
+   <testsuite name="CancelAndRefundMultipleBookings" tests="1" failures="0" errors="0" time="505.381" skipped="0" timestamp="2022-02-14 12:05:26" hostname="intersoft-admin - intersoftadmin-desktop" id="Test Suites/CancelAndRefundMultipleBookings">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800"/>
+         <property name="logFiles" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/execution0.log"/>
+         <property name="attachments" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820554465.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820567630.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820578073.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820609714.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820633183.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820633602.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820657040.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820717758.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820718055.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820741403.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820802063.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820802366.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820825787.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820886492.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820886763.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820910114.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820970803.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820971183.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820994578.png"/>
+         <property name="hostName" value="intersoft-admin - intersoftadmin-desktop"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="1c0a38a940c4b6b6f0bd879209794a8d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund" time="505.076" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund" status="PASSED">
+         <system-out><![CDATA[2022-02-14 12:05:27 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund
+
+2022-02-14 12:05:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-14 12:05:27 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-14 12:05:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-14 12:05:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-14 12:05:28 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-14 12:05:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-14 12:05:29 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-14 12:05:29 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-14 12:05:29 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-14 12:05:34 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-14 12:05:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 12:05:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 12:05:37 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-14 12:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-14 12:05:41 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-14 12:05:47 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-14 12:05:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-14 12:05:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-14 12:05:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:05:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820554465.png]]
+
+2022-02-14 12:05:54 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-14 12:05:55 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-14 12:05:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-14 12:05:55 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-14 12:05:55 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-14 12:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-14 12:06:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:06:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820567630.png]]
+
+2022-02-14 12:06:07 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-14 12:06:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-14 12:06:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-14 12:06:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:06:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820578073.png]]
+
+2022-02-14 12:06:18 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-14 12:06:18 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-14 12:06:18 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-14 12:06:18 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-14 12:06:18 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Delayed 13 second(s)
+
+2022-02-14 12:06:18 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-14 12:06:18 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-14 12:06:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage_select")): Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-14 12:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-14 12:06:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-14 12:06:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-14 12:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage-SelectOption")): Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-14 12:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-14 12:06:29 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 12:06:49 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:06:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820609714.png]]
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - SizeofPagination = getText(findTestObject("Object Repository/PaginationCOunt/PaginationCount")): Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-14 12:06:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - println(SizeofPagination): null
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - paginationmaxcount = Integer.parseInt(SizeofPagination): null
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - paginationmaxcount = pagination: null
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationmaxcount): Size of Pagination: 5
+
+2022-02-14 12:06:49 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - totalrecords = 0: null
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - for ([l = 1, l <= paginationmaxcount, (l++)]): Delayed 13 second(s)
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 1
+
+2022-02-14 12:06:49 - [MESSAGE][INFO] - Size of Pagination: 1
+
+2022-02-14 12:06:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 12:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 12:06:53 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 12:07:13 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:07:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820633183.png]]
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 88
+
+2022-02-14 12:07:13 - [MESSAGE][INFO] - Size of Active Bookings: 88
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 88
+
+2022-02-14 12:07:13 - [MESSAGE][INFO] - Size of refund booking: 88
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 12:07:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:07:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820633602.png]]
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164464180980325
+
+2022-02-14 12:07:13 - [MESSAGE][INFO] - Order ID: 164464180980325
+
+2022-02-14 12:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 12:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 12:07:17 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 12:07:37 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 12:07:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:07:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820657040.png]]
+
+2022-02-14 12:07:37 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 12:07:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 12:07:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductSectionLength'. Try using Self-healing.
+
+2022-02-14 12:07:44 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 12:07:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 12:07:45 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 12:07:45 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 0
+
+2022-02-14 12:07:45 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 0
+
+2022-02-14 12:07:45 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): null
+
+2022-02-14 12:07:45 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 12:07:58 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 12:07:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 12:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 12:08:01 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 12:08:14 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 12:08:14 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-14 12:08:14 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-14 12:08:14 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-14 12:08:14 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 2
+
+2022-02-14 12:08:14 - [MESSAGE][INFO] - Size of Pagination: 2
+
+2022-02-14 12:08:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 12:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 12:08:17 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 12:08:37 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 12:08:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:08:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820717758.png]]
+
+2022-02-14 12:08:37 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-14 12:08:37 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 73
+
+2022-02-14 12:08:37 - [MESSAGE][INFO] - Size of Active Bookings: 73
+
+2022-02-14 12:08:37 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-14 12:08:37 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-14 12:08:37 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-14 12:08:37 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-14 12:08:37 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 73
+
+2022-02-14 12:08:37 - [MESSAGE][INFO] - Size of refund booking: 73
+
+2022-02-14 12:08:37 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 12:08:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 12:08:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:08:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820718055.png]]
+
+2022-02-14 12:08:38 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-14 12:08:38 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-14 12:08:38 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164455573276181
+
+2022-02-14 12:08:38 - [MESSAGE][INFO] - Order ID: 164455573276181
+
+2022-02-14 12:08:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 12:08:41 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 12:08:41 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 12:09:01 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 12:09:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:09:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820741403.png]]
+
+2022-02-14 12:09:01 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 12:09:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 12:09:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductSectionLength'. Try using Self-healing.
+
+2022-02-14 12:09:08 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 12:09:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 12:09:09 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 12:09:09 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 0
+
+2022-02-14 12:09:09 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 0
+
+2022-02-14 12:09:09 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): null
+
+2022-02-14 12:09:09 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 12:09:22 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 12:09:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 12:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 12:09:25 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 12:09:38 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 12:09:38 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-14 12:09:38 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-14 12:09:38 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-14 12:09:38 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 3
+
+2022-02-14 12:09:38 - [MESSAGE][INFO] - Size of Pagination: 3
+
+2022-02-14 12:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 12:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 12:09:42 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 12:10:02 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:10:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820802063.png]]
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 77
+
+2022-02-14 12:10:02 - [MESSAGE][INFO] - Size of Active Bookings: 77
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 77
+
+2022-02-14 12:10:02 - [MESSAGE][INFO] - Size of refund booking: 77
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 12:10:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:10:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820802366.png]]
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164440392356297
+
+2022-02-14 12:10:02 - [MESSAGE][INFO] - Order ID: 164440392356297
+
+2022-02-14 12:10:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 12:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 12:10:05 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 12:10:25 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 12:10:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:10:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820825787.png]]
+
+2022-02-14 12:10:25 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 12:10:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 12:10:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductSectionLength'. Try using Self-healing.
+
+2022-02-14 12:10:32 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 12:10:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 12:10:33 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 12:10:33 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 0
+
+2022-02-14 12:10:33 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 0
+
+2022-02-14 12:10:33 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): null
+
+2022-02-14 12:10:33 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 12:10:46 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 12:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 12:10:50 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 12:10:50 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 12:11:03 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 12:11:03 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-14 12:11:03 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-14 12:11:03 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-14 12:11:03 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 4
+
+2022-02-14 12:11:03 - [MESSAGE][INFO] - Size of Pagination: 4
+
+2022-02-14 12:11:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 12:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 12:11:06 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 12:11:26 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:11:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820886492.png]]
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 86
+
+2022-02-14 12:11:26 - [MESSAGE][INFO] - Size of Active Bookings: 86
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 86
+
+2022-02-14 12:11:26 - [MESSAGE][INFO] - Size of refund booking: 86
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 12:11:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:11:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820886763.png]]
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164431475689610
+
+2022-02-14 12:11:26 - [MESSAGE][INFO] - Order ID: 164431475689610
+
+2022-02-14 12:11:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 12:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 12:11:30 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 12:11:50 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 12:11:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:11:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820910114.png]]
+
+2022-02-14 12:11:50 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 12:11:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 12:11:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductSectionLength'. Try using Self-healing.
+
+2022-02-14 12:11:57 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 12:11:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 12:11:58 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 12:11:58 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 0
+
+2022-02-14 12:11:58 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 0
+
+2022-02-14 12:11:58 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): null
+
+2022-02-14 12:11:58 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 12:12:11 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 12:12:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 12:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 12:12:14 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 12:12:27 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 12:12:27 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-14 12:12:27 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-14 12:12:27 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-14 12:12:27 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 5
+
+2022-02-14 12:12:27 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-14 12:12:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 12:12:30 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 12:12:30 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 12:12:50 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 12:12:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:12:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820970803.png]]
+
+2022-02-14 12:12:50 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-14 12:12:50 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 95
+
+2022-02-14 12:12:50 - [MESSAGE][INFO] - Size of Active Bookings: 95
+
+2022-02-14 12:12:50 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-14 12:12:50 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-14 12:12:50 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-14 12:12:50 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-14 12:12:50 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 95
+
+2022-02-14 12:12:50 - [MESSAGE][INFO] - Size of refund booking: 95
+
+2022-02-14 12:12:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 12:12:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 12:12:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:12:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820971183.png]]
+
+2022-02-14 12:12:51 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-14 12:12:51 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-14 12:12:51 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164421910570558
+
+2022-02-14 12:12:51 - [MESSAGE][INFO] - Order ID: 164421910570558
+
+2022-02-14 12:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 12:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 12:12:54 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 12:13:14 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 12:13:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 12:13:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/CancelAndRefundMultipleBookings/20220214_115800/1644820994578.png]]
+
+2022-02-14 12:13:14 - [TEST_STEP][PASSED] - bookingsize = findWebElements(findTestObject("Object Repository/DetailPop-up/ExpanSection/ProductSectionLength"), 5).size(): [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 12:13:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='order-detail-left']//li[@class='order-list confirm hash-link-parent']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 12:13:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/DetailPop-up/ExpanSection/ProductSectionLength'. Try using Self-healing.
+
+2022-02-14 12:13:21 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 12:13:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 12:13:22 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 12:13:22 - [TEST_STEP][PASSED] - logInfo(Size of Bookings on Product detail Pop-up: $bookingsize): Size of Bookings on Product detail Pop-up: 0
+
+2022-02-14 12:13:22 - [MESSAGE][INFO] - Size of Bookings on Product detail Pop-up: 0
+
+2022-02-14 12:13:22 - [TEST_STEP][PASSED] - for ([looping = 1, looping <= bookingsize, (looping++)]): null
+
+2022-02-14 12:13:22 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 12:13:35 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 12:13:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 12:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 12:13:39 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 12:13:52 - [MESSAGE][PASSED] - Delayed 13 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-14 12:05:26 - [TEST_SUITE][PASSED] - CancelAndRefundMultipleBookings: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,1857 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-02-26T12:09:47</date>
+  <millis>1645877387995</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/CalendarTestingWithSearchAndSorting</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">0</property>
+  <property name="name">CalendarTestingWithSearchAndSorting</property>
+  <property name="description">Testing of search and sorting apply calendar custom date range</property>
+  <property name="id">Test Suites/CalendarTestingWithSearchAndSorting</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388007</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = root - 598f98d4bf79</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">root - 598f98d4bf79</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388008</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Linux 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Linux 64bit</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388008</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.17.0.2</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">172.17.0.2</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388009</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.2.5.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.2.5.208</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388208</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingCalendar-SearchSorting</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingCalendar-SearchSorting</property>
+  <property name="description">Redirect to New Activity Overview</property>
+  <property name="id">Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingCalendar-SearchSorting</property>
+  <property name="source">\tmp\katalon_execute\project\Test Cases\NewActivityOverview-LeftNavigation\ActivityOverview-ListingCalendar-SearchSorting.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388283</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) searchtext1 = test</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388292</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) searchtext2 = rattan</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388300</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) searchtext3 = 453354r</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388566</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;LoginWithSuperAdmin/SuperAdmin-Login&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388669</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/LoginWithSuperAdmin/SuperAdmin-Login</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/LoginWithSuperAdmin/SuperAdmin-Login</property>
+  <property name="description">Redirections to Supplier all Left Navigations</property>
+  <property name="id">Test Cases/LoginWithSuperAdmin/SuperAdmin-Login</property>
+  <property name="source">\tmp\katalon_execute\project\Test Cases\LoginWithSuperAdmin\SuperAdmin-Login.tc</property>
+  <property name="tag">Redirections</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388779</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:48</date>
+  <millis>1645877388959</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:49</date>
+  <millis>1645877389021</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 3,000 milliseconds</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390253</millis>
+  <sequence>23</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to open browser with url: &amp;apos;&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at SuperAdmin-Login.run(SuperAdmin-Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-ListingCalendar-SearchSorting.run(ActivityOverview-ListingCalendar-SearchSorting:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877315367.run(TempTestSuite1645877315367.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;598f98d4bf79&amp;apos;, ip: &amp;apos;172.17.0.2&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;5.4.0-99-generic&amp;apos;, java.version: &amp;apos;1.8.0_292&amp;apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &amp;lt;unknown&amp;gt;
+#1 0x55bfa1ae7838 &amp;lt;unknown&amp;gt;
+#2 0x55bfa1ad32c1 &amp;lt;unknown&amp;gt;
+#3 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#4 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#5 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#6 0x55bfa1ae0f10 &amp;lt;unknown&amp;gt;
+#7 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#8 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#9 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#10 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#11 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#12 0x55bfa1ade7cd &amp;lt;unknown&amp;gt;
+#13 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#14 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#15 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#16 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#17 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#18 0x55bfa1ada10b &amp;lt;unknown&amp;gt;
+#19 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#20 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#21 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#22 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#23 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#24 0x55bfa1ad913a &amp;lt;unknown&amp;gt;
+#25 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#26 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#27 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#28 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#29 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#30 0x55bfa1acc5aa &amp;lt;unknown&amp;gt;
+#31 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#32 0x55bfa1ad183b &amp;lt;unknown&amp;gt;
+#33 0x55bfa1ad12c0 &amp;lt;unknown&amp;gt;
+#34 0x55bfa1ae8c32 &amp;lt;unknown&amp;gt;
+#35 0x55bfa1b42354 &amp;lt;unknown&amp;gt;
+#36 0x55bfa1b3b073 &amp;lt;unknown&amp;gt;
+#37 0x55bfa1b10bca &amp;lt;unknown&amp;gt;
+#38 0x55bfa1b11c95 &amp;lt;unknown&amp;gt;
+#39 0x55bfa204c73d &amp;lt;unknown&amp;gt;
+#40 0x55bfa2062a40 &amp;lt;unknown&amp;gt;
+#41 0x55bfa204e435 &amp;lt;unknown&amp;gt;
+#42 0x55bfa2063465 &amp;lt;unknown&amp;gt;
+#43 0x55bfa2041e6f &amp;lt;unknown&amp;gt;
+#44 0x55bfa207e2d8 &amp;lt;unknown&amp;gt;
+#45 0x55bfa207e458 &amp;lt;unknown&amp;gt;
+#46 0x55bfa20991fd &amp;lt;unknown&amp;gt;
+#47 0x7faf5465b6ba &amp;lt;unknown&amp;gt;
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:433)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:366)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:253)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1639296279617.run(Script1639296279617.groovy:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1643615815620.run(Script1643615815620.groovy:26)
+	... 13 more
+)</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;598f98d4bf79&apos;, ip: &apos;172.17.0.2&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-99-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &lt;unknown&gt;
+#1 0x55bfa1ae7838 &lt;unknown&gt;
+#2 0x55bfa1ad32c1 &lt;unknown&gt;
+#3 0x55bfa1ad2003 &lt;unknown&gt;
+#4 0x55bfa1ad2353 &lt;unknown&gt;
+#5 0x55bfa1ad1981 &lt;unknown&gt;
+#6 0x55bfa1ae0f10 &lt;unknown&gt;
+#7 0x55bfa1ad1923 &lt;unknown&gt;
+#8 0x55bfa1ad2c99 &lt;unknown&gt;
+#9 0x55bfa1ad2003 &lt;unknown&gt;
+#10 0x55bfa1ad2353 &lt;unknown&gt;
+#11 0x55bfa1ad1981 &lt;unknown&gt;
+#12 0x55bfa1ade7cd &lt;unknown&gt;
+#13 0x55bfa1ad1923 &lt;unknown&gt;
+#14 0x55bfa1ad2c99 &lt;unknown&gt;
+#15 0x55bfa1ad2003 &lt;unknown&gt;
+#16 0x55bfa1ad2353 &lt;unknown&gt;
+#17 0x55bfa1ad1981 &lt;unknown&gt;
+#18 0x55bfa1ada10b &lt;unknown&gt;
+#19 0x55bfa1ad1923 &lt;unknown&gt;
+#20 0x55bfa1ad2c99 &lt;unknown&gt;
+#21 0x55bfa1ad2003 &lt;unknown&gt;
+#22 0x55bfa1ad2353 &lt;unknown&gt;
+#23 0x55bfa1ad1981 &lt;unknown&gt;
+#24 0x55bfa1ad913a &lt;unknown&gt;
+#25 0x55bfa1ad1923 &lt;unknown&gt;
+#26 0x55bfa1ad2c99 &lt;unknown&gt;
+#27 0x55bfa1ad2003 &lt;unknown&gt;
+#28 0x55bfa1ad2353 &lt;unknown&gt;
+#29 0x55bfa1ad1981 &lt;unknown&gt;
+#30 0x55bfa1acc5aa &lt;unknown&gt;
+#31 0x55bfa1ad1923 &lt;unknown&gt;
+#32 0x55bfa1ad183b &lt;unknown&gt;
+#33 0x55bfa1ad12c0 &lt;unknown&gt;
+#34 0x55bfa1ae8c32 &lt;unknown&gt;
+#35 0x55bfa1b42354 &lt;unknown&gt;
+#36 0x55bfa1b3b073 &lt;unknown&gt;
+#37 0x55bfa1b10bca &lt;unknown&gt;
+#38 0x55bfa1b11c95 &lt;unknown&gt;
+#39 0x55bfa204c73d &lt;unknown&gt;
+#40 0x55bfa2062a40 &lt;unknown&gt;
+#41 0x55bfa204e435 &lt;unknown&gt;
+#42 0x55bfa2063465 &lt;unknown&gt;
+#43 0x55bfa2041e6f &lt;unknown&gt;
+#44 0x55bfa207e2d8 &lt;unknown&gt;
+#45 0x55bfa207e458 &lt;unknown&gt;
+#46 0x55bfa20991fd &lt;unknown&gt;
+#47 0x7faf5465b6ba &lt;unknown&gt;
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:433)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:366)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:253)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at SuperAdmin-Login.run(SuperAdmin-Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-ListingCalendar-SearchSorting.run(ActivityOverview-ListingCalendar-SearchSorting:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877315367.run(TempTestSuite1645877315367.groovy:36)
+</property>
+  <property name="failed.exception.message">session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;598f98d4bf79&apos;, ip: &apos;172.17.0.2&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-99-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &lt;unknown&gt;
+#1 0x55bfa1ae7838 &lt;unknown&gt;
+#2 0x55bfa1ad32c1 &lt;unknown&gt;
+#3 0x55bfa1ad2003 &lt;unknown&gt;
+#4 0x55bfa1ad2353 &lt;unknown&gt;
+#5 0x55bfa1ad1981 &lt;unknown&gt;
+#6 0x55bfa1ae0f10 &lt;unknown&gt;
+#7 0x55bfa1ad1923 &lt;unknown&gt;
+#8 0x55bfa1ad2c99 &lt;unknown&gt;
+#9 0x55bfa1ad2003 &lt;unknown&gt;
+#10 0x55bfa1ad2353 &lt;unknown&gt;
+#11 0x55bfa1ad1981 &lt;unknown&gt;
+#12 0x55bfa1ade7cd &lt;unknown&gt;
+#13 0x55bfa1ad1923 &lt;unknown&gt;
+#14 0x55bfa1ad2c99 &lt;unknown&gt;
+#15 0x55bfa1ad2003 &lt;unknown&gt;
+#16 0x55bfa1ad2353 &lt;unknown&gt;
+#17 0x55bfa1ad1981 &lt;unknown&gt;
+#18 0x55bfa1ada10b &lt;unknown&gt;
+#19 0x55bfa1ad1923 &lt;unknown&gt;
+#20 0x55bfa1ad2c99 &lt;unknown&gt;
+#21 0x55bfa1ad2003 &lt;unknown&gt;
+#22 0x55bfa1ad2353 &lt;unknown&gt;
+#23 0x55bfa1ad1981 &lt;unknown&gt;
+#24 0x55bfa1ad913a &lt;unknown&gt;
+#25 0x55bfa1ad1923 &lt;unknown&gt;
+#26 0x55bfa1ad2c99 &lt;unknown&gt;
+#27 0x55bfa1ad2003 &lt;unknown&gt;
+#28 0x55bfa1ad2353 &lt;unknown&gt;
+#29 0x55bfa1ad1981 &lt;unknown&gt;
+#30 0x55bfa1acc5aa &lt;unknown&gt;
+#31 0x55bfa1ad1923 &lt;unknown&gt;
+#32 0x55bfa1ad183b &lt;unknown&gt;
+#33 0x55bfa1ad12c0 &lt;unknown&gt;
+#34 0x55bfa1ae8c32 &lt;unknown&gt;
+#35 0x55bfa1b42354 &lt;unknown&gt;
+#36 0x55bfa1b3b073 &lt;unknown&gt;
+#37 0x55bfa1b10bca &lt;unknown&gt;
+#38 0x55bfa1b11c95 &lt;unknown&gt;
+#39 0x55bfa204c73d &lt;unknown&gt;
+#40 0x55bfa2062a40 &lt;unknown&gt;
+#41 0x55bfa204e435 &lt;unknown&gt;
+#42 0x55bfa2063465 &lt;unknown&gt;
+#43 0x55bfa2041e6f &lt;unknown&gt;
+#44 0x55bfa207e2d8 &lt;unknown&gt;
+#45 0x55bfa207e458 &lt;unknown&gt;
+#46 0x55bfa20991fd &lt;unknown&gt;
+#47 0x7faf5465b6ba &lt;unknown&gt;
+</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390263</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390264</millis>
+  <sequence>29</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/LoginWithSuperAdmin/SuperAdmin-Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at SuperAdmin-Login.run(SuperAdmin-Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-ListingCalendar-SearchSorting.run(ActivityOverview-ListingCalendar-SearchSorting:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877315367.run(TempTestSuite1645877315367.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;598f98d4bf79&amp;apos;, ip: &amp;apos;172.17.0.2&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;5.4.0-99-generic&amp;apos;, java.version: &amp;apos;1.8.0_292&amp;apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &amp;lt;unknown&amp;gt;
+#1 0x55bfa1ae7838 &amp;lt;unknown&amp;gt;
+#2 0x55bfa1ad32c1 &amp;lt;unknown&amp;gt;
+#3 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#4 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#5 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#6 0x55bfa1ae0f10 &amp;lt;unknown&amp;gt;
+#7 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#8 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#9 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#10 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#11 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#12 0x55bfa1ade7cd &amp;lt;unknown&amp;gt;
+#13 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#14 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#15 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#16 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#17 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#18 0x55bfa1ada10b &amp;lt;unknown&amp;gt;
+#19 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#20 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#21 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#22 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#23 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#24 0x55bfa1ad913a &amp;lt;unknown&amp;gt;
+#25 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#26 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#27 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#28 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#29 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#30 0x55bfa1acc5aa &amp;lt;unknown&amp;gt;
+#31 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#32 0x55bfa1ad183b &amp;lt;unknown&amp;gt;
+#33 0x55bfa1ad12c0 &amp;lt;unknown&amp;gt;
+#34 0x55bfa1ae8c32 &amp;lt;unknown&amp;gt;
+#35 0x55bfa1b42354 &amp;lt;unknown&amp;gt;
+#36 0x55bfa1b3b073 &amp;lt;unknown&amp;gt;
+#37 0x55bfa1b10bca &amp;lt;unknown&amp;gt;
+#38 0x55bfa1b11c95 &amp;lt;unknown&amp;gt;
+#39 0x55bfa204c73d &amp;lt;unknown&amp;gt;
+#40 0x55bfa2062a40 &amp;lt;unknown&amp;gt;
+#41 0x55bfa204e435 &amp;lt;unknown&amp;gt;
+#42 0x55bfa2063465 &amp;lt;unknown&amp;gt;
+#43 0x55bfa2041e6f &amp;lt;unknown&amp;gt;
+#44 0x55bfa207e2d8 &amp;lt;unknown&amp;gt;
+#45 0x55bfa207e458 &amp;lt;unknown&amp;gt;
+#46 0x55bfa20991fd &amp;lt;unknown&amp;gt;
+#47 0x7faf5465b6ba &amp;lt;unknown&amp;gt;
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:433)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:366)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:253)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''</message>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>openBrowser</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>openBrowser</method>
+      <line>64</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>SuperAdmin-Login</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>442</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>433</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>412</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>404</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>281</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>runTestCase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>doCall</method>
+      <line>59</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>callTestCase</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>execute</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.BuiltinKeywords</class>
+      <method>callTestCase</method>
+      <line>334</line>
+    </frame>
+    <frame>
+      <class>ActivityOverview-ListingCalendar-SearchSorting</class>
+      <method>run</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>442</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>433</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>412</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>404</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>281</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>202</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>164</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1645877315367</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;598f98d4bf79&apos;, ip: &apos;172.17.0.2&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-99-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &lt;unknown&gt;
+#1 0x55bfa1ae7838 &lt;unknown&gt;
+#2 0x55bfa1ad32c1 &lt;unknown&gt;
+#3 0x55bfa1ad2003 &lt;unknown&gt;
+#4 0x55bfa1ad2353 &lt;unknown&gt;
+#5 0x55bfa1ad1981 &lt;unknown&gt;
+#6 0x55bfa1ae0f10 &lt;unknown&gt;
+#7 0x55bfa1ad1923 &lt;unknown&gt;
+#8 0x55bfa1ad2c99 &lt;unknown&gt;
+#9 0x55bfa1ad2003 &lt;unknown&gt;
+#10 0x55bfa1ad2353 &lt;unknown&gt;
+#11 0x55bfa1ad1981 &lt;unknown&gt;
+#12 0x55bfa1ade7cd &lt;unknown&gt;
+#13 0x55bfa1ad1923 &lt;unknown&gt;
+#14 0x55bfa1ad2c99 &lt;unknown&gt;
+#15 0x55bfa1ad2003 &lt;unknown&gt;
+#16 0x55bfa1ad2353 &lt;unknown&gt;
+#17 0x55bfa1ad1981 &lt;unknown&gt;
+#18 0x55bfa1ada10b &lt;unknown&gt;
+#19 0x55bfa1ad1923 &lt;unknown&gt;
+#20 0x55bfa1ad2c99 &lt;unknown&gt;
+#21 0x55bfa1ad2003 &lt;unknown&gt;
+#22 0x55bfa1ad2353 &lt;unknown&gt;
+#23 0x55bfa1ad1981 &lt;unknown&gt;
+#24 0x55bfa1ad913a &lt;unknown&gt;
+#25 0x55bfa1ad1923 &lt;unknown&gt;
+#26 0x55bfa1ad2c99 &lt;unknown&gt;
+#27 0x55bfa1ad2003 &lt;unknown&gt;
+#28 0x55bfa1ad2353 &lt;unknown&gt;
+#29 0x55bfa1ad1981 &lt;unknown&gt;
+#30 0x55bfa1acc5aa &lt;unknown&gt;
+#31 0x55bfa1ad1923 &lt;unknown&gt;
+#32 0x55bfa1ad183b &lt;unknown&gt;
+#33 0x55bfa1ad12c0 &lt;unknown&gt;
+#34 0x55bfa1ae8c32 &lt;unknown&gt;
+#35 0x55bfa1b42354 &lt;unknown&gt;
+#36 0x55bfa1b3b073 &lt;unknown&gt;
+#37 0x55bfa1b10bca &lt;unknown&gt;
+#38 0x55bfa1b11c95 &lt;unknown&gt;
+#39 0x55bfa204c73d &lt;unknown&gt;
+#40 0x55bfa2062a40 &lt;unknown&gt;
+#41 0x55bfa204e435 &lt;unknown&gt;
+#42 0x55bfa2063465 &lt;unknown&gt;
+#43 0x55bfa2041e6f &lt;unknown&gt;
+#44 0x55bfa207e2d8 &lt;unknown&gt;
+#45 0x55bfa207e458 &lt;unknown&gt;
+#46 0x55bfa20991fd &lt;unknown&gt;
+#47 0x7faf5465b6ba &lt;unknown&gt;
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:433)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:366)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:253)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at SuperAdmin-Login.run(SuperAdmin-Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-ListingCalendar-SearchSorting.run(ActivityOverview-ListingCalendar-SearchSorting:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877315367.run(TempTestSuite1645877315367.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.message">session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;598f98d4bf79&apos;, ip: &apos;172.17.0.2&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-99-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &lt;unknown&gt;
+#1 0x55bfa1ae7838 &lt;unknown&gt;
+#2 0x55bfa1ad32c1 &lt;unknown&gt;
+#3 0x55bfa1ad2003 &lt;unknown&gt;
+#4 0x55bfa1ad2353 &lt;unknown&gt;
+#5 0x55bfa1ad1981 &lt;unknown&gt;
+#6 0x55bfa1ae0f10 &lt;unknown&gt;
+#7 0x55bfa1ad1923 &lt;unknown&gt;
+#8 0x55bfa1ad2c99 &lt;unknown&gt;
+#9 0x55bfa1ad2003 &lt;unknown&gt;
+#10 0x55bfa1ad2353 &lt;unknown&gt;
+#11 0x55bfa1ad1981 &lt;unknown&gt;
+#12 0x55bfa1ade7cd &lt;unknown&gt;
+#13 0x55bfa1ad1923 &lt;unknown&gt;
+#14 0x55bfa1ad2c99 &lt;unknown&gt;
+#15 0x55bfa1ad2003 &lt;unknown&gt;
+#16 0x55bfa1ad2353 &lt;unknown&gt;
+#17 0x55bfa1ad1981 &lt;unknown&gt;
+#18 0x55bfa1ada10b &lt;unknown&gt;
+#19 0x55bfa1ad1923 &lt;unknown&gt;
+#20 0x55bfa1ad2c99 &lt;unknown&gt;
+#21 0x55bfa1ad2003 &lt;unknown&gt;
+#22 0x55bfa1ad2353 &lt;unknown&gt;
+#23 0x55bfa1ad1981 &lt;unknown&gt;
+#24 0x55bfa1ad913a &lt;unknown&gt;
+#25 0x55bfa1ad1923 &lt;unknown&gt;
+#26 0x55bfa1ad2c99 &lt;unknown&gt;
+#27 0x55bfa1ad2003 &lt;unknown&gt;
+#28 0x55bfa1ad2353 &lt;unknown&gt;
+#29 0x55bfa1ad1981 &lt;unknown&gt;
+#30 0x55bfa1acc5aa &lt;unknown&gt;
+#31 0x55bfa1ad1923 &lt;unknown&gt;
+#32 0x55bfa1ad183b &lt;unknown&gt;
+#33 0x55bfa1ad12c0 &lt;unknown&gt;
+#34 0x55bfa1ae8c32 &lt;unknown&gt;
+#35 0x55bfa1b42354 &lt;unknown&gt;
+#36 0x55bfa1b3b073 &lt;unknown&gt;
+#37 0x55bfa1b10bca &lt;unknown&gt;
+#38 0x55bfa1b11c95 &lt;unknown&gt;
+#39 0x55bfa204c73d &lt;unknown&gt;
+#40 0x55bfa2062a40 &lt;unknown&gt;
+#41 0x55bfa204e435 &lt;unknown&gt;
+#42 0x55bfa2063465 &lt;unknown&gt;
+#43 0x55bfa2041e6f &lt;unknown&gt;
+#44 0x55bfa207e2d8 &lt;unknown&gt;
+#45 0x55bfa207e458 &lt;unknown&gt;
+#46 0x55bfa20991fd &lt;unknown&gt;
+#47 0x7faf5465b6ba &lt;unknown&gt;
+</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390273</millis>
+  <sequence>31</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/LoginWithSuperAdmin/SuperAdmin-Login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390285</millis>
+  <sequence>36</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to call Test Case &amp;apos;Test Cases/LoginWithSuperAdmin/SuperAdmin-Login&amp;apos; (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case &amp;apos;Test Cases/LoginWithSuperAdmin/SuperAdmin-Login&amp;apos; failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-ListingCalendar-SearchSorting.run(ActivityOverview-ListingCalendar-SearchSorting:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877315367.run(TempTestSuite1645877315367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at SuperAdmin-Login.run(SuperAdmin-Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;598f98d4bf79&amp;apos;, ip: &amp;apos;172.17.0.2&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;5.4.0-99-generic&amp;apos;, java.version: &amp;apos;1.8.0_292&amp;apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &amp;lt;unknown&amp;gt;
+#1 0x55bfa1ae7838 &amp;lt;unknown&amp;gt;
+#2 0x55bfa1ad32c1 &amp;lt;unknown&amp;gt;
+#3 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#4 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#5 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#6 0x55bfa1ae0f10 &amp;lt;unknown&amp;gt;
+#7 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#8 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#9 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#10 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#11 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#12 0x55bfa1ade7cd &amp;lt;unknown&amp;gt;
+#13 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#14 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#15 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#16 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#17 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#18 0x55bfa1ada10b &amp;lt;unknown&amp;gt;
+#19 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#20 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#21 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#22 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#23 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#24 0x55bfa1ad913a &amp;lt;unknown&amp;gt;
+#25 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#26 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#27 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#28 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#29 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#30 0x55bfa1acc5aa &amp;lt;unknown&amp;gt;
+#31 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#32 0x55bfa1ad183b &amp;lt;unknown&amp;gt;
+#33 0x55bfa1ad12c0 &amp;lt;unknown&amp;gt;
+#34 0x55bfa1ae8c32 &amp;lt;unknown&amp;gt;
+#35 0x55bfa1b42354 &amp;lt;unknown&amp;gt;
+#36 0x55bfa1b3b073 &amp;lt;unknown&amp;gt;
+#37 0x55bfa1b10bca &amp;lt;unknown&amp;gt;
+#38 0x55bfa1b11c95 &amp;lt;unknown&amp;gt;
+#39 0x55bfa204c73d &amp;lt;unknown&amp;gt;
+#40 0x55bfa2062a40 &amp;lt;unknown&amp;gt;
+#41 0x55bfa204e435 &amp;lt;unknown&amp;gt;
+#42 0x55bfa2063465 &amp;lt;unknown&amp;gt;
+#43 0x55bfa2041e6f &amp;lt;unknown&amp;gt;
+#44 0x55bfa207e2d8 &amp;lt;unknown&amp;gt;
+#45 0x55bfa207e458 &amp;lt;unknown&amp;gt;
+#46 0x55bfa20991fd &amp;lt;unknown&amp;gt;
+#47 0x7faf5465b6ba &amp;lt;unknown&amp;gt;
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:433)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:366)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:253)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;598f98d4bf79&apos;, ip: &apos;172.17.0.2&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-99-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &lt;unknown&gt;
+#1 0x55bfa1ae7838 &lt;unknown&gt;
+#2 0x55bfa1ad32c1 &lt;unknown&gt;
+#3 0x55bfa1ad2003 &lt;unknown&gt;
+#4 0x55bfa1ad2353 &lt;unknown&gt;
+#5 0x55bfa1ad1981 &lt;unknown&gt;
+#6 0x55bfa1ae0f10 &lt;unknown&gt;
+#7 0x55bfa1ad1923 &lt;unknown&gt;
+#8 0x55bfa1ad2c99 &lt;unknown&gt;
+#9 0x55bfa1ad2003 &lt;unknown&gt;
+#10 0x55bfa1ad2353 &lt;unknown&gt;
+#11 0x55bfa1ad1981 &lt;unknown&gt;
+#12 0x55bfa1ade7cd &lt;unknown&gt;
+#13 0x55bfa1ad1923 &lt;unknown&gt;
+#14 0x55bfa1ad2c99 &lt;unknown&gt;
+#15 0x55bfa1ad2003 &lt;unknown&gt;
+#16 0x55bfa1ad2353 &lt;unknown&gt;
+#17 0x55bfa1ad1981 &lt;unknown&gt;
+#18 0x55bfa1ada10b &lt;unknown&gt;
+#19 0x55bfa1ad1923 &lt;unknown&gt;
+#20 0x55bfa1ad2c99 &lt;unknown&gt;
+#21 0x55bfa1ad2003 &lt;unknown&gt;
+#22 0x55bfa1ad2353 &lt;unknown&gt;
+#23 0x55bfa1ad1981 &lt;unknown&gt;
+#24 0x55bfa1ad913a &lt;unknown&gt;
+#25 0x55bfa1ad1923 &lt;unknown&gt;
+#26 0x55bfa1ad2c99 &lt;unknown&gt;
+#27 0x55bfa1ad2003 &lt;unknown&gt;
+#28 0x55bfa1ad2353 &lt;unknown&gt;
+#29 0x55bfa1ad1981 &lt;unknown&gt;
+#30 0x55bfa1acc5aa &lt;unknown&gt;
+#31 0x55bfa1ad1923 &lt;unknown&gt;
+#32 0x55bfa1ad183b &lt;unknown&gt;
+#33 0x55bfa1ad12c0 &lt;unknown&gt;
+#34 0x55bfa1ae8c32 &lt;unknown&gt;
+#35 0x55bfa1b42354 &lt;unknown&gt;
+#36 0x55bfa1b3b073 &lt;unknown&gt;
+#37 0x55bfa1b10bca &lt;unknown&gt;
+#38 0x55bfa1b11c95 &lt;unknown&gt;
+#39 0x55bfa204c73d &lt;unknown&gt;
+#40 0x55bfa2062a40 &lt;unknown&gt;
+#41 0x55bfa204e435 &lt;unknown&gt;
+#42 0x55bfa2063465 &lt;unknown&gt;
+#43 0x55bfa2041e6f &lt;unknown&gt;
+#44 0x55bfa207e2d8 &lt;unknown&gt;
+#45 0x55bfa207e458 &lt;unknown&gt;
+#46 0x55bfa20991fd &lt;unknown&gt;
+#47 0x7faf5465b6ba &lt;unknown&gt;
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:433)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:366)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:253)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at SuperAdmin-Login.run(SuperAdmin-Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-ListingCalendar-SearchSorting.run(ActivityOverview-ListingCalendar-SearchSorting:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877315367.run(TempTestSuite1645877315367.groovy:36)
+</property>
+  <property name="failed.exception.message">session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;598f98d4bf79&apos;, ip: &apos;172.17.0.2&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-99-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &lt;unknown&gt;
+#1 0x55bfa1ae7838 &lt;unknown&gt;
+#2 0x55bfa1ad32c1 &lt;unknown&gt;
+#3 0x55bfa1ad2003 &lt;unknown&gt;
+#4 0x55bfa1ad2353 &lt;unknown&gt;
+#5 0x55bfa1ad1981 &lt;unknown&gt;
+#6 0x55bfa1ae0f10 &lt;unknown&gt;
+#7 0x55bfa1ad1923 &lt;unknown&gt;
+#8 0x55bfa1ad2c99 &lt;unknown&gt;
+#9 0x55bfa1ad2003 &lt;unknown&gt;
+#10 0x55bfa1ad2353 &lt;unknown&gt;
+#11 0x55bfa1ad1981 &lt;unknown&gt;
+#12 0x55bfa1ade7cd &lt;unknown&gt;
+#13 0x55bfa1ad1923 &lt;unknown&gt;
+#14 0x55bfa1ad2c99 &lt;unknown&gt;
+#15 0x55bfa1ad2003 &lt;unknown&gt;
+#16 0x55bfa1ad2353 &lt;unknown&gt;
+#17 0x55bfa1ad1981 &lt;unknown&gt;
+#18 0x55bfa1ada10b &lt;unknown&gt;
+#19 0x55bfa1ad1923 &lt;unknown&gt;
+#20 0x55bfa1ad2c99 &lt;unknown&gt;
+#21 0x55bfa1ad2003 &lt;unknown&gt;
+#22 0x55bfa1ad2353 &lt;unknown&gt;
+#23 0x55bfa1ad1981 &lt;unknown&gt;
+#24 0x55bfa1ad913a &lt;unknown&gt;
+#25 0x55bfa1ad1923 &lt;unknown&gt;
+#26 0x55bfa1ad2c99 &lt;unknown&gt;
+#27 0x55bfa1ad2003 &lt;unknown&gt;
+#28 0x55bfa1ad2353 &lt;unknown&gt;
+#29 0x55bfa1ad1981 &lt;unknown&gt;
+#30 0x55bfa1acc5aa &lt;unknown&gt;
+#31 0x55bfa1ad1923 &lt;unknown&gt;
+#32 0x55bfa1ad183b &lt;unknown&gt;
+#33 0x55bfa1ad12c0 &lt;unknown&gt;
+#34 0x55bfa1ae8c32 &lt;unknown&gt;
+#35 0x55bfa1b42354 &lt;unknown&gt;
+#36 0x55bfa1b3b073 &lt;unknown&gt;
+#37 0x55bfa1b10bca &lt;unknown&gt;
+#38 0x55bfa1b11c95 &lt;unknown&gt;
+#39 0x55bfa204c73d &lt;unknown&gt;
+#40 0x55bfa2062a40 &lt;unknown&gt;
+#41 0x55bfa204e435 &lt;unknown&gt;
+#42 0x55bfa2063465 &lt;unknown&gt;
+#43 0x55bfa2041e6f &lt;unknown&gt;
+#44 0x55bfa207e2d8 &lt;unknown&gt;
+#45 0x55bfa207e458 &lt;unknown&gt;
+#46 0x55bfa20991fd &lt;unknown&gt;
+#47 0x7faf5465b6ba &lt;unknown&gt;
+</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390300</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase(findTestCase(&amp;quot;LoginWithSuperAdmin/SuperAdmin-Login&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390307</millis>
+  <sequence>44</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingCalendar-SearchSorting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case &amp;apos;Test Cases/LoginWithSuperAdmin/SuperAdmin-Login&amp;apos; failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-ListingCalendar-SearchSorting.run(ActivityOverview-ListingCalendar-SearchSorting:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877315367.run(TempTestSuite1645877315367.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: &amp;apos;&amp;apos;
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at SuperAdmin-Login.run(SuperAdmin-Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;598f98d4bf79&amp;apos;, ip: &amp;apos;172.17.0.2&amp;apos;, os.name: &amp;apos;Linux&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;5.4.0-99-generic&amp;apos;, java.version: &amp;apos;1.8.0_292&amp;apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &amp;lt;unknown&amp;gt;
+#1 0x55bfa1ae7838 &amp;lt;unknown&amp;gt;
+#2 0x55bfa1ad32c1 &amp;lt;unknown&amp;gt;
+#3 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#4 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#5 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#6 0x55bfa1ae0f10 &amp;lt;unknown&amp;gt;
+#7 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#8 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#9 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#10 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#11 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#12 0x55bfa1ade7cd &amp;lt;unknown&amp;gt;
+#13 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#14 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#15 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#16 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#17 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#18 0x55bfa1ada10b &amp;lt;unknown&amp;gt;
+#19 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#20 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#21 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#22 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#23 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#24 0x55bfa1ad913a &amp;lt;unknown&amp;gt;
+#25 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#26 0x55bfa1ad2c99 &amp;lt;unknown&amp;gt;
+#27 0x55bfa1ad2003 &amp;lt;unknown&amp;gt;
+#28 0x55bfa1ad2353 &amp;lt;unknown&amp;gt;
+#29 0x55bfa1ad1981 &amp;lt;unknown&amp;gt;
+#30 0x55bfa1acc5aa &amp;lt;unknown&amp;gt;
+#31 0x55bfa1ad1923 &amp;lt;unknown&amp;gt;
+#32 0x55bfa1ad183b &amp;lt;unknown&amp;gt;
+#33 0x55bfa1ad12c0 &amp;lt;unknown&amp;gt;
+#34 0x55bfa1ae8c32 &amp;lt;unknown&amp;gt;
+#35 0x55bfa1b42354 &amp;lt;unknown&amp;gt;
+#36 0x55bfa1b3b073 &amp;lt;unknown&amp;gt;
+#37 0x55bfa1b10bca &amp;lt;unknown&amp;gt;
+#38 0x55bfa1b11c95 &amp;lt;unknown&amp;gt;
+#39 0x55bfa204c73d &amp;lt;unknown&amp;gt;
+#40 0x55bfa2062a40 &amp;lt;unknown&amp;gt;
+#41 0x55bfa204e435 &amp;lt;unknown&amp;gt;
+#42 0x55bfa2063465 &amp;lt;unknown&amp;gt;
+#43 0x55bfa2041e6f &amp;lt;unknown&amp;gt;
+#44 0x55bfa207e2d8 &amp;lt;unknown&amp;gt;
+#45 0x55bfa207e458 &amp;lt;unknown&amp;gt;
+#46 0x55bfa20991fd &amp;lt;unknown&amp;gt;
+#47 0x7faf5465b6ba &amp;lt;unknown&amp;gt;
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&amp;lt;init&amp;gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&amp;lt;init&amp;gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:433)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:366)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:253)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' failed</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>doCall</method>
+      <line>63</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>callTestCase</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword</class>
+      <method>execute</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.BuiltinKeywords</class>
+      <method>callTestCase</method>
+      <line>334</line>
+    </frame>
+    <frame>
+      <class>ActivityOverview-ListingCalendar-SearchSorting</class>
+      <method>run</method>
+      <line>26</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>442</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>433</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>412</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>404</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>281</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>202</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>164</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1645877315367</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;598f98d4bf79&apos;, ip: &apos;172.17.0.2&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-99-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &lt;unknown&gt;
+#1 0x55bfa1ae7838 &lt;unknown&gt;
+#2 0x55bfa1ad32c1 &lt;unknown&gt;
+#3 0x55bfa1ad2003 &lt;unknown&gt;
+#4 0x55bfa1ad2353 &lt;unknown&gt;
+#5 0x55bfa1ad1981 &lt;unknown&gt;
+#6 0x55bfa1ae0f10 &lt;unknown&gt;
+#7 0x55bfa1ad1923 &lt;unknown&gt;
+#8 0x55bfa1ad2c99 &lt;unknown&gt;
+#9 0x55bfa1ad2003 &lt;unknown&gt;
+#10 0x55bfa1ad2353 &lt;unknown&gt;
+#11 0x55bfa1ad1981 &lt;unknown&gt;
+#12 0x55bfa1ade7cd &lt;unknown&gt;
+#13 0x55bfa1ad1923 &lt;unknown&gt;
+#14 0x55bfa1ad2c99 &lt;unknown&gt;
+#15 0x55bfa1ad2003 &lt;unknown&gt;
+#16 0x55bfa1ad2353 &lt;unknown&gt;
+#17 0x55bfa1ad1981 &lt;unknown&gt;
+#18 0x55bfa1ada10b &lt;unknown&gt;
+#19 0x55bfa1ad1923 &lt;unknown&gt;
+#20 0x55bfa1ad2c99 &lt;unknown&gt;
+#21 0x55bfa1ad2003 &lt;unknown&gt;
+#22 0x55bfa1ad2353 &lt;unknown&gt;
+#23 0x55bfa1ad1981 &lt;unknown&gt;
+#24 0x55bfa1ad913a &lt;unknown&gt;
+#25 0x55bfa1ad1923 &lt;unknown&gt;
+#26 0x55bfa1ad2c99 &lt;unknown&gt;
+#27 0x55bfa1ad2003 &lt;unknown&gt;
+#28 0x55bfa1ad2353 &lt;unknown&gt;
+#29 0x55bfa1ad1981 &lt;unknown&gt;
+#30 0x55bfa1acc5aa &lt;unknown&gt;
+#31 0x55bfa1ad1923 &lt;unknown&gt;
+#32 0x55bfa1ad183b &lt;unknown&gt;
+#33 0x55bfa1ad12c0 &lt;unknown&gt;
+#34 0x55bfa1ae8c32 &lt;unknown&gt;
+#35 0x55bfa1b42354 &lt;unknown&gt;
+#36 0x55bfa1b3b073 &lt;unknown&gt;
+#37 0x55bfa1b10bca &lt;unknown&gt;
+#38 0x55bfa1b11c95 &lt;unknown&gt;
+#39 0x55bfa204c73d &lt;unknown&gt;
+#40 0x55bfa2062a40 &lt;unknown&gt;
+#41 0x55bfa204e435 &lt;unknown&gt;
+#42 0x55bfa2063465 &lt;unknown&gt;
+#43 0x55bfa2041e6f &lt;unknown&gt;
+#44 0x55bfa207e2d8 &lt;unknown&gt;
+#45 0x55bfa207e458 &lt;unknown&gt;
+#46 0x55bfa20991fd &lt;unknown&gt;
+#47 0x7faf5465b6ba &lt;unknown&gt;
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init&gt;(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:433)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:366)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:253)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:64)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at SuperAdmin-Login.run(SuperAdmin-Login:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at ActivityOverview-ListingCalendar-SearchSorting.run(ActivityOverview-ListingCalendar-SearchSorting:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877315367.run(TempTestSuite1645877315367.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.SessionNotCreatedException</property>
+  <property name="failed.exception.message">session not created
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;598f98d4bf79&apos;, ip: &apos;172.17.0.2&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-99-generic&apos;, java.version: &apos;1.8.0_292&apos;
+Driver info: driver.version: CChromeDriver
+remote stacktrace: #0 0x55bfa201cf23 &lt;unknown&gt;
+#1 0x55bfa1ae7838 &lt;unknown&gt;
+#2 0x55bfa1ad32c1 &lt;unknown&gt;
+#3 0x55bfa1ad2003 &lt;unknown&gt;
+#4 0x55bfa1ad2353 &lt;unknown&gt;
+#5 0x55bfa1ad1981 &lt;unknown&gt;
+#6 0x55bfa1ae0f10 &lt;unknown&gt;
+#7 0x55bfa1ad1923 &lt;unknown&gt;
+#8 0x55bfa1ad2c99 &lt;unknown&gt;
+#9 0x55bfa1ad2003 &lt;unknown&gt;
+#10 0x55bfa1ad2353 &lt;unknown&gt;
+#11 0x55bfa1ad1981 &lt;unknown&gt;
+#12 0x55bfa1ade7cd &lt;unknown&gt;
+#13 0x55bfa1ad1923 &lt;unknown&gt;
+#14 0x55bfa1ad2c99 &lt;unknown&gt;
+#15 0x55bfa1ad2003 &lt;unknown&gt;
+#16 0x55bfa1ad2353 &lt;unknown&gt;
+#17 0x55bfa1ad1981 &lt;unknown&gt;
+#18 0x55bfa1ada10b &lt;unknown&gt;
+#19 0x55bfa1ad1923 &lt;unknown&gt;
+#20 0x55bfa1ad2c99 &lt;unknown&gt;
+#21 0x55bfa1ad2003 &lt;unknown&gt;
+#22 0x55bfa1ad2353 &lt;unknown&gt;
+#23 0x55bfa1ad1981 &lt;unknown&gt;
+#24 0x55bfa1ad913a &lt;unknown&gt;
+#25 0x55bfa1ad1923 &lt;unknown&gt;
+#26 0x55bfa1ad2c99 &lt;unknown&gt;
+#27 0x55bfa1ad2003 &lt;unknown&gt;
+#28 0x55bfa1ad2353 &lt;unknown&gt;
+#29 0x55bfa1ad1981 &lt;unknown&gt;
+#30 0x55bfa1acc5aa &lt;unknown&gt;
+#31 0x55bfa1ad1923 &lt;unknown&gt;
+#32 0x55bfa1ad183b &lt;unknown&gt;
+#33 0x55bfa1ad12c0 &lt;unknown&gt;
+#34 0x55bfa1ae8c32 &lt;unknown&gt;
+#35 0x55bfa1b42354 &lt;unknown&gt;
+#36 0x55bfa1b3b073 &lt;unknown&gt;
+#37 0x55bfa1b10bca &lt;unknown&gt;
+#38 0x55bfa1b11c95 &lt;unknown&gt;
+#39 0x55bfa204c73d &lt;unknown&gt;
+#40 0x55bfa2062a40 &lt;unknown&gt;
+#41 0x55bfa204e435 &lt;unknown&gt;
+#42 0x55bfa2063465 &lt;unknown&gt;
+#43 0x55bfa2041e6f &lt;unknown&gt;
+#44 0x55bfa207e2d8 &lt;unknown&gt;
+#45 0x55bfa207e458 &lt;unknown&gt;
+#46 0x55bfa20991fd &lt;unknown&gt;
+#47 0x7faf5465b6ba &lt;unknown&gt;
+</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390317</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingCalendar-SearchSorting</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[
+  {
+    &quot;displayReportName&quot;: &quot;(Default) searchtext1&quot;,
+    &quot;value&quot;: &quot;test&quot;,
+    &quot;name&quot;: &quot;(Default) searchtext1&quot;,
+    &quot;masked&quot;: false
+  },
+  {
+    &quot;displayReportName&quot;: &quot;(Default) searchtext2&quot;,
+    &quot;value&quot;: &quot;rattan&quot;,
+    &quot;name&quot;: &quot;(Default) searchtext2&quot;,
+    &quot;masked&quot;: false
+  },
+  {
+    &quot;displayReportName&quot;: &quot;(Default) searchtext3&quot;,
+    &quot;value&quot;: &quot;453354r&quot;,
+    &quot;name&quot;: &quot;(Default) searchtext3&quot;,
+    &quot;masked&quot;: false
+  }
+]</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390319</millis>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390484</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: /tmp/katalon_execute/project/Reports/20220226_120830/CalendarTestingWithSearchAndSorting/20220226_120835...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390538</millis>
+  <sequence>96</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:50</date>
+  <millis>1645877390539</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating PDF report folder at: /tmp/katalon_execute/project/Reports/20220226_120830/CalendarTestingWithSearchAndSorting/20220226_120835...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:53</date>
+  <millis>1645877393491</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PDF report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:53</date>
+  <millis>1645877393498</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-02-26T12:09:53</date>
+  <millis>1645877393525</millis>
+  <sequence>101</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/CalendarTestingWithSearchAndSorting</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

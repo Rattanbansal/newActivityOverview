@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Check Refund order on main page</description>
+   <name>Refund-Order-Main</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>eb8e3d02-cdb3-4b9f-aead-6be9b22a458d</testSuiteGuid>
+   <testCaseLink>
+      <guid>d566f939-595b-4b86-88d7-7e6b5100c72a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-RefundOrder-GetOrderIDAndRefund</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7505002a-c2fd-4ae9-b98c-9167de1bad74</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>aae26fad-b6fb-439c-8b70-98e349906846</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2859949e-6e33-4073-904c-e6c067a7f3ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b029217c-c604-4310-bce8-6aed05fa80cf</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

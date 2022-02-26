@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CancelAndRefundMultipleBookings-CopiedURL" time="68.552" tests="1" failures="0" errors="1">
+   <testsuite name="CancelAndRefundMultipleBookings-CopiedURL" tests="1" failures="0" errors="1" time="68.552" skipped="0" timestamp="2022-02-26 12:09:56" hostname="root - 598f98d4bf79" id="Test Suites/CancelAndRefundMultipleBookings-CopiedURL">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/tmp/katalon_execute/project/Reports/20220226_120830/CancelAndRefundMultipleBookings-CopiedURL/20220226_120837"/>
+         <property name="logFiles" value="/tmp/katalon_execute/project/Reports/20220226_120830/CancelAndRefundMultipleBookings-CopiedURL/20220226_120837/execution0.log"/>
+         <property name="attachments" value="/tmp/katalon_execute/project/Reports/20220226_120830/CancelAndRefundMultipleBookings-CopiedURL/20220226_120837/1645877427870.png"/>
+         <property name="hostName" value="root - 598f98d4bf79"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="172.17.0.2"/>
+         <property name="sessionId" value="0e89ea91cb75f2651cf4c9bf9ce7e709"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL" time="68.332" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL" status="ERROR">
+         <error type="ERROR" message="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL FAILED.
+Reason:
+java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:304)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL.run(ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877317765.run(TempTestSuite1645877317765.groovy:36)
+"/>
+         <system-out><![CDATA[2022-02-26 12:09:56 - [TEST_CASE][ERROR] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL FAILED.
+Reason:
+java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:304)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL.run(ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877317765.run(TempTestSuite1645877317765.groovy:36)
+
+
+2022-02-26 12:09:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 12:09:57 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-26 12:09:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-26 12:09:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-26 12:09:57 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-26 12:09:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-26 12:09:58 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 12:09:58 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-26 12:09:58 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 12:10:03 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-26 12:10:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-26 12:10:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-26 12:10:06 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 12:10:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-26 12:10:09 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 12:10:18 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-26 12:10:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 12:10:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-26 12:10:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-26 12:10:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/tmp/katalon_execute/project/Reports/20220226_120830/CancelAndRefundMultipleBookings-CopiedURL/20220226_120837/1645877427870.png]]
+
+2022-02-26 12:10:28 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 12:10:29 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-26 12:10:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-26 12:10:29 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-26 12:10:29 - [TEST_STEP][ERROR] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL FAILED.
+Reason:
+java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:304)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL.run(ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877317765.run(TempTestSuite1645877317765.groovy:36)
+
+
+2022-02-26 12:11:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[contains(text(),'Activity Overview')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 12:11:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation'. Try using Self-healing.
+
+2022-02-26 12:11:02 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-26 12:11:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-26 12:11:04 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-26 12:11:05 - [MESSAGE][ERROR] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL FAILED.
+Reason:
+java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:304)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL.run(ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877317765.run(TempTestSuite1645877317765.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-02-26 12:09:56 - [TEST_CASE][ERROR] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL FAILED.
+Reason:
+java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:304)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL.run(ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877317765.run(TempTestSuite1645877317765.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-26 12:09:56 - [TEST_SUITE][ERROR] - CancelAndRefundMultipleBookings-CopiedURL: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL FAILED.
+Reason:
+java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:304)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL.run(ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877317765.run(TempTestSuite1645877317765.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-02-26 12:09:56 - [TEST_SUITE][ERROR] - CancelAndRefundMultipleBookings-CopiedURL: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL FAILED.
+Reason:
+java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:304)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:37)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL.run(ActivityOverview-CancelBooking-GetOrderIDAndRefund - CopiedURL:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645877317765.run(TempTestSuite1645877317765.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

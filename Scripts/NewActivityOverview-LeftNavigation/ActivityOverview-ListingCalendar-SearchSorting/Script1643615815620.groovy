@@ -65,10 +65,12 @@ if (sizeoflisting > 2) {
 	WebUI.delay(5)
 	
 	WebUI.sendKeys(findTestObject('Object Repository/CalendarObjects/InputStartDate'), Keys.chord(Keys.CONTROL + 'a'))
-	WebUI.setText(findTestObject('Object Repository/CalendarObjects/InputStartDate'), GlobalVariable.start_date)
+	WebUI.sendKeys(findTestObject('Object Repository/CalendarObjects/InputStartDate'), Keys.chord(Keys.BACK_SPACE))
+	//WebUI.setText(findTestObject('Object Repository/CalendarObjects/InputStartDate'), GlobalVariable.start_date)
 	WebUI.delay(5)
 	WebUI.sendKeys(findTestObject('Object Repository/CalendarObjects/InputEndDate'), Keys.chord(Keys.CONTROL + 'a'))
-	WebUI.setText(findTestObject('Object Repository/CalendarObjects/InputEndDate'), GlobalVariable.end_date)
+	WebUI.sendKeys(findTestObject('Object Repository/CalendarObjects/InputStartDate'), Keys.chord(Keys.BACK_SPACE))
+	//WebUI.setText(findTestObject('Object Repository/CalendarObjects/InputEndDate'), GlobalVariable.end_date)
 	WebUI.delay(5)
 	
 	WebUI.click(findTestObject('Object Repository/CalendarObjects/DoneButton'))

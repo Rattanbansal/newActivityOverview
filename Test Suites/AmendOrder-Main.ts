@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>AmendOrder-Main</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>d60595ad-295b-470b-82ec-6d266ccca628</testSuiteGuid>
+   <testCaseLink>
+      <guid>0e6fee95-7fbb-4927-8296-9acfdde6e0b7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8682e7dc-d9d0-4f89-864b-317faf54debd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f962b9c3-a374-4baf-84a1-bf9b04a11533</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0bbd1d21-a1cf-499d-8e2a-4ca9b8e59382</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a650b84b-d6c2-4884-aa6a-4a0718cc6c52</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

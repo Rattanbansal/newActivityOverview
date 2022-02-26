@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SearchAndSorting" time="898.642" tests="1" failures="0" errors="0">
+   <testsuite name="SearchAndSorting" tests="1" failures="0" errors="0" time="898.642" skipped="0" timestamp="2022-02-19 14:55:59" hostname="intersoft-admin - intersoftadmin-desktop" id="Test Suites/SearchAndSorting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549"/>
+         <property name="logFiles" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/execution0.log"/>
+         <property name="attachments" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262785102.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262800513.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262800879.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262853544.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262882966.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262912364.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262935780.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262959113.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262982403.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263014972.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263044504.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263073912.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263097361.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263105683.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263129009.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263137339.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263160662.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263168982.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263192313.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263244881.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263253216.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263276562.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263284885.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263308206.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263316547.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263339876.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263392430.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263400750.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263424073.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263432399.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263455747.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263464071.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263487398.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263539947.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263548260.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263571598.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263579918.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263603238.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263611557.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263634953.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263655145.png"/>
+         <property name="hostName" value="intersoft-admin - intersoftadmin-desktop"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="0458ce38c0bec6c697f3f0fe97830114"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingSearchSorting" time="898.429" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingSearchSorting" status="PASSED">
+         <system-out><![CDATA[2022-02-19 14:56:00 - [TEST_CASE][PASSED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingSearchSorting: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingSearchSorting
+
+2022-02-19 14:56:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-19 14:56:00 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-19 14:56:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-19 14:56:00 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-02-19 14:56:00 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-19 14:56:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-19 14:56:01 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-19 14:56:01 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-19 14:56:01 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-19 14:56:06 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-19 14:56:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-19 14:56:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-19 14:56:09 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-19 14:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-19 14:56:12 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-19 14:56:18 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-19 14:56:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-19 14:56:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-19 14:56:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 14:56:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262785102.png]]
+
+2022-02-19 14:56:25 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-19 14:56:25 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-19 14:56:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-19 14:56:25 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-19 14:56:25 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-19 14:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-19 14:56:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 14:56:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262800513.png]]
+
+2022-02-19 14:56:40 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-19 14:56:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 14:56:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262800879.png]]
+
+2022-02-19 14:56:41 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 14:57:01 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 14:57:01 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-19 14:57:01 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-19 14:57:01 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-19 14:57:01 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-19 14:57:01 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-19 14:57:01 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-19 14:57:01 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-19 14:57:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-19 14:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-19 14:57:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext1): Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:57:10 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:57:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:57:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:57:13 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 14:57:33 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 14:57:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 14:57:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262853544.png]]
+
+2022-02-19 14:57:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext2): Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:57:39 - [MESSAGE][PASSED] - Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:57:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:57:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:57:42 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 14:58:02 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 14:58:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 14:58:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262882966.png]]
+
+2022-02-19 14:58:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext3): Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:58:09 - [MESSAGE][PASSED] - Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:58:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:58:12 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:58:12 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 14:58:32 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 14:58:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 14:58:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262912364.png]]
+
+2022-02-19 14:58:32 - [TEST_STEP][PASSED] - searchlistingsize = findWebElements(findTestObject("Object Repository/ListingArea/Search/SearchResultList"), 5).size(): null
+
+2022-02-19 14:58:32 - [TEST_STEP][PASSED] - logInfo(Size of Search Listing: $searchlistingsize): Size of Search Listing: 3
+
+2022-02-19 14:58:32 - [MESSAGE][INFO] - Size of Search Listing: 3
+
+2022-02-19 14:58:32 - [TEST_STEP][PASSED] - for ([m = 1, m <= searchlistingsize, (m++)]): Taking screenshot successfully
+
+2022-02-19 14:58:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/SearchCancelButton", ["position":"1"])): Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-19 14:58:35 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-19 14:58:35 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 14:58:55 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 14:58:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 14:58:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262935780.png]]
+
+2022-02-19 14:58:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/SearchCancelButton", ["position":"1"])): Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-19 14:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-19 14:58:59 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 14:59:19 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 14:59:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 14:59:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262959113.png]]
+
+2022-02-19 14:59:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/SearchCancelButton", ["position":"1"])): Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-19 14:59:22 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/SearchCancelButton' is clicked on
+
+2022-02-19 14:59:22 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 14:59:42 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 14:59:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 14:59:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645262982403.png]]
+
+2022-02-19 14:59:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-19 14:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-19 14:59:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext1): Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:59:51 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:59:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:59:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 14:59:54 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:00:14 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:00:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:00:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263014972.png]]
+
+2022-02-19 15:00:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext2): Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:00:21 - [MESSAGE][PASSED] - Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:00:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:00:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:00:24 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:00:44 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:00:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:00:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263044504.png]]
+
+2022-02-19 15:00:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext3): Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:00:50 - [MESSAGE][PASSED] - Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:00:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:00:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:00:53 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:01:13 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:01:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:01:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263073912.png]]
+
+2022-02-19 15:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/ClearSearch")): Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-19 15:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-19 15:01:17 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:01:37 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:01:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:01:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263097361.png]]
+
+2022-02-19 15:01:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:01:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:01:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:01:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:01:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263105683.png]]
+
+2022-02-19 15:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:01:48 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:02:08 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:02:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:02:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263129009.png]]
+
+2022-02-19 15:02:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:02:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:02:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:02:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:02:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263137339.png]]
+
+2022-02-19 15:02:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:02:20 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:02:40 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:02:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:02:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263160662.png]]
+
+2022-02-19 15:02:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:02:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:02:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:02:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:02:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263168982.png]]
+
+2022-02-19 15:02:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:02:52 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:03:12 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:03:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:03:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263192313.png]]
+
+2022-02-19 15:03:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-19 15:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-19 15:03:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext1): Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:03:21 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:03:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:03:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:03:24 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:03:44 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:03:44 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:04:04 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:04:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:04:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263244881.png]]
+
+2022-02-19 15:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:04:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:04:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:04:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:04:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263253216.png]]
+
+2022-02-19 15:04:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:04:16 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:04:36 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:04:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:04:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263276562.png]]
+
+2022-02-19 15:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:04:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:04:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:04:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:04:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263284885.png]]
+
+2022-02-19 15:04:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:04:48 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:05:08 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:05:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:05:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263308206.png]]
+
+2022-02-19 15:05:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:05:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:05:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:05:16 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:05:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263316547.png]]
+
+2022-02-19 15:05:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:05:19 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:05:39 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:05:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:05:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263339876.png]]
+
+2022-02-19 15:05:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-19 15:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-19 15:05:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext2): Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:05:49 - [MESSAGE][PASSED] - Text 'rattan' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:05:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:05:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:05:52 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:06:12 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:06:12 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:06:32 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:06:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:06:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263392430.png]]
+
+2022-02-19 15:06:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:06:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:06:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:06:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:06:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263400750.png]]
+
+2022-02-19 15:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:06:44 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:07:04 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:07:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:07:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263424073.png]]
+
+2022-02-19 15:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:07:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:07:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:07:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:07:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263432399.png]]
+
+2022-02-19 15:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:07:15 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:07:35 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:07:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:07:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263455747.png]]
+
+2022-02-19 15:07:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:07:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:07:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:07:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:07:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263464071.png]]
+
+2022-02-19 15:07:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:07:47 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:08:07 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:08:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:08:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263487398.png]]
+
+2022-02-19 15:08:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/InputSearch")): Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-19 15:08:10 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/InputSearch' is clicked on
+
+2022-02-19 15:08:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/ListingArea/Search/InputSearch"), $searchtext3): Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:08:16 - [MESSAGE][PASSED] - Text '453354r' is set on object 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:08:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/ListingArea/Search/InputSearch"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:08:19 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/ListingArea/Search/InputSearch'
+
+2022-02-19 15:08:19 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:08:39 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:08:39 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:08:59 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:08:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:09:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263539947.png]]
+
+2022-02-19 15:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:09:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:09:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:09:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:09:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263548260.png]]
+
+2022-02-19 15:09:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"1"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:09:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:09:11 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:09:31 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:09:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:09:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263571598.png]]
+
+2022-02-19 15:09:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:09:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:09:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:09:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:09:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:09:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263579918.png]]
+
+2022-02-19 15:09:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"2"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:09:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:09:43 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:10:03 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:10:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:10:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263603238.png]]
+
+2022-02-19 15:10:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelect")): Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelect' is clicked on
+
+2022-02-19 15:10:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 15:10:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 15:10:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:10:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263611557.png]]
+
+2022-02-19 15:10:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Sorting/SortingSelectOption", ["position1":"3"])): Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Sorting/SortingSelectOption' is clicked on
+
+2022-02-19 15:10:14 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:10:34 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:10:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:10:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263634953.png]]
+
+2022-02-19 15:10:35 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 15:10:55 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 15:10:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 15:10:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_145548/SearchAndSorting/20220219_145549/1645263655145.png]]
+
+2022-02-19 15:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ListingArea/Search/ClearSearch")): Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-19 15:10:58 - [MESSAGE][PASSED] - Object: 'Object Repository/ListingArea/Search/ClearSearch' is clicked on
+
+2022-02-19 15:10:58 - [TEST_STEP][PASSED] - if (sizeoflisting < 2): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-19 14:55:59 - [TEST_SUITE][PASSED] - SearchAndSorting: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-ListingSearchSorting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

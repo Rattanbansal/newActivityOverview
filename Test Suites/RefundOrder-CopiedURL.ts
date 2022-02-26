@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>RefundOrder-CopiedURL</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>3ca7f361-0bc2-4698-95fe-1a5b8a40e0be</testSuiteGuid>
+   <testCaseLink>
+      <guid>d4ba56a8-0ddb-4bb0-85cb-82b0fccd7e77</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-RefundOrder-GetOrderIDAndRefund - CopiedURL</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>08e98e05-3a2e-4c38-8573-66f12bc4fcc9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>909e4cc4-fea9-4091-809a-79721131bd21</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>71386e3f-a4d6-4b34-beea-1201b02792a1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b696daa6-b023-4d52-8a34-62c13853d771</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

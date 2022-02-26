@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='start_date']</value>
+         <value>(//span[@class='start_date'])[1]//span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

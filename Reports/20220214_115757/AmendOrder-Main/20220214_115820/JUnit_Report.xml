@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AmendOrder-Main" time="2484.876" tests="1" failures="1" errors="0">
+   <testsuite name="AmendOrder-Main" tests="1" failures="1" errors="0" time="2484.876" skipped="0" timestamp="2022-02-14 14:35:01" hostname="intersoft-admin - intersoftadmin-desktop" id="Test Suites/AmendOrder-Main">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820"/>
+         <property name="logFiles" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/execution0.log"/>
+         <property name="attachments" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829530436.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829543379.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829553833.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829585337.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829608740.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829609061.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829632444.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829636873.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829641290.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829645592.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829649870.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829654180.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829676523.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829698861.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829724238.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829731552.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829751024.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829768447.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829804771.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829805065.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829828436.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829832759.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829868251.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829904571.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829904833.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829928212.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829932532.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644829968050.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830004388.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830004670.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830028049.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830032370.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830036731.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830041049.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830045372.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830049644.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830071969.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830124711.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830150138.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830165196.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830175602.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830207059.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830230364.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830230624.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830253988.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830258336.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830262709.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830267024.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830271308.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830275588.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830297982.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830320295.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830345662.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830352977.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830372407.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830389836.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830426128.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830426413.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830449814.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830454128.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830489640.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830525976.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830526254.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830549623.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830553958.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830589495.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830625804.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830626072.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830649443.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830653756.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830658111.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830662425.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830666737.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830671031.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830693378.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830746162.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830771702.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830787224.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830797629.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830829076.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830852383.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830852664.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830875996.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830880318.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830884678.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830888985.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830893253.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830897505.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830919814.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830942146.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830967491.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830974787.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644830994207.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831011633.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831047943.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831048206.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831071564.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831075932.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831111417.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831147785.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831148078.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831171424.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831175824.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831211431.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831247952.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831248264.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831271656.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831275964.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831280349.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831284680.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831288995.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831293329.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831315712.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831368340.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831393689.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831408437.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831418870.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831450418.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831473717.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831473997.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831497334.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831501645.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831506023.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831510323.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831514599.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831518852.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831541204.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831563509.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831588918.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831596244.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831615806.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831633237.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831669587.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831669860.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831693243.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831697605.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831701998.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831706316.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831710660.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831714932.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831737275.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831759609.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831785002.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831792352.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831811822.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831829390.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831865749.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831866029.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831889424.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831893745.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831898144.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831902472.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831906827.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831911099.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831933449.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831986150.png"/>
+         <property name="hostName" value="intersoft-admin - intersoftadmin-desktop"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="7ed18ceabfed22c8e26d0526e2e414a6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend" time="617.843" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend" status="FAILED">
+         <failure type="FAILED" message="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644820100543.run(TempTestSuite1644820100543.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input class=&quot;select-dropdown dropdown-trigger&quot; type=&quot;text&quot; readonly=&quot;true&quot; data-target=&quot;select-options-d514ac6a-03e2-7921-ee3f-ecf3cf1bf37f&quot;> is not clickable at point (681, 414). Other element would receive the click: &lt;li id=&quot;select-options-f2850af9-633b-0f38-5194-7926e1d1e7062&quot; tabindex=&quot;0&quot; class=&quot;selected&quot;>...&lt;/li>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'intersoftadmin-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.PdatX6}, goog:chromeOptions: {debuggerAddress: localhost:32879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ed18ceabfed22c8e26d0526e2e414a6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-02-14 15:06:08 - [TEST_CASE][FAILED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644820100543.run(TempTestSuite1644820100543.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-d514ac6a-03e2-7921-ee3f-ecf3cf1bf37f"> is not clickable at point (681, 414). Other element would receive the click: <li id="select-options-f2850af9-633b-0f38-5194-7926e1d1e7062" tabindex="0" class="selected">...</li>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'intersoftadmin-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.PdatX6}, goog:chromeOptions: {debuggerAddress: localhost:32879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ed18ceabfed22c8e26d0526e2e414a6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-02-14 15:06:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-14 15:06:08 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-14 15:06:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-14 15:06:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-02-14 15:06:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-14 15:06:08 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-14 15:06:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-14 15:06:09 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-14 15:06:09 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-14 15:06:09 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-14 15:06:14 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-14 15:06:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-14 15:06:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-14 15:06:17 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-14 15:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-14 15:06:20 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-14 15:06:27 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-14 15:06:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-14 15:06:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-14 15:06:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:06:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831393689.png]]
+
+2022-02-14 15:06:33 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-14 15:06:34 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-14 15:06:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-14 15:06:34 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-14 15:06:34 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-14 15:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-14 15:06:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:06:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831408437.png]]
+
+2022-02-14 15:06:48 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-14 15:06:48 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-14 15:06:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-14 15:06:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:06:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831418870.png]]
+
+2022-02-14 15:06:59 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-14 15:06:59 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-14 15:06:59 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-14 15:06:59 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-14 15:06:59 - [TEST_STEP][PASSED] - if (sizeoflisting > 2): null
+
+2022-02-14 15:06:59 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-14 15:06:59 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-14 15:06:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage_select")): Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-14 15:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-14 15:07:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-14 15:07:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-14 15:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage-SelectOption")): Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-14 15:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-14 15:07:10 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 15:07:30 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:07:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831450418.png]]
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - SizeofPagination = getText(findTestObject("Object Repository/PaginationCOunt/PaginationCount")): Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-14 15:07:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - println(SizeofPagination): null
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - paginationmaxcount = Integer.parseInt(SizeofPagination): null
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - paginationmaxcount = pagination: null
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationmaxcount): Size of Pagination: 5
+
+2022-02-14 15:07:30 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - totalrecords = 0: null
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - for ([l = 1, l <= paginationmaxcount, (l++)]): null
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 1
+
+2022-02-14 15:07:30 - [MESSAGE][INFO] - Size of Pagination: 1
+
+2022-02-14 15:07:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 15:07:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 15:07:33 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 15:07:53 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 15:07:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:07:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831473717.png]]
+
+2022-02-14 15:07:53 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-14 15:07:53 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 81
+
+2022-02-14 15:07:53 - [MESSAGE][INFO] - Size of Active Bookings: 81
+
+2022-02-14 15:07:53 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-14 15:07:53 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-14 15:07:53 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-14 15:07:53 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-14 15:07:53 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 81
+
+2022-02-14 15:07:53 - [MESSAGE][INFO] - Size of refund booking: 81
+
+2022-02-14 15:07:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 15:07:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 15:07:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:07:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831473997.png]]
+
+2022-02-14 15:07:54 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-14 15:07:54 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-14 15:07:54 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164464235764657
+
+2022-02-14 15:07:54 - [MESSAGE][INFO] - Order ID: 164464235764657
+
+2022-02-14 15:07:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 15:07:57 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 15:07:57 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 15:08:17 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 15:08:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:08:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831497334.png]]
+
+2022-02-14 15:08:17 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): null
+
+2022-02-14 15:08:17 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is visible
+
+2022-02-14 15:08:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect")): Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-14 15:08:20 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-14 15:08:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:08:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:08:21 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:08:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831501645.png]]
+
+2022-02-14 15:08:21 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"]), 15) == true): null
+
+2022-02-14 15:08:21 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clickable
+
+2022-02-14 15:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"])): Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-14 15:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-14 15:08:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:08:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:08:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:08:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831506023.png]]
+
+2022-02-14 15:08:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect")): Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-14 15:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-14 15:08:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:08:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:08:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:08:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831510323.png]]
+
+2022-02-14 15:08:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect-Options")): Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-14 15:08:33 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-14 15:08:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:08:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:08:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:08:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831514599.png]]
+
+2022-02-14 15:08:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"1"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:08:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:08:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:08:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:08:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831518852.png]]
+
+2022-02-14 15:08:38 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"1"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:08:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:08:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-14 15:08:56 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 15:08:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:08:57 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 15:08:57 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:08:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"2"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:09:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:09:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:09:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:09:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831541204.png]]
+
+2022-02-14 15:09:01 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"2"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:09:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:09:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-14 15:09:18 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 15:09:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:09:19 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 15:09:19 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:09:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"3"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:09:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:09:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:09:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:09:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831563509.png]]
+
+2022-02-14 15:09:23 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"3"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:09:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:09:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-14 15:09:40 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 15:09:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:09:41 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 15:09:41 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:09:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmendOrder/TextArea"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/AmendOrder/TextArea'
+
+2022-02-14 15:09:47 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/AmendOrder/TextArea'
+
+2022-02-14 15:09:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:09:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:09:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:09:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831588918.png]]
+
+2022-02-14 15:09:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmendOrder/CartDiscount"), cartdisc): Text '3.00' is set on object 'Object Repository/AmendOrder/CartDiscount'
+
+2022-02-14 15:09:55 - [MESSAGE][PASSED] - Text '3.00' is set on object 'Object Repository/AmendOrder/CartDiscount'
+
+2022-02-14 15:09:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:09:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:09:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:09:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831596244.png]]
+
+2022-02-14 15:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/ConfirmAmendment")): Object: 'Object Repository/AmendOrder/ConfirmAmendment' is clicked on
+
+2022-02-14 15:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/ConfirmAmendment' is clicked on
+
+2022-02-14 15:09:59 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2022-02-14 15:10:11 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2022-02-14 15:10:11 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/AmendOrder/CancelButton"), 15) == true): null
+
+2022-02-14 15:10:11 - [MESSAGE][PASSED] - Object 'Object Repository/AmendOrder/CancelButton' is visible
+
+2022-02-14 15:10:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/CancelButton")): Object: 'Object Repository/AmendOrder/CancelButton' is clicked on
+
+2022-02-14 15:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/CancelButton' is clicked on
+
+2022-02-14 15:10:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:10:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:10:15 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:10:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831615806.png]]
+
+2022-02-14 15:10:15 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 15:10:28 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 15:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 15:10:32 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 15:10:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:10:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:10:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:10:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831633237.png]]
+
+2022-02-14 15:10:33 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 15:10:46 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 15:10:46 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-14 15:10:46 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-14 15:10:46 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-14 15:10:46 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 2
+
+2022-02-14 15:10:46 - [MESSAGE][INFO] - Size of Pagination: 2
+
+2022-02-14 15:10:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 15:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 15:10:49 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 15:11:09 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 15:11:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:11:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831669587.png]]
+
+2022-02-14 15:11:09 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-14 15:11:09 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 74
+
+2022-02-14 15:11:09 - [MESSAGE][INFO] - Size of Active Bookings: 74
+
+2022-02-14 15:11:09 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-14 15:11:09 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-14 15:11:09 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-14 15:11:09 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-14 15:11:09 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 74
+
+2022-02-14 15:11:09 - [MESSAGE][INFO] - Size of refund booking: 74
+
+2022-02-14 15:11:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 15:11:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 15:11:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:11:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831669860.png]]
+
+2022-02-14 15:11:09 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-14 15:11:10 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-14 15:11:10 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164456069869543
+
+2022-02-14 15:11:10 - [MESSAGE][INFO] - Order ID: 164456069869543
+
+2022-02-14 15:11:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 15:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 15:11:13 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 15:11:33 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 15:11:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:11:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831693243.png]]
+
+2022-02-14 15:11:33 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): null
+
+2022-02-14 15:11:33 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is visible
+
+2022-02-14 15:11:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect")): Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-14 15:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-14 15:11:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:11:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:11:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:11:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831697605.png]]
+
+2022-02-14 15:11:37 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"]), 15) == true): null
+
+2022-02-14 15:11:37 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clickable
+
+2022-02-14 15:11:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"])): Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-14 15:11:40 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-14 15:11:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:11:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:11:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:11:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831701998.png]]
+
+2022-02-14 15:11:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect")): Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-14 15:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-14 15:11:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:11:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:11:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:11:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831706316.png]]
+
+2022-02-14 15:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect-Options")): Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-14 15:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-14 15:11:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:11:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:11:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:11:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831710660.png]]
+
+2022-02-14 15:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"1"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:11:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:11:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:11:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:11:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:11:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831714932.png]]
+
+2022-02-14 15:11:55 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"1"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:12:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:12:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-14 15:12:12 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 15:12:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:12:13 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 15:12:13 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:12:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"2"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:12:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:12:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:12:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:12:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831737275.png]]
+
+2022-02-14 15:12:17 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"2"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:12:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:12:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-14 15:12:34 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 15:12:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:12:35 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 15:12:35 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:12:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"3"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:12:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:12:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:12:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:12:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831759609.png]]
+
+2022-02-14 15:12:39 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"3"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:12:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:12:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-14 15:12:56 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 15:12:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:12:57 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 15:12:57 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:12:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmendOrder/TextArea"), CancellationReason): Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/AmendOrder/TextArea'
+
+2022-02-14 15:13:03 - [MESSAGE][PASSED] - Text 'Order Refunded to Test Automation Testing Under Katalon' is set on object 'Object Repository/AmendOrder/TextArea'
+
+2022-02-14 15:13:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:13:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:13:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:13:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831785002.png]]
+
+2022-02-14 15:13:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/AmendOrder/CartDiscount"), cartdisc): Text '3.00' is set on object 'Object Repository/AmendOrder/CartDiscount'
+
+2022-02-14 15:13:11 - [MESSAGE][PASSED] - Text '3.00' is set on object 'Object Repository/AmendOrder/CartDiscount'
+
+2022-02-14 15:13:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:13:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:13:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:13:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831792352.png]]
+
+2022-02-14 15:13:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/ConfirmAmendment")): Object: 'Object Repository/AmendOrder/ConfirmAmendment' is clicked on
+
+2022-02-14 15:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/ConfirmAmendment' is clicked on
+
+2022-02-14 15:13:15 - [TEST_STEP][PASSED] - delay(12): Delayed 12 second(s)
+
+2022-02-14 15:13:27 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2022-02-14 15:13:27 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/AmendOrder/CancelButton"), 15) == true): null
+
+2022-02-14 15:13:27 - [MESSAGE][PASSED] - Object 'Object Repository/AmendOrder/CancelButton' is visible
+
+2022-02-14 15:13:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/CancelButton")): Object: 'Object Repository/AmendOrder/CancelButton' is clicked on
+
+2022-02-14 15:13:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/CancelButton' is clicked on
+
+2022-02-14 15:13:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:13:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:13:31 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:13:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831811822.png]]
+
+2022-02-14 15:13:31 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 15:13:44 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 15:13:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/Backbutton/BackButtonToListing")): Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 15:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/Backbutton/BackButtonToListing' is clicked on
+
+2022-02-14 15:13:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:13:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:13:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:13:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831829390.png]]
+
+2022-02-14 15:13:49 - [TEST_STEP][PASSED] - delay(13): Delayed 13 second(s)
+
+2022-02-14 15:14:02 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2022-02-14 15:14:02 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-14 15:14:02 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-14 15:14:02 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-14 15:14:02 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 3
+
+2022-02-14 15:14:02 - [MESSAGE][INFO] - Size of Pagination: 3
+
+2022-02-14 15:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 15:14:05 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-14 15:14:05 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 15:14:25 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 15:14:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:14:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831865749.png]]
+
+2022-02-14 15:14:25 - [TEST_STEP][PASSED] - SizeofActiveBookings = findWebElements(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus"), 5).size(): null
+
+2022-02-14 15:14:25 - [TEST_STEP][PASSED] - logInfo(Size of Active Bookings: $SizeofActiveBookings): Size of Active Bookings: 78
+
+2022-02-14 15:14:25 - [MESSAGE][INFO] - Size of Active Bookings: 78
+
+2022-02-14 15:14:25 - [TEST_STEP][PASSED] - for ([refund = 1, refund < SizeofActiveBookings, (refund++)]): null
+
+2022-02-14 15:14:25 - [TEST_STEP][PASSED] - if (refund == 1): null
+
+2022-02-14 15:14:25 - [TEST_STEP][PASSED] - refund = SizeofActiveBookings: null
+
+2022-02-14 15:14:25 - [TEST_STEP][PASSED] - refundvalue = refund: null
+
+2022-02-14 15:14:25 - [TEST_STEP][PASSED] - logInfo(Size of refund booking: $refund): Size of refund booking: 78
+
+2022-02-14 15:14:25 - [MESSAGE][INFO] - Size of refund booking: 78
+
+2022-02-14 15:14:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click", ["position":refund]), 15): Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 15:14:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CancelAndRefund/OrderListWithoutRefundedStatus - Click' successfully
+
+2022-02-14 15:14:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:14:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831866029.png]]
+
+2022-02-14 15:14:26 - [TEST_STEP][PASSED] - orderId = findWebElement(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])).getAttribute("data-order_id"): null
+
+2022-02-14 15:14:26 - [TEST_STEP][PASSED] - orderId = orderId: null
+
+2022-02-14 15:14:26 - [TEST_STEP][PASSED] - logInfo(Order ID: $orderId): Order ID: 164440756092398
+
+2022-02-14 15:14:26 - [MESSAGE][INFO] - Order ID: 164440756092398
+
+2022-02-14 15:14:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/GetOrderID/GetOrderID", ["position":refund])): Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 15:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/GetOrderID/GetOrderID' is clicked on
+
+2022-02-14 15:14:29 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-14 15:14:49 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-14 15:14:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:14:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831889424.png]]
+
+2022-02-14 15:14:49 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect"), 15) == true): null
+
+2022-02-14 15:14:49 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is visible
+
+2022-02-14 15:14:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreOptionSelect")): Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-14 15:14:52 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreOptionSelect' is clicked on
+
+2022-02-14 15:14:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:14:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:14:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:14:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831893745.png]]
+
+2022-02-14 15:14:53 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"]), 15) == true): null
+
+2022-02-14 15:14:53 - [MESSAGE][PASSED] - Object 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clickable
+
+2022-02-14 15:14:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions", ["action":"Amend order"])): Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-14 15:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/DetailPop-up/MoreActions/MoreAction-SelectOptions' is clicked on
+
+2022-02-14 15:14:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:14:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:14:58 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:14:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831898144.png]]
+
+2022-02-14 15:14:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect")): Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-14 15:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect' is clicked on
+
+2022-02-14 15:15:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:15:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:15:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:15:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831902472.png]]
+
+2022-02-14 15:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/AccountSelect-Options")): Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-14 15:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/AccountSelect-Options' is clicked on
+
+2022-02-14 15:15:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:15:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:15:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:15:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831906827.png]]
+
+2022-02-14 15:15:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"1"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:15:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:15:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:15:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:15:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831911099.png]]
+
+2022-02-14 15:15:11 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"1"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:15:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:15:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-14 15:15:28 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 15:15:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:15:29 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 15:15:29 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:15:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"2"])): Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:15:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' is clicked on
+
+2022-02-14 15:15:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-02-14 15:15:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-02-14 15:15:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-14 15:15:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831933449.png]]
+
+2022-02-14 15:15:33 - [TEST_STEP][PASSED] - if (waitForElementClickable(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption", ["Position":"2"]), 15) == true): Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:15:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: ((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:15:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption'. Try using Self-healing.
+
+2022-02-14 15:15:50 - [MESSAGE][INFO] - [SELF-HEALING] No working XPath is found.
+
+2022-02-14 15:15:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-14 15:15:51 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2022-02-14 15:15:51 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/AmendOrder/OtherDropdownInAmend-SelectOption' located by '((//label[contains(text(),'Partner')]//following::div//input[@class='select-dropdown dropdown-trigger'])[${position}]//following-sibling::ul//li)[last()]' not found
+
+2022-02-14 15:15:51 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/AmendOrder/OtherDropdownInAmend-Select", ["Position":"3"])): Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644820100543.run(TempTestSuite1644820100543.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-d514ac6a-03e2-7921-ee3f-ecf3cf1bf37f"> is not clickable at point (681, 414). Other element would receive the click: <li id="select-options-f2850af9-633b-0f38-5194-7926e1d1e7062" tabindex="0" class="selected">...</li>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'intersoftadmin-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.PdatX6}, goog:chromeOptions: {debuggerAddress: localhost:32879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ed18ceabfed22c8e26d0526e2e414a6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1644683205666.run(Script1644683205666.groovy:197)
+	... 16 more
+)
+
+2022-02-14 15:16:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644820100543.run(TempTestSuite1644820100543.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-d514ac6a-03e2-7921-ee3f-ecf3cf1bf37f"> is not clickable at point (681, 414). Other element would receive the click: <li id="select-options-f2850af9-633b-0f38-5194-7926e1d1e7062" tabindex="0" class="selected">...</li>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'intersoftadmin-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.PdatX6}, goog:chromeOptions: {debuggerAddress: localhost:32879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ed18ceabfed22c8e26d0526e2e414a6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1644683205666.run(Script1644683205666.groovy:197)
+	... 16 more
+)
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220214_115757/AmendOrder-Main/20220214_115820/1644831986150.png]]]]></system-out>
+         <system-err><![CDATA[2022-02-14 15:06:08 - [TEST_CASE][FAILED] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644820100543.run(TempTestSuite1644820100543.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-d514ac6a-03e2-7921-ee3f-ecf3cf1bf37f"> is not clickable at point (681, 414). Other element would receive the click: <li id="select-options-f2850af9-633b-0f38-5194-7926e1d1e7062" tabindex="0" class="selected">...</li>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'intersoftadmin-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.PdatX6}, goog:chromeOptions: {debuggerAddress: localhost:32879}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ed18ceabfed22c8e26d0526e2e414a6
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-14 14:35:01 - [TEST_SUITE][FAILED] - AmendOrder-Main: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644820100543.run(TempTestSuite1644820100543.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-e37eb41c-ae8b-2e41-5192-e315f8942cb0"> is not clickable at point (681, 414). Other element would receive the click: <li id="select-options-67adc300-e4ce-4002-cb65-9d7578c6c02b147" tabindex="0" class="selected">...</li>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'intersoftadmin-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.oBZuzZ}, goog:chromeOptions: {debuggerAddress: localhost:35977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 346218e3ac359deb0a276b565a599afe
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-02-14 14:35:01 - [TEST_SUITE][FAILED] - AmendOrder-Main: Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-AmendOrder-GetOrderIDAndAmend FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AmendOrder/OtherDropdownInAmend-Select'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at ActivityOverview-AmendOrder-GetOrderIDAndAmend.run(ActivityOverview-AmendOrder-GetOrderIDAndAmend:197)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1644820100543.run(TempTestSuite1644820100543.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="select-dropdown dropdown-trigger" type="text" readonly="true" data-target="select-options-e37eb41c-ae8b-2e41-5192-e315f8942cb0"> is not clickable at point (681, 414). Other element would receive the click: <li id="select-options-67adc300-e4ce-4002-cb65-9d7578c6c02b147" tabindex="0" class="selected">...</li>
+  (Session info: chrome=97.0.4692.99)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'intersoftadmin-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-99-generic', java.version: '1.8.0_312'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.36 (747e0a0f19c13..., userDataDir: /tmp/.com.google.Chrome.oBZuzZ}, goog:chromeOptions: {debuggerAddress: localhost:35977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 346218e3ac359deb0a276b565a599afe
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

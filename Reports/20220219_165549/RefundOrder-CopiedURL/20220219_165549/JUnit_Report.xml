@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RefundOrder-CopiedURL" time="87.383" tests="1" failures="0" errors="0">
+   <testsuite name="RefundOrder-CopiedURL" tests="1" failures="0" errors="0" time="87.383" skipped="0" timestamp="2022-02-19 16:55:59" hostname="intersoft-admin - intersoftadmin-desktop" id="Test Suites/RefundOrder-CopiedURL">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_165549/RefundOrder-CopiedURL/20220219_165549"/>
+         <property name="logFiles" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_165549/RefundOrder-CopiedURL/20220219_165549/execution0.log"/>
+         <property name="attachments" value="/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_165549/RefundOrder-CopiedURL/20220219_165549/1645269985466.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_165549/RefundOrder-CopiedURL/20220219_165549/1645270001190.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_165549/RefundOrder-CopiedURL/20220219_165549/1645270011624.png, /home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_165549/RefundOrder-CopiedURL/20220219_165549/1645270043225.png"/>
+         <property name="hostName" value="intersoft-admin - intersoftadmin-desktop"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="b7c667a12c7b5b626e68784392a13fdf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-RefundOrder-GetOrderIDAndRefund - CopiedURL" time="87.169" classname="Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-RefundOrder-GetOrderIDAndRefund - CopiedURL" status="INCOMPLETE">
+         <system-out><![CDATA[2022-02-19 16:55:59 - [TEST_CASE][INCOMPLETE] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-RefundOrder-GetOrderIDAndRefund - CopiedURL: null
+
+2022-02-19 16:55:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LoginWithSuperAdmin/SuperAdmin-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-19 16:56:00 - [TEST_CASE][PASSED] - Test Cases/LoginWithSuperAdmin/SuperAdmin-Login: Test Cases/LoginWithSuperAdmin/SuperAdmin-Login
+
+2022-02-19 16:56:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-19 16:56:00 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2022-02-19 16:56:00 - [MESSAGE][INFO] - Action delay is set to 3,000 milliseconds
+
+2022-02-19 16:56:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-19 16:56:00 - [TEST_STEP][PASSED] - setViewPortSize(1920, 1080): Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-19 16:56:00 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1920 and height = 1080
+
+2022-02-19 16:56:00 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-19 16:56:06 - [MESSAGE][PASSED] - Navigate to 'https://marketplacev1.test-prio.com' successfully
+
+2022-02-19 16:56:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-02-19 16:56:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-02-19 16:56:09 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdmin/Login/input_Email_contact_email")): Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-19 16:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdmin/Login/input_Email_contact_email' is clicked on
+
+2022-02-19 16:56:13 - [TEST_STEP][PASSED] - setText(findTestObject("SuperAdmin/Login/input_Email_contact_email"), uname): Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-19 16:56:19 - [MESSAGE][PASSED] - Text 'superadmin@tippoint.com' is set on object 'Object Repository/SuperAdmin/Login/input_Email_contact_email'
+
+2022-02-19 16:56:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SuperAdmin/Login/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-19 16:56:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SuperAdmin/Login/input_Password_password'
+
+2022-02-19 16:56:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 16:56:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_165549/RefundOrder-CopiedURL/20220219_165549/1645269985466.png]]
+
+2022-02-19 16:56:25 - [TEST_STEP][PASSED] - newpackage.clickUsingJS.clickUsingJS(findTestObject("SuperAdmin/Login/button_Sign in"), 5): newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-19 16:56:25 - [MESSAGE][PASSED] - newpackage.clickUsingJS.clickUsingJS is PASSED
+
+2022-02-19 16:56:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LoginWithSuperAdmin/SuperAdmin-Login' successfully
+
+2022-02-19 16:56:25 - [TEST_STEP][PASSED] - switchToDefaultContent(): null
+
+2022-02-19 16:56:25 - [TEST_STEP][PASSED] - click(findTestObject("SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation")): Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-19 16:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SuperAdminLeftNavigation/NewActivityOverview-LeftNavigation' is clicked on
+
+2022-02-19 16:56:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 16:56:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_165549/RefundOrder-CopiedURL/20220219_165549/1645270001190.png]]
+
+2022-02-19 16:56:41 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/Iframe/NewActivityOverviewIframe"), 5): null
+
+2022-02-19 16:56:41 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2022-02-19 16:56:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2022-02-19 16:56:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 16:56:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_165549/RefundOrder-CopiedURL/20220219_165549/1645270011624.png]]
+
+2022-02-19 16:56:51 - [TEST_STEP][PASSED] - sizeoflisting = findWebElements(findTestObject("ListingArea/ListingContainsData"), 5).size(): null
+
+2022-02-19 16:56:51 - [TEST_STEP][PASSED] - println(sizeoflisting): null
+
+2022-02-19 16:56:51 - [TEST_STEP][PASSED] - logInfo(Size of Order Listing: $sizeoflisting): Size of Order Listing: 11
+
+2022-02-19 16:56:51 - [MESSAGE][INFO] - Size of Order Listing: 11
+
+2022-02-19 16:56:51 - [TEST_STEP][INCOMPLETE] - if (sizeoflisting > 2): null
+
+2022-02-19 16:56:51 - [TEST_STEP][PASSED] - logInfo("Orders Exist in Listing"): Orders Exist in Listing
+
+2022-02-19 16:56:51 - [MESSAGE][INFO] - Orders Exist in Listing
+
+2022-02-19 16:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage_select")): Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-19 16:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage_select' is clicked on
+
+2022-02-19 16:56:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-02-19 16:57:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-02-19 16:57:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OrderPerPage/OrderPerPage-SelectOption")): Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-19 16:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OrderPerPage/OrderPerPage-SelectOption' is clicked on
+
+2022-02-19 16:57:03 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-02-19 16:57:23 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2022-02-19 16:57:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Reports/20220219_165549/RefundOrder-CopiedURL/20220219_165549/1645270043225.png]]
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - SizeofPagination = getText(findTestObject("Object Repository/PaginationCOunt/PaginationCount")): Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-19 16:57:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/PaginationCOunt/PaginationCount' is: '100'
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - println(SizeofPagination): null
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - paginationmaxcount = Integer.parseInt(SizeofPagination): null
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - paginationmaxcount = pagination: null
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationmaxcount): Size of Pagination: 5
+
+2022-02-19 16:57:23 - [MESSAGE][INFO] - Size of Pagination: 5
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - totalrecords = 0: null
+
+2022-02-19 16:57:23 - [TEST_STEP][INCOMPLETE] - for ([l = 1, l <= paginationmaxcount, (l++)]): null
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - if (l <= 5): null
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - paginationvalue = l: null
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - if (l > 5): null
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - logInfo(Size of Pagination: $paginationvalue): Size of Pagination: 1
+
+2022-02-19 16:57:23 - [MESSAGE][INFO] - Size of Pagination: 1
+
+2022-02-19 16:57:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PaginationCOunt/ClickOnPagination", ["pagination":paginationvalue])): Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-19 16:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PaginationCOunt/ClickOnPagination' is clicked on
+
+2022-02-19 16:57:26 - [TEST_STEP][INCOMPLETE] - delay(20): null]]></system-out>
+         <system-err><![CDATA[2022-02-19 16:55:59 - [TEST_CASE][INCOMPLETE] - Test Cases/NewActivityOverview-LeftNavigation/ActivityOverview-RefundOrder-GetOrderIDAndRefund - CopiedURL: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-19 16:55:59 - [TEST_SUITE][INCOMPLETE] - RefundOrder-CopiedURL: null]]></system-out>
+      <system-err><![CDATA[2022-02-19 16:55:59 - [TEST_SUITE][INCOMPLETE] - RefundOrder-CopiedURL: null]]></system-err>
+   </testsuite>
+</testsuites>

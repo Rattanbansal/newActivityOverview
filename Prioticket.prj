@@ -6,7 +6,7 @@
    <UUID>556aa497-cb34-4d55-afbd-49c8c0ef0cec</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\xampp\htdocs\training\Training\Rattan\Final_testing\New_ActivityOverview\Prioticket.prj</projectFileLocation>
+   <projectFileLocation>/home/intersoft-admin/Rattan/Bash/Training/Rattan/Final_testing/New_ActivityOverview/Prioticket.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
